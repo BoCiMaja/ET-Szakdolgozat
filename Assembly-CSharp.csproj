@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1F8AB92C-A9DF-285B-B736-663A25C9A27A}</ProjectGuid>
+    <ProjectGuid>{386DAE02-92EB-5314-5134-DCC98EE1F591}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,22 +53,28 @@
     <UnityVersion>2020.3.17f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\SettingsController.cs" />
-    <Compile Include="Assets\Scripts\SceneScripts\Scene10Selector.cs" />
-    <Compile Include="Assets\Scripts\Character_Controller_Old.cs" />
-    <Compile Include="Assets\Scripts\SceneScripts\Scene2Selector.cs" />
-    <Compile Include="Assets\Scripts\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\SceneScripts\Scene1Selector.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\SceneScripts\Scene11Selector.cs" />
-    <Compile Include="Assets\Scripts\CharacterController2D.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Scripts 1\ParallaxBackground.cs" />
-    <Compile Include="Assets\Scripts 1\Scroll.cs" />
-    <Compile Include="Assets\Scripts 1\VerticalMovement.cs" />
-    <Compile Include="Assets\Scripts 1\CameraMovement.cs" />
-    <Compile Include="Assets\Scripts 1\Spawner.cs" />
-    <Compile Include="Assets\Scripts 1\Parallax.cs" />
+    <Compile Include="Assets\Scripts\Menu\SettingsController.cs" />
+    <Compile Include="Assets\Scripts\Background\Scroll.cs" />
+    <Compile Include="Assets\Scripts\PlayArea\MovingPlatform.cs" />
+    <Compile Include="Assets\ScriptsCsabi\Forgokerek.cs" />
+    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene10Selector.cs" />
+    <Compile Include="Assets\ScriptsCsabi\Character_Controller_Old.cs" />
+    <Compile Include="Assets\Scripts\Background\ParallaxBackground.cs" />
+    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene2Selector.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint\CheckpointMaster.cs" />
+    <Compile Include="Assets\Scripts\Background\Spawner.cs" />
+    <Compile Include="Assets\ScriptsCsabi\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
+    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene1Selector.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\ScriptsCsabi\EnemyAI.cs" />
+    <Compile Include="Assets\ScriptsCsabi\CameraShake.cs" />
+    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene11Selector.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint\PlayerPos.cs" />
+    <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint\Checkpoints.cs" />
+    <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Background\VerticalMovement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
