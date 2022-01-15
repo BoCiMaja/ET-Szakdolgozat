@@ -289,10 +289,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 375116135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 119a22153603dde40b277221a5f3e23b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d165a6504d0c1844b74f26ca01a29b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  rotationSpeed: 4
 --- !u!1 &495622525
 GameObject:
   m_ObjectHideFlags: 0
@@ -5604,6 +5604,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: "kere\u0301k (doppler)"
       objectReference: {fileID: 0}
+    - target: {fileID: 1223051285044285446, guid: fa2b8a916c4f09a45b76250c4dceea7f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 1223051285044285446, guid: fa2b8a916c4f09a45b76250c4dceea7f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.36
+      objectReference: {fileID: 0}
     - target: {fileID: 1593509197467303375, guid: fa2b8a916c4f09a45b76250c4dceea7f, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -5700,10 +5708,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1305986040}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 119a22153603dde40b277221a5f3e23b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d165a6504d0c1844b74f26ca01a29b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  rotationSpeed: 7.5
 --- !u!82 &1305986044
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5948,10 +5956,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1691662501}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 119a22153603dde40b277221a5f3e23b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d165a6504d0c1844b74f26ca01a29b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  rotationSpeed: 13
 --- !u!1 &1724997474
 GameObject:
   m_ObjectHideFlags: 0
@@ -6075,10 +6083,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1881225783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 119a22153603dde40b277221a5f3e23b, type: 3}
+  m_Script: {fileID: 11500000, guid: 1d165a6504d0c1844b74f26ca01a29b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  rotationSpeed: 6
 --- !u!1 &2014235651
 GameObject:
   m_ObjectHideFlags: 0

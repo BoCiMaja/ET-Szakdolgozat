@@ -73,8 +73,11 @@
     <Compile Include="Assets\Scripts\Checkpoint\PlayerPos.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Checkpoint\Checkpoints.cs" />
-    <Compile Include="Assets\Scripts\Menu\MainMenu.cs" />
+    <Compile Include="Assets\ScriptsCsabi\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Background\VerticalMovement.cs" />
+    <Compile Include="Assets\Scripts\Background\ContinuousRotation.cs" />
+    <Compile Include="Assets\Scripts\Menu\MenuController.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
