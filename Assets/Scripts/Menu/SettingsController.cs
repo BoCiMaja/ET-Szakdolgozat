@@ -91,6 +91,9 @@ public class SettingsController : MonoBehaviour
         Screen.fullScreen = isFullSccreen;
     }
 
-    
-
+    public void SetBrigthness(float brightness)
+    {
+        Debug.Log(brightness);
+        //TODO setBrigthness static class or GM
+    }
 }
