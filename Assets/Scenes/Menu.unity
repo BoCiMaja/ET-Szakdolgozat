@@ -456,7 +456,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40.5
+  m_fontSize: 55.25
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1637,7 +1637,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0.20700002, y: 0.11800001}
-  m_AnchoredPosition: {x: 0.045043945, y: 3.597351}
+  m_AnchoredPosition: {x: 0.045043945, y: 3.5973816}
   m_SizeDelta: {x: 0.06460571, y: -5.3498383}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &228758711
@@ -2964,7 +2964,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.347, y: 0.23333779}
   m_AnchorMax: {x: 0.646, y: 0.39045534}
-  m_AnchoredPosition: {x: -0.0029907227, y: 1.0045395}
+  m_AnchoredPosition: {x: -0.0029907227, y: 1.0045319}
   m_SizeDelta: {x: 0.30801392, y: -9.9973755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &388015246
@@ -4647,6 +4647,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   audioMixer: {fileID: 24100000, guid: 5286ee4873af7474ba185399affca9e9, type: 2}
   resolutionDropdown: {fileID: 255342253}
+  aspectRatioWidth: 16
+  aspectRatioHeight: 9
 --- !u!82 &624690496
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5445,7 +5447,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.1
+  m_fontSize: 35.7
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6630,7 +6632,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.646, y: 0.098000005}
   m_AnchorMax: {x: 1, y: 0.23333779}
-  m_AnchoredPosition: {x: -4.0272827, y: 2.0500946}
+  m_AnchoredPosition: {x: -4.0272827, y: 2.050148}
   m_SizeDelta: {x: -20.86, y: -30.24}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &945141011
@@ -6677,13 +6679,25 @@ MonoBehaviour:
   m_FillRect: {fileID: 529365488}
   m_HandleRect: {fileID: 1767467533}
   m_Direction: 0
-  m_MinValue: -80
-  m_MaxValue: 0
+  m_MinValue: 0
+  m_MaxValue: 1
   m_WholeNumbers: 0
   m_Value: -40.3
   m_OnValueChanged:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 624690495}
+        m_TargetAssemblyTypeName: SettingsController, Assembly-CSharp
+        m_MethodName: SetBrigthness
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &953519191
 GameObject:
   m_ObjectHideFlags: 0
@@ -7940,7 +7954,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 44.3
+  m_fontSize: 59.95
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9575,7 +9589,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 38.7
+  m_fontSize: 52.8
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -11626,7 +11640,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 3.6699982}
+  m_AnchoredPosition: {x: 0, y: 3.67}
   m_SizeDelta: {x: 0, y: -7.34}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1551244015
@@ -11676,7 +11690,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 19.65
+  m_fontSize: 28.9
   m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -15198,7 +15212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.347, y: 0.098000005}
   m_AnchorMax: {x: 0.646, y: 0.23333779}
-  m_AnchoredPosition: {x: -0.0029907227, y: 1.4675446}
+  m_AnchoredPosition: {x: -0.0029907227, y: 1.4675598}
   m_SizeDelta: {x: 0.30801392, y: -1.9973755}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115183434
@@ -15382,7 +15396,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 18.7
+  m_fontSize: 25.55
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

@@ -10,10 +10,14 @@ public class SettingsController : MonoBehaviour
     public AudioMixer audioMixer;
 
     public Dropdown resolutionDropdown;
-    Resolution[] screenResolutions;
+    public int aspectRatioWidth = 16;
+    public int aspectRatioHeight = 9;
+
+    List<Resolution> screenResolutions;
 
     private void Start()
     {
+        screenResolutions = new List<Resolution>();
         InitializeResolutionDropdown();
 
         //SetQuality(QualitySettings.GetQualityLevel());
@@ -22,28 +26,37 @@ public class SettingsController : MonoBehaviour
 
     private void InitializeResolutionDropdown()
     {
-        screenResolutions = Screen.resolutions;
+        Resolution[] tempScreenResolutions = Screen.resolutions;
 
         resolutionDropdown.ClearOptions();
 
         List<string> options = new List<string>();
         int currentResolutionIndex = 0;
 
-        for (int i = 0; i < screenResolutions.Length; i++)
+        for (int i = 0; i < tempScreenResolutions.Length; i++)
         {
-            if (screenResolutions[i].width == Screen.currentResolution.width
-                && screenResolutions[i].height == Screen.currentResolution.height)
+            if (tempScreenResolutions[i].width == Screen.currentResolution.width
+                && tempScreenResolutions[i].height == Screen.currentResolution.height)
             {
                 currentResolutionIndex = i;
             }
 
-            string option = createOption(i);
-            options.Add(option);
+            if(checkAspectRatio(tempScreenResolutions[i]))
+            {
+                screenResolutions.Add(tempScreenResolutions[i]);
+                string option = tempScreenResolutions[i].ToString();
+                options.Add(option);
+            }
         }
 
         resolutionDropdown.AddOptions(options);
         resolutionDropdown.value = currentResolutionIndex;
         resolutionDropdown.RefreshShownValue();
+    }
+
+    public bool checkAspectRatio(Resolution r)
+    {
+        return 1.0f * r.width / r.height == 1.0f * aspectRatioWidth / aspectRatioHeight;
     }
 
     private string createOption(int i)
@@ -65,7 +78,6 @@ public class SettingsController : MonoBehaviour
     public void SetResolution(int resolutionIndex)
     {
         Resolution resolution = screenResolutions[resolutionIndex];
-        Debug.Log(resolution);
         Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
     }
 
@@ -78,5 +90,7 @@ public class SettingsController : MonoBehaviour
     {
         Screen.fullScreen = isFullSccreen;
     }
+
+    
 
 }
