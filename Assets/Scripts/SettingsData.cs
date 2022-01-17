@@ -5,7 +5,6 @@ using UnityEngine;
 public class SettingsData
 {
     private static SettingsData instance;
-
     public static SettingsData GetInstance()
     {
         if (instance == null)
@@ -14,7 +13,19 @@ public class SettingsData
     }
 
     //Graphics
-    private float brightness;
+    private float defaultBrightness = 1.0f;
+    public float DefaultBrightness
+    {
+        set
+        {
+            defaultBrightness = value;
+        }
+        get
+        {
+            return defaultBrightness;
+        }
+    }
+    private float brightness = 1.0f;
     public float Brightness
     {
         set

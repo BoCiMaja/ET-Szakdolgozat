@@ -6,7 +6,6 @@ public class GameSession : MonoBehaviour
 {
     private void Awake()
     {
-        Debug.Log("Awake");
         int instanceCount = FindObjectsOfType(GetType()).Length;
         if(instanceCount > 1)
         {

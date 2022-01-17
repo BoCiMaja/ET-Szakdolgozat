@@ -65,25 +65,25 @@
     <Compile Include="Assets\Scripts\Checkpoint\Checkpoints.cs" />
     <Compile Include="Assets\Scripts\Background\ContinuousRotation.cs" />
     <Compile Include="Assets\ScriptsCsabi\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\SettingsData.cs" />
     <Compile Include="Assets\Scripts\Background\Scroll.cs" />
     <Compile Include="Assets\Scripts\PlayArea\MovingPlatform.cs" />
     <Compile Include="Assets\ScriptsCsabi\Forgokerek.cs" />
+    <Compile Include="Assets\Scripts\GameSettings.cs" />
     <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene10Selector.cs" />
     <Compile Include="Assets\Scripts\Background\ParallaxBackground.cs" />
+    <Compile Include="Assets\Scripts\LoaderManagers\GraphicsLoaderManager.cs" />
+    <Compile Include="Assets\Scripts\GameSession.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
     <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene1Selector.cs" />
     <Compile Include="Assets\Scripts\LoaderManagers\SceneLoader.cs" />
     <Compile Include="Assets\ScriptsCsabi\CameraShake.cs" />
+    <Compile Include="Assets\Scripts\PlayerData.cs" />
     <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene11Selector.cs" />
     <Compile Include="Assets\Scripts\Checkpoint\PlayerPos.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
     <Compile Include="Assets\Scripts\Background\VerticalMovement.cs" />
-    <Compile Include="Assets\Scripts\GameSession.cs" />
-    <Compile Include="Assets\Scripts\PlayerData.cs" />
-    <Compile Include="Assets\Scripts\SettingsData.cs" />
-    <Compile Include="Assets\Scripts\LoaderManagers\SettingLoaderManager.cs" />
-    <Compile Include="Assets\Scripts\LoaderManagers\GraphicsLoaderManager.cs" />
-    <Compile Include="Assets\Scripts\GameSettings.cs" />
+    <Compile Include="Assets\Scripts\LoaderManagers\LoaderManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
