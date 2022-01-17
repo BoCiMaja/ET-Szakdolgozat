@@ -93,7 +93,6 @@ public class SettingsController : MonoBehaviour
 
     public void SetBrigthness(float brightness)
     {
-        Debug.Log(brightness);
-        //TODO setBrigthness static class or GM
+        GameSettings.SetBrightness(brightness);
     }
 }

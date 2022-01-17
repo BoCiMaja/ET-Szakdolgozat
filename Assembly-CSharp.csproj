@@ -54,30 +54,36 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Menu\SettingsController.cs" />
-    <Compile Include="Assets\Scripts\Background\Scroll.cs" />
-    <Compile Include="Assets\Scripts\PlayArea\MovingPlatform.cs" />
-    <Compile Include="Assets\ScriptsCsabi\Forgokerek.cs" />
-    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene10Selector.cs" />
     <Compile Include="Assets\ScriptsCsabi\Character_Controller_Old.cs" />
-    <Compile Include="Assets\Scripts\Background\ParallaxBackground.cs" />
     <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene2Selector.cs" />
     <Compile Include="Assets\Scripts\Checkpoint\CheckpointMaster.cs" />
     <Compile Include="Assets\Scripts\Background\Spawner.cs" />
     <Compile Include="Assets\ScriptsCsabi\CameraFollow.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
-    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene1Selector.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMovement.cs" />
     <Compile Include="Assets\ScriptsCsabi\EnemyAI.cs" />
+    <Compile Include="Assets\Scripts\Menu\MenuController.cs" />
+    <Compile Include="Assets\Scripts\Checkpoint\Checkpoints.cs" />
+    <Compile Include="Assets\Scripts\Background\ContinuousRotation.cs" />
+    <Compile Include="Assets\ScriptsCsabi\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\Background\Scroll.cs" />
+    <Compile Include="Assets\Scripts\PlayArea\MovingPlatform.cs" />
+    <Compile Include="Assets\ScriptsCsabi\Forgokerek.cs" />
+    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene10Selector.cs" />
+    <Compile Include="Assets\Scripts\Background\ParallaxBackground.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraMovement.cs" />
+    <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene1Selector.cs" />
+    <Compile Include="Assets\Scripts\LoaderManagers\SceneLoader.cs" />
     <Compile Include="Assets\ScriptsCsabi\CameraShake.cs" />
     <Compile Include="Assets\ScriptsCsabi\SceneScripts\Scene11Selector.cs" />
     <Compile Include="Assets\Scripts\Checkpoint\PlayerPos.cs" />
     <Compile Include="Assets\Scripts\Player\CharacterController2D.cs" />
-    <Compile Include="Assets\Scripts\Checkpoint\Checkpoints.cs" />
-    <Compile Include="Assets\ScriptsCsabi\MainMenu.cs" />
     <Compile Include="Assets\Scripts\Background\VerticalMovement.cs" />
-    <Compile Include="Assets\Scripts\Background\ContinuousRotation.cs" />
-    <Compile Include="Assets\Scripts\Menu\MenuController.cs" />
-    <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\GameSession.cs" />
+    <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\SettingsData.cs" />
+    <Compile Include="Assets\Scripts\LoaderManagers\SettingLoaderManager.cs" />
+    <Compile Include="Assets\Scripts\LoaderManagers\GraphicsLoaderManager.cs" />
+    <Compile Include="Assets\Scripts\GameSettings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
@@ -685,11 +691,17 @@
     <Reference Include="Unity.2D.PixelPerfect">
       <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.2D.Tilemap.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="PsdPlugin">
       <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
@@ -703,6 +715,9 @@
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Searcher.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Searcher.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.2D.IK.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
     </Reference>
@@ -715,8 +730,8 @@
     <Reference Include="Unity.2D.Path.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Path.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.InternalAPIEditorBridge.001">
-      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
@@ -727,14 +742,26 @@
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Mathematics">
       <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.IK.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ShaderGraph.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ShaderGraph.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Universal.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.Animation.Triangle.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll</HintPath>
@@ -744,6 +771,12 @@
     </Reference>
     <Reference Include="Unity.2D.PixelPerfect.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
@@ -759,6 +792,9 @@
     </Reference>
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.2D.SpriteShape.Runtime">
       <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>

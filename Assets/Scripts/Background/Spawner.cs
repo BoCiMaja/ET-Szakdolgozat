@@ -47,7 +47,7 @@ public class Spawner : MonoBehaviour
 
         despawnMaxPositionX = cameraMinX - maxImageWidth * 0.75f / pixelsPerUnit;
 
-        Debug.Log(despawnMaxPositionX);
+        //Debug.Log(despawnMaxPositionX);
     }
 
     private void InitializeCloudsInScreen()
