@@ -107,6 +107,12 @@ public class Spawner : MonoBehaviour
         Sprite tempSprite = Sprite.Create(nextImage, new Rect(0, 0, nextImage.width, nextImage.height), new Vector2(0.5f, 0.5f), pixelsPerUnit);
         spriteRenderer.sprite = tempSprite;
 
+        //TODO: biztos van szebb megoldas
+        Shader shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Lit-Default");
+        Material material = new Material(shader);
+        spriteRenderer.material = material;
+        //
+
         VerticalMovement component = cloud.AddComponent<VerticalMovement>();
         component.intensity = verticalMovementIntensity;
 
