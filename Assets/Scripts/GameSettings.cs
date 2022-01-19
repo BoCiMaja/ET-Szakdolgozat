@@ -5,6 +5,8 @@ using UnityEngine.Experimental.Rendering.Universal;
 
 public class GameSettings : MonoBehaviour
 {
+    [Header("Graphics settings")]
+    [Range(0.2f, 1.2f)]
     public float DefaultBrightness = 1.0f;
 
     private void Awake()
@@ -39,6 +41,7 @@ public class GameSettings : MonoBehaviour
 
     }
 
+    #region Graphics
     private static void SetGraphicsSettings()
     {
         Light2D[] lights = FindObjectsOfType<Light2D>();
@@ -51,4 +54,5 @@ public class GameSettings : MonoBehaviour
     {
         SettingsData.GetInstance().Brightness = brightness;
     }
+    #endregion
 }

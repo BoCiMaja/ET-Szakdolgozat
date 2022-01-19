@@ -19,6 +19,7 @@ public class SettingsData
         set
         {
             defaultBrightness = value;
+            brightness = value;
         }
         get
         {

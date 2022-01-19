@@ -12,9 +12,7 @@ public class MenuController : MonoBehaviour
 
     public void LoadNewGameLevel()
     {
-        SceneLoader sl = gameObject.AddComponent<SceneLoader>();
-        sl.sceneToLoad = newGameScene;
-        sl.LoadNewGame();
+        SceneLoader.LoadNewGame(newGameScene);
     }
 
     public void QuitGame()

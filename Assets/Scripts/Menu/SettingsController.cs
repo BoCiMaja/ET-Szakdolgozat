@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -7,9 +8,13 @@ using UnityEngine.UI;
 
 public class SettingsController : MonoBehaviour
 {
+    [Header("Audio settings")]
     public AudioMixer audioMixer;
 
+    [Header("Graphics settings")]
     public Dropdown resolutionDropdown;
+    public Dropdown qualityDropdown;
+    public Slider brightnessSlider;
     public int aspectRatioWidth = 16;
     public int aspectRatioHeight = 9;
 
@@ -20,8 +25,14 @@ public class SettingsController : MonoBehaviour
         screenResolutions = new List<Resolution>();
         InitializeResolutionDropdown();
 
-        //SetQuality(QualitySettings.GetQualityLevel());
+        InitializeGraphicsSettingsData();
 
+    }
+
+    private void InitializeGraphicsSettingsData()
+    {
+        brightnessSlider.value = SettingsData.GetInstance().Brightness;
+        qualityDropdown.value = QualitySettings.GetQualityLevel();
     }
 
     private void InitializeResolutionDropdown()
