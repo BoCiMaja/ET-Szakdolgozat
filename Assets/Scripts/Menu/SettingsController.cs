@@ -27,6 +27,7 @@ public class SettingsController : MonoBehaviour
 
         InitializeGraphicsSettingsData();
 
+       
     }
 
     private void InitializeGraphicsSettingsData()
