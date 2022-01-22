@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.Audio;
 
 public class CharacterController2D : MonoBehaviour
 {
@@ -45,6 +46,8 @@ public class CharacterController2D : MonoBehaviour
 
 	public Animator animator;
 	public ParticleSystem dust;
+
+	public Sound sound;
 
 	private void Awake()
 	{
@@ -95,6 +98,7 @@ public class CharacterController2D : MonoBehaviour
 			Physics2D.gravity = new Vector2(0, -0.8f);
 			jump = false;
 			floating = true;
+			//sound.GlideSound(); TODO
 			animator.SetBool("isJumping", false);
 			animator.SetBool("isFloating", true);
 		}
@@ -108,6 +112,7 @@ public class CharacterController2D : MonoBehaviour
        
 		if (Input.GetButtonDown("Jump") && extraJump > 0) {
 			CreateDust();
+			//sound.JumpSound(); TODO
 			jump = true;
 			animator.SetBool("isJumping", true);
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
