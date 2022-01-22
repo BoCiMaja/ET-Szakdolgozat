@@ -9,6 +9,7 @@ public class MovingPlatform : MonoBehaviour
     public float speed = 4;
     public int dir;
     public GameObject Adam;
+    public CharacterController2D characterController;
 
     // Start is called before the first frame update
     void Start()
@@ -28,12 +29,15 @@ public class MovingPlatform : MonoBehaviour
                                           transform.position.z);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        Adam.transform.parent = transform;
+        if (characterController.m_GroundCheck && !characterController.jump && collision.gameObject.tag == "Player")
+        {
+            Adam.transform.parent = transform;
+        }
     }
 
-    private void OnCollisionExit2D(Collision2D collision)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         Adam.transform.parent = null;
     }
