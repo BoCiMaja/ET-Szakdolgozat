@@ -49,6 +49,8 @@ public class CharacterController2D : MonoBehaviour
 
 	public Sound sound;
 
+	public PlayerMovement playerMovement;
+
 	private void Awake()
 	{
 		extraJump = extraJumpValue;
@@ -71,6 +73,7 @@ public class CharacterController2D : MonoBehaviour
 		m_Grounded = false;
 		floating = false;
 		animator.SetBool("isTurning", false);
+
 
 
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
@@ -172,6 +175,7 @@ public class CharacterController2D : MonoBehaviour
 				OnWalkEvent.Invoke(true);
 			}
 			move *= m_WalkSpeed;
+
 		}
 		else
         {
@@ -225,7 +229,6 @@ public class CharacterController2D : MonoBehaviour
 			}
 		}
 	}
-
 
 	private void Flip()
 	{

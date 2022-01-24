@@ -8,7 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public CharacterController2D controller;
 
-    public float runSpeed = 40f;
+    public float runSpeed;
 
     float horizontalMove = 0f;
 
@@ -39,10 +39,12 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Walk") || Input.GetKeyDown(KeyCode.LeftShift))
         {
             walk = true;
+            runSpeed = 20f;
         }
         else if (Input.GetButtonUp("Walk") || Input.GetKeyUp(KeyCode.LeftShift))
         {
             walk = false;
+            runSpeed = 30f;
         }
 
 
