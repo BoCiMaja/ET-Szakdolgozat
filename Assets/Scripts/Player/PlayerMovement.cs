@@ -46,8 +46,13 @@ public class PlayerMovement : MonoBehaviour
             walk = false;
             runSpeed = 30f;
         }
+    }
 
-
+    private void FixedUpdate()
+    {
+        jump = false;
+        // MOVE
+        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, walk);
     }
 
     public void OnLanding()
@@ -68,12 +73,6 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isWalking", isWalking);
     }
 
-    private void FixedUpdate()
-    {
-        jump = false;
-        // MOVE
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, walk);
-    }
 
     void CreateDust()
     {
