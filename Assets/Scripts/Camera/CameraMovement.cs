@@ -31,8 +31,6 @@ public class CameraMovement : MonoBehaviour
             waitForSeconds -= Time.deltaTime;
         else
             FollowCharacter();
-
-        Debug.Log(character.position - transform.position);
     }
 
     private void SetMinAndMaxXValues()
