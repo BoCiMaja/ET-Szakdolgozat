@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class CameraMovement : MonoBehaviour
 {
+    private CameraColliderBox colliderComponent;
+
+    [Header("Zoom")]
+    Camera cam;
+    public float defaultSize = 5.0f;
+    bool zooming;
+    private float camSize;
+    private float zoomVelocity = 0.0f;
+    public float zoomSpeed = 0.3f;
+
+    [Header("Follow")]
     public Transform character;
     private BoxCollider2D cameraBox;
     private GameObject[] boundaries;
@@ -16,21 +27,33 @@ public class CameraMovement : MonoBehaviour
     public float minX;
     private float maxX;
 
+    private Vector3 velocity = Vector3.zero;
+
     private void Start()
     {
         cameraBox = GetComponent<BoxCollider2D>();
+        colliderComponent = GetComponent<CameraColliderBox>();
+        cam = GetComponent<Camera>();
+
         FindBoundaries();
-        SetTheActualLimit();
+        SetActualCameraDatas();
         //SetMinAndMaxXValues();
+
+        zooming = false;
     }
 
     // Update is called once per frame
     void LateUpdate()
     {
+        if (zooming)
+            Zoom();
+
         if (waitForSeconds > 0)
             waitForSeconds -= Time.deltaTime;
         else
             FollowCharacter();
+
+        
     }
 
     private void SetMinAndMaxXValues()
@@ -38,7 +61,34 @@ public class CameraMovement : MonoBehaviour
         
     }
 
-    private Vector3 velocity = Vector3.zero;
+    public void SetActualCameraDatas()
+    {
+        int actualIndex = GetTheActualBoundIndex();
+
+        setCameraSize(boundaries[actualIndex].GetComponent<Boundary>().cameraSize);
+
+        targetBounds = allBounds[actualIndex];
+    }
+
+    public void setCameraSize(float camSize)
+    {
+        this.camSize = -1 == camSize ? defaultSize : camSize;
+        if(this.camSize != cam.orthographicSize)
+            zooming = true;
+    }
+
+    private void Zoom()
+    {
+        cam.orthographicSize = Mathf.SmoothDamp(cam.orthographicSize, camSize, ref zoomVelocity, zoomSpeed);
+
+        if (camSize - 0.0001 < cam.orthographicSize && camSize + 0.0001 > cam.orthographicSize)
+        {
+            cam.orthographicSize = camSize;
+            zooming = false;
+        }
+
+        colliderComponent.CalculateCameraColliderBox();
+    }
 
     private void FollowCharacter()
     {
@@ -63,6 +113,25 @@ public class CameraMovement : MonoBehaviour
         //transform.position = Vector3.Slerp(transform.position, targetPosition, speed);
     }
 
+
+
+    private int GetTheActualBoundIndex()
+    {
+        for (int i = 0; i < allBounds.Length; i++)
+        {
+            if (character.position.x > allBounds[i].min.x &&
+               character.position.x < allBounds[i].max.x &&
+               character.position.y > allBounds[i].min.y &&
+               character.position.y < allBounds[i].max.y)
+            {
+                //targetBounds = allBounds[i];
+                //break;
+                return i;
+            }
+        }
+        return 0;
+    }   
+
     private void FindBoundaries()
     {
         boundaries = GameObject.FindGameObjectsWithTag("Boundary");
@@ -73,21 +142,7 @@ public class CameraMovement : MonoBehaviour
         }
     }
 
-    public void SetTheActualLimit()
-    {
-        for (int i = 0; i < allBounds.Length; i++)
-        {
-            if (character.position.x > allBounds[i].min.x &&
-               character.position.x < allBounds[i].max.x &&
-               character.position.y > allBounds[i].min.y &&
-               character.position.y < allBounds[i].max.y)
-            {
-                targetBounds = allBounds[i];
-                break;
-            }
-        }
-    }   
-    
+
     //private Vector3 Clamp(Vector3 targetPosition)
     //{
     //    Vector3 position = new Vector2();

@@ -5,7 +5,7 @@ using UnityEngine;
 public class ParallaxBackground : MonoBehaviour
 {
     public GameObject camera;
-    private float startPos;
+    private Vector3 startPos;
     public float parallaxEffect;
 
     private Vector3 previousCamPos;
@@ -13,7 +13,7 @@ public class ParallaxBackground : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        startPos = transform.position.x;
+        startPos = transform.position;
         previousCamPos = camera.transform.position;
     }
 
