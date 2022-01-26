@@ -73,7 +73,7 @@ public class CameraMovement : MonoBehaviour
         }
     }
 
-    private void SetTheActualLimit()
+    public void SetTheActualLimit()
     {
         for (int i = 0; i < allBounds.Length; i++)
         {
