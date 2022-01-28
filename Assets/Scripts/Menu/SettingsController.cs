@@ -5,34 +5,39 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.Audio;
 using UnityEngine.UI;
+using TMPro;
 
 public class SettingsController : MonoBehaviour
 {
     [Header("Audio settings")]
     public AudioMixer audioMixer;
+    public TMP_Text masterVolumeText;
 
+    //[SerializeField] private
     [Header("Graphics settings")]
-    public Dropdown resolutionDropdown;
-    public Dropdown qualityDropdown;
+    public TMP_Dropdown resolutionDropdown;
+    public TMP_Dropdown qualityDropdown;
     public Slider brightnessSlider;
+    public TMP_Text brightnessText = null;
     public int aspectRatioWidth = 16;
     public int aspectRatioHeight = 9;
 
-    List<Resolution> screenResolutions;
+    private List<Resolution> screenResolutions;
 
     private void Start()
     {
         screenResolutions = new List<Resolution>();
+
+        //Graphics
         InitializeResolutionDropdown();
-
         InitializeGraphicsSettingsData();
-
-       
     }
 
+    #region Graphics
     private void InitializeGraphicsSettingsData()
     {
         brightnessSlider.value = SettingsData.GetInstance().Brightness;
+        brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightnessSlider.value * 100));
         qualityDropdown.value = QualitySettings.GetQualityLevel();
     }
 
@@ -47,18 +52,24 @@ public class SettingsController : MonoBehaviour
 
         for (int i = 0; i < tempScreenResolutions.Length; i++)
         {
-            if (tempScreenResolutions[i].width == Screen.currentResolution.width
-                && tempScreenResolutions[i].height == Screen.currentResolution.height)
+            if(checkAspectRatio(tempScreenResolutions[i]))
+            {
+                screenResolutions.Add(tempScreenResolutions[i]);
+            }
+        }
+
+        if (screenResolutions.Count <= 0)
+            screenResolutions.AddRange(tempScreenResolutions);
+
+        for (int i = 0; i < screenResolutions.Count; i++)
+        {
+            if (screenResolutions[i].width == Screen.currentResolution.width
+                && screenResolutions[i].height == Screen.currentResolution.height)
             {
                 currentResolutionIndex = i;
             }
 
-            if(checkAspectRatio(tempScreenResolutions[i]))
-            {
-                screenResolutions.Add(tempScreenResolutions[i]);
-                string option = tempScreenResolutions[i].ToString();
-                options.Add(option);
-            }
+            options.Add(screenResolutions[i].ToString());
         }
 
         resolutionDropdown.AddOptions(options);
@@ -82,11 +93,6 @@ public class SettingsController : MonoBehaviour
         return option;
     }
 
-    public void SetVolume(float volume)
-    {
-        audioMixer.SetFloat("volume", volume);
-    }
-
     public void SetResolution(int resolutionIndex)
     {
         Resolution resolution = screenResolutions[resolutionIndex];
@@ -106,5 +112,16 @@ public class SettingsController : MonoBehaviour
     public void SetBrigthness(float brightness)
     {
         GameSettings.SetBrightness(brightness);
+        brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightnessSlider.value * 100));
     }
+
+    #endregion
+
+    #region Audio
+    public void SetVolume(float volume)
+    {
+        audioMixer.SetFloat("volume", volume);
+    }
+
+    #endregion
 }

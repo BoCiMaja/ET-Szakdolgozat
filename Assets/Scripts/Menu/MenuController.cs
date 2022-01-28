@@ -8,11 +8,18 @@ public class MenuController : MonoBehaviour
 {
     [Header("Levels To Load")]
     public string newGameScene;
-    //private Scene levelToLoad;
+    private string levelToLoad;
+
+    [SerializeField] private GameObject noSavedGameDialog = null;
 
     public void LoadNewGameLevel()
     {
         SceneLoader.LoadNewGame(newGameScene);
+    }
+
+    public void LoadSavedGame()
+    {
+        noSavedGameDialog.SetActive(true);
     }
 
     public void QuitGame()
