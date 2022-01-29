@@ -50,6 +50,7 @@ public class CharacterController2D : MonoBehaviour
 	public Sound sound;
 
 	public PlayerMovement playerMovement;
+	public WallClimbing wallClimbing;
 
 	private void Awake()
 	{
@@ -101,8 +102,9 @@ public class CharacterController2D : MonoBehaviour
 			animator.SetBool("isJumping", false);
 			animator.SetBool("isFloating", true);
 		}*/
-		
-		if (!m_Grounded && Input.GetButton("Jump") && m_Rigidbody2D.velocity.y < 0f) // floating, glide
+
+		if (!m_Grounded && Input.GetButton("Jump") && m_Rigidbody2D.velocity.y < 0f &&
+			wallClimbing.isWall == false && wallClimbing.isClimbing == false) // floating, glide
 		{
 			Physics2D.gravity = new Vector2(0, -0.8f);
 			jump = false;

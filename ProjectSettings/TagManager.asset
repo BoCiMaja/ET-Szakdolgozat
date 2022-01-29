@@ -8,6 +8,7 @@ TagManager:
   - Platform
   - Ground
   - Boundary
+  - Wall
   layers:
   - Default
   - TransparentFX

@@ -2164,6 +2164,7 @@ GameObject:
   - component: {fileID: 495622533}
   - component: {fileID: 495622535}
   - component: {fileID: 495622536}
+  - component: {fileID: 495622537}
   m_Layer: 0
   m_Name: Adam_Basic
   m_TagString: Player
@@ -2411,6 +2412,7 @@ MonoBehaviour:
   dust: {fileID: 2013473668}
   sound: {fileID: 495622536}
   playerMovement: {fileID: 495622533}
+  wallClimbing: {fileID: 495622537}
 --- !u!114 &495622533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2479,6 +2481,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpsound: {fileID: 533146347}
   glidesound: {fileID: 1995247939}
+--- !u!114 &495622537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495622525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30e0468360d5c9643acd0586161ee8bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isWall: 0
+  isClimbing: 0
+  rb: {fileID: 495622529}
 --- !u!1 &515014889
 GameObject:
   m_ObjectHideFlags: 0
@@ -6123,9 +6140,10 @@ GameObject:
   - component: {fileID: 1494305599}
   - component: {fileID: 1494305601}
   - component: {fileID: 1494305600}
-  m_Layer: 0
+  - component: {fileID: 1494305602}
+  m_Layer: 6
   m_Name: big-rock1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6255,6 +6273,66 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!68 &1494305602
+EdgeCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1494305598}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_EdgeRadius: 0
+  m_Points:
+  - {x: -26.362572, y: -20.46257}
+  - {x: -28.992752, y: -14.189313}
+  - {x: -28.805862, y: 16.732944}
+  - {x: -28.391327, y: 18.9089}
+  - {x: -27.42691, y: 20.430302}
+  - {x: -26.523087, y: 21.227703}
+  - {x: -24.375153, y: 20.952732}
+  - {x: -21.582397, y: 20.925198}
+  - {x: -18.323502, y: 20.533615}
+  - {x: -15.465988, y: 20.398945}
+  - {x: -12.822052, y: 20.740921}
+  - {x: -9.378876, y: 20.575089}
+  - {x: -6.10083, y: 20.767517}
+  - {x: -3.3606415, y: 20.760868}
+  - {x: -0.68692017, y: 20.948496}
+  - {x: 2.2947388, y: 19.913548}
+  - {x: 4.4340973, y: 20.186153}
+  - {x: 6.5113983, y: 20.69001}
+  - {x: 7.5951996, y: 20.995583}
+  - {x: 10.4296875, y: 20.269379}
+  - {x: 12.698471, y: 20.93673}
+  - {x: 15.764191, y: 20.791122}
+  - {x: 18.60904, y: 21.004948}
+  - {x: 20.556717, y: 21.12614}
+  - {x: 22.29425, y: 20.050034}
+  - {x: 23.308151, y: 19.01818}
+  - {x: 24.310928, y: 18.747108}
+  - {x: 24.994232, y: 18.49076}
+  - {x: 26.56723, y: 18.53511}
+  - {x: 27.769989, y: 17.305813}
+  - {x: 28.325958, y: 15.319322}
+  - {x: 27.70485, y: 12.327693}
+  - {x: 25.848679, y: 9.797502}
+  - {x: 25.818237, y: 6.4967337}
+  - {x: 27.167938, y: 3.544344}
+  - {x: 27.518387, y: -2.5102825}
+  - {x: 27.196213, y: -8.07383}
+  - {x: 27.877243, y: -12.885097}
+  - {x: 26.665466, y: -17.813004}
+  - {x: 25.38337, y: -18.932095}
+  m_AdjacentStartPoint: {x: 0, y: 0}
+  m_AdjacentEndPoint: {x: 0, y: 0}
+  m_UseAdjacentStartPoint: 0
+  m_UseAdjacentEndPoint: 0
 --- !u!1 &1519670410
 GameObject:
   m_ObjectHideFlags: 0
