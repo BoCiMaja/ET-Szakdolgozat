@@ -8,6 +8,7 @@ public class WallClimbing : MonoBehaviour
     private float speed;
     public bool isWall;
     public bool isClimbing;
+    public Animator animator;
 
     [SerializeField] private Rigidbody2D rb;
 
@@ -17,6 +18,7 @@ public class WallClimbing : MonoBehaviour
         if (isWall && Mathf.Abs(vertical) > 0f)
         {
             isClimbing = true;
+            animator.SetBool("isClimbing",true);
         }
     }
 
@@ -48,6 +50,7 @@ public class WallClimbing : MonoBehaviour
 
             isWall= false;
             isClimbing  = false;
+            animator.SetBool("isClimbing", false);
         }
     }
 

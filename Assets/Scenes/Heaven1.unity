@@ -2495,6 +2495,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isWall: 0
   isClimbing: 0
+  animator: {fileID: 495622531}
   rb: {fileID: 495622529}
 --- !u!1 &515014889
 GameObject:
