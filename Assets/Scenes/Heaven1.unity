@@ -2165,6 +2165,7 @@ GameObject:
   - component: {fileID: 495622535}
   - component: {fileID: 495622536}
   - component: {fileID: 495622537}
+  - component: {fileID: 495622538}
   m_Layer: 0
   m_Name: Adam_Basic
   m_TagString: Player
@@ -2326,7 +2327,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 41c66f1de5e74144d9dc59e04eb44a8c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 0
+  m_UpdateMode: 2
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2497,6 +2498,18 @@ MonoBehaviour:
   isClimbing: 0
   animator: {fileID: 495622531}
   rb: {fileID: 495622529}
+--- !u!114 &495622538
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495622525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e908dc3a396ea14491dc20f63c842d7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &515014889
 GameObject:
   m_ObjectHideFlags: 0
