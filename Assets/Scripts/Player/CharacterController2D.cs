@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 using System.Collections;
+using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
 public class CharacterController2D : MonoBehaviour
@@ -51,6 +52,10 @@ public class CharacterController2D : MonoBehaviour
 
 	public PlayerMovement playerMovement;
 	public WallClimbing wallClimbing;
+
+	public Rock rockPrefab;
+	public bool _rockActive;
+	public int hp = 3;
 
 	private void Awake()
 	{
@@ -136,9 +141,40 @@ public class CharacterController2D : MonoBehaviour
 				PrepareJump();
             }
 		}
+
+		if (Input.GetMouseButtonDown(0) || Input.GetButtonDown("Fire1"))
+		{
+			Shoot();
+		}
 	}
 
-	
+	private void Shoot() //brrrrr
+	{
+		if (!_rockActive)
+		{
+			Rock rock = Instantiate(this.rockPrefab, this.transform.position, Quaternion.identity); //no rotation = Quaternion.identity
+			rock.destroyed += RockDestroyed;
+			_rockActive = true;
+		}
+	}
+	private void RockDestroyed()
+	{
+		_rockActive = false;
+	}
+
+	private void OnTriggerEnter2D(Collider2D collision)
+	{
+		if (collision.CompareTag("Enemy"))
+		{
+			hp--;
+			if (hp == 0)
+			{
+				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+			}
+		}
+	}
+
+
 	void DoubleJump()
     {
 		doubleJumpReady = false;

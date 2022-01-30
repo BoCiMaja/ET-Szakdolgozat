@@ -2327,7 +2327,7 @@ Animator:
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 41c66f1de5e74144d9dc59e04eb44a8c, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 2
+  m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_WarningMessage: 
@@ -2358,6 +2358,7 @@ MonoBehaviour:
   m_CeilingCheck: {fileID: 1075802415}
   m_CrouchDisableCollider: {fileID: 495622534}
   m_Grounded: 0
+  m_FacingRight: 1
   floating: 0
   jumpDelay: 0.5
   doubleJumpReady: 0
@@ -2414,6 +2415,10 @@ MonoBehaviour:
   sound: {fileID: 495622536}
   playerMovement: {fileID: 495622533}
   wallClimbing: {fileID: 495622537}
+  rockPrefab: {fileID: 5036474341563434967, guid: 37b37dbb3cfb58a4f92997a9d45023a8, type: 3}
+  _rockActive: 0
+  hp: 3
+  rock: {fileID: 5036474341563434967, guid: 37b37dbb3cfb58a4f92997a9d45023a8, type: 3}
 --- !u!114 &495622533
 MonoBehaviour:
   m_ObjectHideFlags: 0
