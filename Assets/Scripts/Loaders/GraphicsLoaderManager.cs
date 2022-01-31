@@ -36,7 +36,8 @@ public static class GraphicsLoaderManager
     {
         foreach (Light2D light in lights)
         {
-            light.intensity *= brigthness;
+            // *= ha valahol máshogy kell beállítani
+            light.intensity = brigthness;
         }
     }
 
