@@ -7,6 +7,11 @@ using UnityEngine.SceneManagement;
 
 public static class SceneLoader
 {
+    public static void LoadMainMenu()
+    {
+        LoadWithLoadingScreenAsync("MainMenu");
+    }
+
     public static void LoadNewGame(string sceneToLoad)
     {
         LoadWithLoadingScreenAsync(sceneToLoad);

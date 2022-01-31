@@ -59,4 +59,9 @@ public class PauseMenuController : MonoBehaviour
         Background.SetActive(true);
         isPaused = true;
     }
+
+    public void LoadMainMenu()
+    {
+        SceneLoader.LoadMainMenu();
+    }
 }
