@@ -56,6 +56,7 @@ public class CharacterController2D : MonoBehaviour
 	public Rock rockPrefab;
 	public bool _rockActive;
 	public int hp = 3;
+	public int ammo = 5;
 
 	private void Awake()
 	{
@@ -142,10 +143,18 @@ public class CharacterController2D : MonoBehaviour
             }
 		}
 
-		if (Input.GetMouseButtonDown(0) || Input.GetButtonDown("Fire1"))
+		if (Input.GetButtonDown("Fire1") && !(ammo <= 0))
 		{
 			Shoot();
 		}
+		if (Input.GetButtonDown("Reload")){
+			Reload();
+		}
+	}
+
+	private void Reload()
+	{
+		ammo = 5;
 	}
 
 	private void Shoot() //brrrrr
@@ -153,6 +162,10 @@ public class CharacterController2D : MonoBehaviour
 		if (!_rockActive)
 		{
 			Rock rock = Instantiate(this.rockPrefab, this.transform.position, Quaternion.identity); //no rotation = Quaternion.identity
+            if(!m_FacingRight)
+            {
+				rock.direction = rock.direction * -1;
+			}
 			rock.destroyed += RockDestroyed;
 			_rockActive = true;
 		}
@@ -160,7 +173,10 @@ public class CharacterController2D : MonoBehaviour
 	private void RockDestroyed()
 	{
 		_rockActive = false;
+		ammo = ammo - 1;
 	}
+
+	
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{

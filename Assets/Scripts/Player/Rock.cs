@@ -11,11 +11,17 @@ public class Rock : MonoBehaviour
 
     private void Update()
     {
+        RockTrajectory();
+    }
+
+    public void RockTrajectory()
+    {
         this.transform.position += this.direction * this.speed * Time.deltaTime;
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Enemy") || collision.CompareTag("Wall") || collision.CompareTag("Ground"))
+        if (collision.CompareTag("Enemy") || collision.CompareTag("Wall") || collision.CompareTag("Ground")
+            || collision.CompareTag("NoClimbWall"))
         {
             if (this.destroyed != null)
             {
