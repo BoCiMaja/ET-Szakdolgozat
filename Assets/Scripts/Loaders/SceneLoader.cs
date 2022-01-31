@@ -36,7 +36,7 @@ public static class SceneLoader
         {
             await Task.Delay(100);
             //Progress bar
-            Debug.Log(scene.progress);
+            //Debug.Log(scene.progress);
         }
         while (scene.progress < 0.9f);
 
