@@ -6,6 +6,6 @@ public class LoaderManager : MonoBehaviour
 {
     void Start()
     {
-        GameSettings.SetSettingsData();
+        GameSettings.SetSettingsDataInScenes();
     }
 }

@@ -19,100 +19,74 @@ public class SettingsController : MonoBehaviour
     public TMP_Dropdown qualityDropdown;
     public Slider brightnessSlider;
     public TMP_Text brightnessText = null;
-    public int aspectRatioWidth = 16;
-    public int aspectRatioHeight = 9;
-
-    private List<Resolution> screenResolutions;
+    public Toggle fullscreenToggle;
 
     private void Start()
     {
-        screenResolutions = new List<Resolution>();
-
-        //Graphics
-        InitializeResolutionDropdown();
         InitializeGraphicsSettingsData();
+        //InitializeSoundsSettingsData()
     }
 
     #region Graphics
     private void InitializeGraphicsSettingsData()
     {
-        brightnessSlider.value = SettingsData.GetInstance().Brightness;
+        InitializeResolutionDropdown();
+        SettingsData settings = SettingsData.GetInstance();
+        brightnessSlider.value = settings.CurrentBrightness;
         brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightnessSlider.value * 100));
-        qualityDropdown.value = QualitySettings.GetQualityLevel();
+        SetBrigthness(brightnessSlider.value);
+        qualityDropdown.value = settings.CurrentQualityLevel;
+        SetQuality(qualityDropdown.value);
+        fullscreenToggle.isOn = settings.CurrentFullscreen;
+        SetFullScreen(fullscreenToggle.isOn);
     }
 
+    //TODO: index szepites
     private void InitializeResolutionDropdown()
     {
-        Resolution[] tempScreenResolutions = Screen.resolutions;
+        Resolution[] resolutions = GameSettings.GetResolutions();
+        Resolution currentResolution = SettingsData.GetInstance().CurrentResolution;
 
         resolutionDropdown.ClearOptions();
 
         List<string> options = new List<string>();
-        int currentResolutionIndex = 0;
+        int currentResolutionIndex = -1;
 
-        for (int i = 0; i < tempScreenResolutions.Length; i++)
+        for (int i = 0; i < resolutions.Length; i++)
         {
-            if(checkAspectRatio(tempScreenResolutions[i]))
-            {
-                screenResolutions.Add(tempScreenResolutions[i]);
-            }
-        }
-
-        if (screenResolutions.Count <= 0)
-            screenResolutions.AddRange(tempScreenResolutions);
-
-        for (int i = 0; i < screenResolutions.Count; i++)
-        {
-            if (screenResolutions[i].width == Screen.currentResolution.width
-                && screenResolutions[i].height == Screen.currentResolution.height)
+            if (resolutions[i].width == currentResolution.width
+                && resolutions[i].height == currentResolution.height)
             {
                 currentResolutionIndex = i;
             }
 
-            options.Add(screenResolutions[i].ToString());
+            options.Add(resolutions[i].ToString());
         }
 
         resolutionDropdown.AddOptions(options);
-        resolutionDropdown.value = currentResolutionIndex;
+        resolutionDropdown.value = currentResolutionIndex;;
         resolutionDropdown.RefreshShownValue();
-    }
-
-    public bool checkAspectRatio(Resolution r)
-    {
-        return 1.0f * r.width / r.height == 1.0f * aspectRatioWidth / aspectRatioHeight;
-    }
-
-    private string createOption(int i)
-    {
-        StringBuilder builder = new StringBuilder();
-        builder.Append(screenResolutions[i].width);
-        builder.Append("x");
-        builder.Append(screenResolutions[i].height);
-
-        string option = builder.ToString();
-        return option;
     }
 
     public void SetResolution(int resolutionIndex)
     {
-        Resolution resolution = screenResolutions[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        GameSettings.SetResolutionByIndex(resolutionIndex);
     }
 
     public void SetQuality(int qualityIndex)
     {
-        QualitySettings.SetQualityLevel(qualityIndex);
+        GameSettings.SetQualityLevel((byte)qualityIndex);
     }
 
     public void SetFullScreen(bool isFullSccreen)
     {
-        Screen.fullScreen = isFullSccreen;
+        GameSettings.SetFullscreen(isFullSccreen);
     }
 
     public void SetBrigthness(float brightness)
     {
         GameSettings.SetBrightness(brightness);
-        brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightnessSlider.value * 100));
+        brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightness * 100));
     }
 
     #endregion
