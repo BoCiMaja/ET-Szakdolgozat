@@ -168,6 +168,7 @@ public class CharacterController2D : MonoBehaviour
 			}
 			rock.destroyed += RockDestroyed;
 			_rockActive = true;
+			animator.SetTrigger("isThrowing");
 		}
 	}
 	private void RockDestroyed()
