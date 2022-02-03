@@ -12,6 +12,8 @@ public class CameraColliderBox : MonoBehaviour
     {
         camera = GetComponent<Camera>();
         cameraCollider = GetComponent<BoxCollider2D>();
+        if (cameraCollider == null)
+            cameraCollider = gameObject.AddComponent<BoxCollider2D>();
         CalculateCameraColliderBox();
     }
 

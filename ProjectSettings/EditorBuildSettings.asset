@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Heaven1.unity
     guid: 80125366ae1f3524f99bc65dcd59eea4
   - enabled: 1
-    path: Assets/Scenes/Soundtest.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Heaven2.unity
+    guid: 2bcd60eca08edbc44bd4a7ce05478045
+  - enabled: 1
+    path: Assets/Scenes/Heaven3.unity
+    guid: 46560c25312eef5438b9afe111728a8b
   m_configObjects: {}

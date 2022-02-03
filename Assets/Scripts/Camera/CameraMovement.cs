@@ -12,7 +12,7 @@ public class CameraMovement : MonoBehaviour
     bool zooming;
     private float camSize;
     private float zoomVelocity = 0.0f;
-    public float zoomSpeed = 0.3f;
+    public float zoomSpeed = 0.6f;
 
     [Header("Follow")]
     public Transform character;
@@ -21,7 +21,7 @@ public class CameraMovement : MonoBehaviour
     private Bounds[] allBounds;
     private Bounds targetBounds;
 
-    public float speed = 10.0f;
+    public float speed = 0.3f;
     private float waitForSeconds = 0.5f;
 
     public float minX;
