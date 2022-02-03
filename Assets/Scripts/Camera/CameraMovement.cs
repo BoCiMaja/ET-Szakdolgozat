@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -71,6 +72,12 @@ public class CameraMovement : MonoBehaviour
         targetBounds = allBounds[actualIndex];
     }
 
+    public void SetActualCameraDatas(Boundary boundary)
+    {
+        setCameraSize(boundary.cameraSize);
+        targetBounds = boundary.gameObject.GetComponent<BoxCollider2D>().bounds;
+    }
+
     public void setCameraSize(float camSize)
     {
         this.camSize = -1 == camSize ? defaultSize : camSize;
@@ -113,8 +120,6 @@ public class CameraMovement : MonoBehaviour
         //transform.position = Vector3.Lerp(transform.position, targetPosition, speed); //0.85
         //transform.position = Vector3.Slerp(transform.position, targetPosition, speed);
     }
-
-
 
     private int GetTheActualBoundIndex()
     {
