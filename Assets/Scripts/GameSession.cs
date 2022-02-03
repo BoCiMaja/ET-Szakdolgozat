@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class GameSession : MonoBehaviour
 {
+
+    //statc instancde tárolása?
     private void Awake()
     {
         int instanceCount = FindObjectsOfType(GetType()).Length;
