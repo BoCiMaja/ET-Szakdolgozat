@@ -52,8 +52,6 @@ public class CameraMovement : MonoBehaviour
             waitForSeconds -= Time.deltaTime;
         else
             FollowCharacter();
-
-        
     }
 
     private void SetMinAndMaxXValues()
@@ -64,6 +62,9 @@ public class CameraMovement : MonoBehaviour
     public void SetActualCameraDatas()
     {
         int actualIndex = GetTheActualBoundIndex();
+
+        if (actualIndex < 0 && default(Bounds) != targetBounds)
+            return;
 
         setCameraSize(boundaries[actualIndex].GetComponent<Boundary>().cameraSize);
 
@@ -129,7 +130,7 @@ public class CameraMovement : MonoBehaviour
                 return i;
             }
         }
-        return 0;
+        return -1;
     }   
 
     private void FindBoundaries()
