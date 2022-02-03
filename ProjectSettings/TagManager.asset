@@ -45,6 +45,18 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 2752906031
+    locked: 0
+  - name: NearBackground
+    uniqueID: 793733007
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: PlayArea
+    uniqueID: 3326901903
+    locked: 0
+  - name: Foreground
+    uniqueID: 222717307
     locked: 0

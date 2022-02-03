@@ -24,6 +24,8 @@ public class Spawner : MonoBehaviour
     public Texture2D[] spawnImages;
     private Queue<GameObject> spawnedObjects;
 
+    public string sortingLayer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -106,6 +108,7 @@ public class Spawner : MonoBehaviour
 
         Sprite tempSprite = Sprite.Create(nextImage, new Rect(0, 0, nextImage.width, nextImage.height), new Vector2(0.5f, 0.5f), pixelsPerUnit);
         spriteRenderer.sprite = tempSprite;
+        spriteRenderer.sortingLayerName = sortingLayer;
 
         //TODO: biztos van szebb megoldas
         Shader shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Lit-Default");
