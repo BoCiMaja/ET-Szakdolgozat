@@ -967,7 +967,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1418009017}
-  parallaxEffect: -0.09
+  parallaxEffect: {x: -0.09, y: -0.09}
+  parallaxEffectVector: {x: -0.09, y: -0.09}
 --- !u!4 &241981003
 Transform:
   m_ObjectHideFlags: 0
@@ -2232,7 +2233,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1418009017}
-  parallaxEffect: 0.12
+  parallaxEffect: {x: 0.12, y: 0.12}
+  parallaxEffectVector: {x: 0.12, y: 0.12}
 --- !u!114 &515014891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5190,7 +5192,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1418009017}
-  parallaxEffect: 0.28
+  parallaxEffect: {x: 0.28, y: 0.28}
+  parallaxEffectVector: {x: 0.28, y: 0.28}
 --- !u!114 &1334818509
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5533,7 +5536,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1418009017}
-  parallaxEffect: 0.18
+  parallaxEffect: {x: 0.18, y: 0.18}
+  parallaxEffectVector: {x: 0.18, y: 0.18}
 --- !u!4 &1426260487
 Transform:
   m_ObjectHideFlags: 0
@@ -5883,7 +5887,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   camera: {fileID: 1418009017}
-  parallaxEffect: 0.08
+  parallaxEffect: {x: 0.08, y: 0.08}
+  parallaxEffectVector: {x: 0.08, y: 0.08}
 --- !u!114 &1521887687
 MonoBehaviour:
   m_ObjectHideFlags: 0
