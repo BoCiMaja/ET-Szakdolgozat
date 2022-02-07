@@ -48,7 +48,7 @@ public class CharacterController2D : MonoBehaviour
 	public Animator animator;
 	public ParticleSystem dust;
 
-	public Sound sound;
+	public SoundManager sound;
 
 	public PlayerMovement playerMovement;
 	public WallClimbing wallClimbing;
@@ -95,6 +95,7 @@ public class CharacterController2D : MonoBehaviour
 			if (colliders[i].gameObject != gameObject)
 			{
 				m_Grounded = true;
+				
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
 				//StartCoroutine(cameraShake.Shake(.15f, .4f));
@@ -115,7 +116,6 @@ public class CharacterController2D : MonoBehaviour
 			Physics2D.gravity = new Vector2(0, -0.8f);
 			jump = false;
 			floating = true;
-			//sound.GlideSound(); TODO
 			animator.SetBool("isJumping", false);
 			animator.SetBool("isFloating", true);
 		}
@@ -129,7 +129,7 @@ public class CharacterController2D : MonoBehaviour
        
 		if (Input.GetButtonDown("Jump") && extraJump > 0) {
 			CreateDust();
-			//sound.JumpSound(); TODO
+			FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
 			jump = true;
 			animator.SetBool("isJumping", true);
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
