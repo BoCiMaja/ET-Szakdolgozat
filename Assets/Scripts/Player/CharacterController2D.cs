@@ -98,6 +98,8 @@ public class CharacterController2D : MonoBehaviour
 				
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
+				
+				FindObjectOfType<SoundManager>().Play("Running");
 				//StartCoroutine(cameraShake.Shake(.15f, .4f));
 				//StartCoroutine(cameraShake.Shaking());
 			}
@@ -130,6 +132,8 @@ public class CharacterController2D : MonoBehaviour
 		if (Input.GetButtonDown("Jump") && extraJump > 0) {
 			CreateDust();
 			FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
+			FindObjectOfType<SoundManager>().Stop("Walking");
+			FindObjectOfType<SoundManager>().Stop("Running");
 			jump = true;
 			animator.SetBool("isJumping", true);
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
@@ -274,7 +278,7 @@ public class CharacterController2D : MonoBehaviour
 
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
-			FindObjectOfType<SoundManager>().Play("Running"); //jump hang hivas
+			
 			//TODO: Lehetseges irrealis fizika miatt
 			//Vector3 smoothVelocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 			//Vector3 predictedPoint = transform.position + smoothVelocity * Time.fixedDeltaTime;

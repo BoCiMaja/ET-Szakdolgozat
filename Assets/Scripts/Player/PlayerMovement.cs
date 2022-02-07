@@ -36,11 +36,22 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
 
+        if (Input.GetButtonDown("Run")
+            && walk != true)
+        {
+            FindObjectOfType<SoundManager>().Stop("Walking"); 
+            FindObjectOfType<SoundManager>().Play("Running"); // running hang hivás
+        }
+        else if (Input.GetButtonUp("Run") || runSpeed == 0f){
+            FindObjectOfType<SoundManager>().Stop("Running"); // running hang hivás
+        }
         if (Input.GetButtonDown("Walk") || Input.GetKeyDown(KeyCode.LeftShift))
         {
             walk = true;
             runSpeed = 20f;
             FindObjectOfType<SoundManager>().Play("Walking"); //walk hang hivas
+            FindObjectOfType<SoundManager>().Stop("Running");
+
         }
         else if (Input.GetButtonUp("Walk") || Input.GetKeyUp(KeyCode.LeftShift))
         {
@@ -48,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
             runSpeed = 30f;
             FindObjectOfType<SoundManager>().Stop("Walking");
         }
+
     }
 
     private void FixedUpdate()
