@@ -40,11 +40,13 @@ public class PlayerMovement : MonoBehaviour
         {
             walk = true;
             runSpeed = 20f;
+            FindObjectOfType<SoundManager>().Play("Walking"); //walk hang hivas
         }
         else if (Input.GetButtonUp("Walk") || Input.GetKeyUp(KeyCode.LeftShift))
         {
             walk = false;
             runSpeed = 30f;
+            FindObjectOfType<SoundManager>().Stop("Walking");
         }
     }
 
@@ -66,6 +68,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnCrouching(bool isCrouching)
     {
         animator.SetBool("isCrouching", isCrouching);
+        FindObjectOfType<SoundManager>().Play("Crouching"); //crouch hang hivas
     }
 
     public void OnWalking(bool isWalking)

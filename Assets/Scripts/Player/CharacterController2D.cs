@@ -236,7 +236,6 @@ public class CharacterController2D : MonoBehaviour
 				OnWalkEvent.Invoke(true);
 			}
 			move *= m_WalkSpeed;
-
 		}
 		else
         {
@@ -275,7 +274,7 @@ public class CharacterController2D : MonoBehaviour
 
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
-
+			FindObjectOfType<SoundManager>().Play("Running"); //jump hang hivas
 			//TODO: Lehetseges irrealis fizika miatt
 			//Vector3 smoothVelocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
 			//Vector3 predictedPoint = transform.position + smoothVelocity * Time.fixedDeltaTime;

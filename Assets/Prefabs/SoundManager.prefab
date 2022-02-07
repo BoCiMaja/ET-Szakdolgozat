@@ -45,13 +45,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sounds:
   - name: Running
-    clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
+    clip: {fileID: 8300000, guid: 453c5a3bf53fbbe48939bddbdd455d89, type: 3}
     volume: 0.16
     pitch: 1
     loop: 0
     source: {fileID: 0}
   - name: Walking
-    clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
+    clip: {fileID: 8300000, guid: c629fbefa75fe724cbb4110db6e82b6f, type: 3}
     volume: 0.16
     pitch: 1
     loop: 0

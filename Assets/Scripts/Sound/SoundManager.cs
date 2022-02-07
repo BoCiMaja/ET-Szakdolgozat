@@ -19,7 +19,7 @@ public class SoundManager : MonoBehaviour
             instance = this;
         else
         {
-            Destroy(gameObject);
+            Destroy(this);
             return;
         }
         DontDestroyOnLoad(gameObject);
@@ -45,6 +45,14 @@ public class SoundManager : MonoBehaviour
         s.source.Play();
         s.source.volume = s.volume;
         s.source.pitch = s.pitch;
+    }
+
+    public void Stop(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+            return;
+        s.source.Stop();
     }
 
     //public void StopPlaying(string sound) // for stopping the BGM or Floating f.e.
