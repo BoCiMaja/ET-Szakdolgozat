@@ -87,8 +87,6 @@ public class CharacterController2D : MonoBehaviour
 		floating = false;
 		animator.SetBool("isTurning", false);
 
-
-
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
 		for (int i = 0; i < colliders.Length; i++)
 		{
@@ -99,7 +97,6 @@ public class CharacterController2D : MonoBehaviour
 				if (!wasGrounded)
 					OnLandEvent.Invoke();
 				
-				FindObjectOfType<SoundManager>().Play("Running");
 				//StartCoroutine(cameraShake.Shake(.15f, .4f));
 				//StartCoroutine(cameraShake.Shaking());
 			}
@@ -112,12 +109,18 @@ public class CharacterController2D : MonoBehaviour
 			animator.SetBool("isFloating", true);
 		}*/
 
+		Floating(); // Floating meghívva
+	}
+
+	public void Floating()
+    {
 		if (!m_Grounded && Input.GetButton("Jump") && m_Rigidbody2D.velocity.y < 0f &&
 			wallClimbing.isWall == false && wallClimbing.isClimbing == false) // floating, glide
 		{
 			Physics2D.gravity = new Vector2(0, -0.8f);
 			jump = false;
 			floating = true;
+			FindObjectOfType<SoundManager>().Stop("Running"); // running hang hivás
 			animator.SetBool("isJumping", false);
 			animator.SetBool("isFloating", true);
 		}
@@ -139,7 +142,7 @@ public class CharacterController2D : MonoBehaviour
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
 			if (doubleJumpReady)
             {
-				DoubleJump();	
+				DoubleJump();
 			}
 			else
             {
@@ -173,6 +176,7 @@ public class CharacterController2D : MonoBehaviour
 			rock.destroyed += RockDestroyed;
 			_rockActive = true;
 			animator.SetTrigger("isThrowing");
+			FindObjectOfType<SoundManager>().Play("Throwing");
 		}
 	}
 	private void RockDestroyed()

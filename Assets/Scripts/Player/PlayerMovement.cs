@@ -36,8 +36,7 @@ public class PlayerMovement : MonoBehaviour
             crouch = false;
         }
 
-        if (Input.GetButtonDown("Run")
-            && walk != true)
+        if (Input.GetButtonDown("Run") && jump == false && walk != true && (horizontalMove == 30 || horizontalMove == -30))
         {
             FindObjectOfType<SoundManager>().Stop("Walking"); 
             FindObjectOfType<SoundManager>().Play("Running"); // running hang hivás
@@ -81,6 +80,7 @@ public class PlayerMovement : MonoBehaviour
     {
         animator.SetBool("isCrouching", isCrouching);
         FindObjectOfType<SoundManager>().Play("Crouching"); //crouch hang hivas
+        FindObjectOfType<SoundManager>().Stop("Running"); //crouch hang hivas
     }
 
     public void OnWalking(bool isWalking)
