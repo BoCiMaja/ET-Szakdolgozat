@@ -802,7 +802,7 @@ GameObject:
   - component: {fileID: 233188665}
   - component: {fileID: 233188664}
   - component: {fileID: 233188663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rock-pillar
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -1292,7 +1292,7 @@ GameObject:
   - component: {fileID: 285595464}
   - component: {fileID: 285595463}
   - component: {fileID: 285595465}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: rock-pillar2
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -8359,6 +8359,10 @@ PrefabInstance:
       propertyPath: sounds.Array.data[1].name
       value: Walking
       objectReference: {fileID: 0}
+    - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
+      propertyPath: sounds.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: a395bdac2e8b1bd4686d08ab695d0bee, type: 3}
     - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
       propertyPath: sounds.Array.data[4].loop
       value: 0
