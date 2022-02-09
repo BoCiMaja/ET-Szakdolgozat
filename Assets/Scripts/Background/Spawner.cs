@@ -9,6 +9,7 @@ public abstract class Spawner : MonoBehaviour
     public string sortingLayer = "PlayArea";
     public float pixelsPerUnit = 100f;
     public Texture2D[] spawnImages;
+    public int orderInLayer = 0;
 
 
     [Range(1, 18)]
@@ -32,6 +33,7 @@ public abstract class Spawner : MonoBehaviour
             pixelsPerUnit);
 
         spriteRenderer.sortingLayerName = sortingLayer;
+        spriteRenderer.sortingOrder = orderInLayer;
 
         //TODO: biztos van szebb megoldas
         Shader shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Lit-Default");
