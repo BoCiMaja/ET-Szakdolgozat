@@ -15,8 +15,6 @@ public abstract class Spawner : MonoBehaviour
     public float verticalMovementIntensity = 12;
 
 
-    protected float despawnMaxPositionX;
-
     protected IEnumerable<GameObject> spawnedObjects;
 
     protected GameObject SpawnObject(Vector3 position, Texture2D texture)
