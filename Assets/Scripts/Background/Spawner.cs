@@ -2,140 +2,47 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Spawner : MonoBehaviour
+public abstract class Spawner : MonoBehaviour
 {
-    public GameObject cloudLayer;
-
-    private Texture2D nextImage;
+    [Header("Layer")]
+    public GameObject layer;
+    public string sortingLayer = "PlayArea";
     public float pixelsPerUnit = 100f;
+    public Texture2D[] spawnImages;
+
 
     [Range(1, 18)]
     public float verticalMovementIntensity = 12;
 
-    private GameObject previousCloud;
 
-    private float expectedDistance;
-    private float despawnMaxPositionX;
+    protected float despawnMaxPositionX;
 
-    [SerializeField]
-    [Range(0.2f, 8.00f)]
-    public float density = 0.65f;
+    protected IEnumerable<GameObject> spawnedObjects;
 
-    public Texture2D[] spawnImages;
-    private Queue<GameObject> spawnedObjects;
-
-    public string sortingLayer;
-
-    // Start is called before the first frame update
-    void Start()
+    protected GameObject SpawnObject(Vector3 position, Texture2D texture)
     {
-        spawnedObjects = new Queue<GameObject>();
-        expectedDistance = 0;
-        InitializeCloudsInScreen();
-        InitializeDespawnPosition();
-    }
+        GameObject spawnedObject = new GameObject(texture.name);
+        spawnedObject.transform.position = position;
+        spawnedObject.transform.SetParent(layer.transform);
 
-    private void InitializeDespawnPosition()
-    {
-        float cameraSize = Camera.main.orthographicSize * Camera.main.aspect;
-        float cameraMinXPosition = Camera.main.GetComponent<CameraMovement>().minX;
-        float cameraMinX = cameraMinXPosition - cameraSize;
+        SpriteRenderer spriteRenderer = spawnedObject.AddComponent<SpriteRenderer>() as SpriteRenderer;
 
-        float maxImageWidth = spawnImages[0].width;
-        foreach (Texture2D image in spawnImages)
-        {
-            if (maxImageWidth < image.width) maxImageWidth = image.width;
-        }
+        spriteRenderer.sprite = Sprite.Create(
+            texture,
+            new Rect(0, 0, texture.width, texture.height),
+            new Vector2(0.5f, 0.5f),
+            pixelsPerUnit);
 
-        despawnMaxPositionX = cameraMinX - maxImageWidth * 0.75f / pixelsPerUnit;
-
-        //Debug.Log(despawnMaxPositionX);
-    }
-
-    private void InitializeCloudsInScreen()
-    {
-        nextImage = spawnImages[Random.Range(0, spawnImages.Length)];
-        float cameraHalfWidth = Camera.main.orthographicSize * Camera.main.aspect;
-        Vector3 spawnPosition = new Vector3(-cameraHalfWidth, transform.position.y, transform.position.z);
-
-        while (spawnPosition.x <= transform.position.x)
-        {
-            SpawnObject(spawnPosition, nextImage);
-            spawnPosition.x += nextImage.width / pixelsPerUnit * density;
-        }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        float distance = transform.position.x - previousCloud.transform.position.x;
-
-        if ( distance >= expectedDistance)
-        {
-            SpawnObject(transform.position, nextImage);
-        }
-
-        despawnIfOutOfPlaySpace();
-    }
-
-    private void despawnIfOutOfPlaySpace()
-    {
-        if(spawnedObjects.Peek().transform.position.x < despawnMaxPositionX)
-        {
-            GameObject objectToDestroy = spawnedObjects.Dequeue();
-            Object.Destroy(objectToDestroy);
-        }
-    }
-
-    void SpawnObject(Vector3 position, Texture2D spawnObject)
-    {
-        GameObject cloud = createCloudGameObject(position);
-        spawnedObjects.Enqueue(cloud);
-        previousCloud = cloud;
-
-        GetTheNewTextureImage();
-
-        CalculateExpectedDistance();
-    }
-
-    private GameObject createCloudGameObject(Vector3 position)
-    {
-        GameObject cloud = new GameObject(nextImage.name);
-        cloud.transform.position = position;
-        cloud.transform.SetParent(cloudLayer.transform);
-
-        SpriteRenderer spriteRenderer = cloud.AddComponent<SpriteRenderer>() as SpriteRenderer;
-
-        Sprite tempSprite = Sprite.Create(nextImage, new Rect(0, 0, nextImage.width, nextImage.height), new Vector2(0.5f, 0.5f), pixelsPerUnit);
-        spriteRenderer.sprite = tempSprite;
         spriteRenderer.sortingLayerName = sortingLayer;
 
         //TODO: biztos van szebb megoldas
         Shader shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Lit-Default");
-        Material material = new Material(shader);
-        spriteRenderer.material = material;
+        spriteRenderer.material = new Material(shader);
         //
 
-        VerticalMovement component = cloud.AddComponent<VerticalMovement>();
+        VerticalMovement component = spawnedObject.AddComponent<VerticalMovement>();
         component.intensity = verticalMovementIntensity;
 
-        return cloud;
-    }
-
-    private void GetTheNewTextureImage()
-    {
-        Texture2D tempImage;
-        do
-        {
-            tempImage = spawnImages[Random.Range(0, spawnImages.Length)];
-        }
-        while (tempImage == nextImage);
-        nextImage = tempImage;
-    }
-
-    private void CalculateExpectedDistance()
-    {
-        float previousImageSize = previousCloud.GetComponent<SpriteRenderer>().sprite.bounds.size.x;
-        expectedDistance = (previousImageSize / 2 + nextImage.width / pixelsPerUnit / 2) * density;
+        return spawnedObject;
     }
 }
