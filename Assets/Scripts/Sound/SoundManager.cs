@@ -55,6 +55,14 @@ public class SoundManager : MonoBehaviour
         s.source.Stop();
     }
 
+    public void Pause(string name)
+    {
+        Sound s = Array.Find(sounds, sound => sound.name == name);
+        if (s == null)
+            return;
+        s.source.Pause();
+    }
+
     //public void StopPlaying(string sound) // for stopping the BGM or Floating f.e.
     //{
     //    Sound s = Array.Find(sounds, item => item.name == sound);

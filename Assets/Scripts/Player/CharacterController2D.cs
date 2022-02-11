@@ -120,7 +120,7 @@ public class CharacterController2D : MonoBehaviour
 			Physics2D.gravity = new Vector2(0, -0.8f);
 			jump = false;
 			floating = true;
-			FindObjectOfType<SoundManager>().Stop("Running"); // running hang hivás
+			FindObjectOfType<SoundManager>().Pause("Running"); // running hang hivás
 			animator.SetBool("isJumping", false);
 			animator.SetBool("isFloating", true);
 		}
@@ -135,8 +135,8 @@ public class CharacterController2D : MonoBehaviour
 		if (Input.GetButtonDown("Jump") && extraJump > 0) {
 			CreateDust();
 			FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
-			FindObjectOfType<SoundManager>().Stop("Walking");
-			FindObjectOfType<SoundManager>().Stop("Running");
+			FindObjectOfType<SoundManager>().Pause("Walking");
+			FindObjectOfType<SoundManager>().Pause("Running");
 			jump = true;
 			animator.SetBool("isJumping", true);
 			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
