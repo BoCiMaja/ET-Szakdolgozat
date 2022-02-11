@@ -18,7 +18,6 @@ public class CheckpointMaster : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
 
     public static CheckpointMaster GetInstance()

@@ -9,6 +9,7 @@ public class MenuController : MonoBehaviour
     [Header("Levels To Load")]
     public string newGameScene;
     private string levelToLoad;
+
     private void Awake()
     {
         FindObjectOfType<SoundManager>().Stop("BGM");

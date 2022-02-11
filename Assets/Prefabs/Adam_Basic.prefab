@@ -4883,7 +4883,6 @@ GameObject:
   - component: {fileID: 1778223546958741219}
   - component: {fileID: 1778223546958741218}
   - component: {fileID: 1778223546958741216}
-  - component: {fileID: 1778223546958741231}
   - component: {fileID: 1778223546958741230}
   m_Layer: 0
   m_Name: Adam_Basic
@@ -5167,7 +5166,7 @@ MonoBehaviour:
   extraJumpValue: 1
   animator: {fileID: 1778223546958741220}
   dust: {fileID: 1778223545256266979}
-  sound: {fileID: 1778223546958741231}
+  sound: {fileID: 0}
   playerMovement: {fileID: 1778223546958741218}
   wallClimbing: {fileID: 1778223546958741230}
   rockPrefab: {fileID: 5036474341563434967, guid: 37b37dbb3cfb58a4f92997a9d45023a8, type: 3}
@@ -5202,20 +5201,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed2d91bb7ef3cb1488e7f09ea04f425f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1778223546958741231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778223546958741018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48ce675e4e2e3a6459a3465126599e28, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  musicSource: {fileID: 0}
-  effectSource: {fileID: 0}
 --- !u!114 &1778223546958741230
 MonoBehaviour:
   m_ObjectHideFlags: 0
