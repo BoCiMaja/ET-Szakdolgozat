@@ -2263,7 +2263,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 1778223546464429927}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495622525}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ed2d91bb7ef3cb1488e7f09ea04f425f, type: 3}
   m_Name: 
@@ -8482,6 +8482,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adam_Basic
       objectReference: {fileID: 0}
+    - target: {fileID: 1778223546958741216, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
 --- !u!1001 &2488131381050177170
@@ -8579,10 +8583,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7295966886186279602, guid: 15993316413c62143b32f3a0757be533, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 495622535}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 15993316413c62143b32f3a0757be533, type: 3}
 --- !u!1001 &5172354987635733783
