@@ -11,18 +11,14 @@ public abstract class Spawner : MonoBehaviour
     public Texture2D[] spawnImages;
     public int orderInLayer = 0;
 
-
-    [Range(1, 18)]
-    public float verticalMovementIntensity = 12;
-
-
     protected IEnumerable<GameObject> spawnedObjects;
 
     protected GameObject SpawnObject(Vector3 position, Texture2D texture)
     {
         GameObject spawnedObject = new GameObject(texture.name);
         spawnedObject.transform.position = position;
-        spawnedObject.transform.SetParent(layer.transform);
+        if(layer != null)
+            spawnedObject.transform.SetParent(layer.transform);
 
         SpriteRenderer spriteRenderer = spawnedObject.AddComponent<SpriteRenderer>() as SpriteRenderer;
 
@@ -39,9 +35,6 @@ public abstract class Spawner : MonoBehaviour
         Shader shader = Shader.Find("Universal Render Pipeline/2D/Sprite-Lit-Default");
         spriteRenderer.material = new Material(shader);
         //
-
-        VerticalMovement component = spawnedObject.AddComponent<VerticalMovement>();
-        component.intensity = verticalMovementIntensity;
 
         return spawnedObject;
     }

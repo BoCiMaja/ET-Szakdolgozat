@@ -9,21 +9,35 @@ public class CloudSpawner : Spawner
     [Range(0.2f, 8.00f)]
     public float density = 0.65f;
 
+    [Header("Cloud Settings")]
+    [Range(1, 18)]
+    public float verticalMovementIntensity = 12;
+
     [Header("Destroy Settings")]
     public Transform despawnTransform;
 
+    //Private variables
     private float expectedDistance;
     private GameObject previousCloud;
     private Texture2D nextImage;
 
     private float distance = 0;
 
-
     private void Start()
     {
+        if (layer == null)
+            Debug.LogError("The layer cannot be null!");
+
+        ScrollElements scrollComponent = layer.GetComponent<ScrollElements>();
+        
         spawnedObjects = new Queue<GameObject>();
         expectedDistance = 0;
         InitializeCloudsInScreen();
+
+        if (scrollComponent != null)
+            scrollComponent.SetChildrenElements(spawnedObjects as Queue<GameObject>);
+        else
+            Debug.LogError("The layer must be contains a ScrollElements script!");
     }
 
     private void Update()
@@ -56,6 +70,8 @@ public class CloudSpawner : Spawner
         GameObject cloud = SpawnObject(position, textureToSpawn);
         (spawnedObjects as Queue<GameObject>).Enqueue(cloud);
         previousCloud = cloud;
+
+        cloud.AddComponent<VerticalMovement>().intensity = verticalMovementIntensity;
 
         SetTheNewTextureImage();
 

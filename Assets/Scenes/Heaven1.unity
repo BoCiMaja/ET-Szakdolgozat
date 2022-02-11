@@ -533,8 +533,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: ddd33c624faaee048844c4bed4aaed23, type: 3}
   - {fileID: 2800000, guid: 0e308dd1cc2a24b47b848f915551116c, type: 3}
   orderInLayer: 0
-  verticalMovementIntensity: 12
   density: 0.65
+  verticalMovementIntensity: 12
   despawnTransform: {fileID: 1238952576}
 --- !u!1 &163974328
 GameObject:
@@ -2266,8 +2266,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 515014892}
-  - component: {fileID: 515014891}
   - component: {fileID: 515014890}
+  - component: {fileID: 515014893}
   m_Layer: 0
   m_Name: CloudLayer2
   m_TagString: Untagged
@@ -2290,19 +2290,6 @@ MonoBehaviour:
   camera: {fileID: 1418009017}
   parallaxEffect: {x: 0.12, y: 0.12}
   parallaxEffectVector: {x: 0.12, y: 0.12}
---- !u!114 &515014891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 515014889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe946a803fe42c49a1a545985013124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.07
 --- !u!4 &515014892
 Transform:
   m_ObjectHideFlags: 0
@@ -2317,6 +2304,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &515014893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 515014889}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f372d86910b07c41bf572f6a3cd938e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.07
 --- !u!1 &538004909
 GameObject:
   m_ObjectHideFlags: 0
@@ -2850,8 +2850,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 627531662}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 177.7353, y: 18.5362, z: 24.999998}
-  m_LocalScale: {x: 6.4539104, y: 4.502148, z: 1}
+  m_LocalPosition: {x: 177.7353, y: 14.291, z: 24.999998}
+  m_LocalScale: {x: 6.4539104, y: 5.2882233, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
@@ -3679,8 +3679,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 6d8eec91659492040b9c134dacbd8c8e, type: 3}
   - {fileID: 2800000, guid: 9c6c86e705724ac40892ed5cca897a91, type: 3}
   orderInLayer: 0
-  verticalMovementIntensity: 12
   density: 0.65
+  verticalMovementIntensity: 12
   despawnTransform: {fileID: 1459916072}
 --- !u!114 &908958933
 MonoBehaviour:
@@ -5029,8 +5029,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: ddd33c624faaee048844c4bed4aaed23, type: 3}
   - {fileID: 2800000, guid: 0e308dd1cc2a24b47b848f915551116c, type: 3}
   orderInLayer: 0
-  verticalMovementIntensity: 12
   density: 0.65
+  verticalMovementIntensity: 12
   despawnTransform: {fileID: 759374273}
 --- !u!1 &1267590093
 GameObject:
@@ -5381,8 +5381,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1334818510}
-  - component: {fileID: 1334818509}
   - component: {fileID: 1334818508}
+  - component: {fileID: 1334818511}
   m_Layer: 0
   m_Name: CloudLayerBack
   m_TagString: Untagged
@@ -5405,19 +5405,6 @@ MonoBehaviour:
   camera: {fileID: 1418009017}
   parallaxEffect: {x: 0.28, y: 0.28}
   parallaxEffectVector: {x: 0.28, y: 0.28}
---- !u!114 &1334818509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1334818507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe946a803fe42c49a1a545985013124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.01
 --- !u!4 &1334818510
 Transform:
   m_ObjectHideFlags: 0
@@ -5432,6 +5419,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1334818511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334818507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f372d86910b07c41bf572f6a3cd938e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.01
 --- !u!1 &1354968940
 GameObject:
   m_ObjectHideFlags: 0
@@ -5823,8 +5823,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 6d8eec91659492040b9c134dacbd8c8e, type: 3}
   - {fileID: 2800000, guid: 9c6c86e705724ac40892ed5cca897a91, type: 3}
   orderInLayer: 0
-  verticalMovementIntensity: 12
   density: 0.65
+  verticalMovementIntensity: 12
   despawnTransform: {fileID: 759374273}
 --- !u!114 &1459916074
 MonoBehaviour:
@@ -6147,8 +6147,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1521887688}
-  - component: {fileID: 1521887687}
   - component: {fileID: 1521887686}
+  - component: {fileID: 1521887689}
   m_Layer: 0
   m_Name: CloudLayer1
   m_TagString: Untagged
@@ -6171,19 +6171,6 @@ MonoBehaviour:
   camera: {fileID: 1418009017}
   parallaxEffect: {x: 0.08, y: 0.08}
   parallaxEffectVector: {x: 0.08, y: 0.08}
---- !u!114 &1521887687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1521887685}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4fe946a803fe42c49a1a545985013124, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 0.03
 --- !u!4 &1521887688
 Transform:
   m_ObjectHideFlags: 0
@@ -6198,6 +6185,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1521887689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1521887685}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f372d86910b07c41bf572f6a3cd938e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0.03
 --- !u!1 &1544565538
 GameObject:
   m_ObjectHideFlags: 0
@@ -7342,8 +7342,8 @@ MonoBehaviour:
   - {fileID: 2800000, guid: dfaf279ca3e045c4fafed73f3eb094c7, type: 3}
   - {fileID: 2800000, guid: 34f0182e12d011b44a6877f298c928bd, type: 3}
   orderInLayer: 0
-  verticalMovementIntensity: 12
-  density: 1.76
+  density: 1.85
+  verticalMovementIntensity: 18
   despawnTransform: {fileID: 759374273}
 --- !u!1 &1835659126
 GameObject:
