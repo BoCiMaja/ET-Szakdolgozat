@@ -25,8 +25,8 @@ public abstract class Interactable : MonoBehaviour
         if(!collider)
         {
             CircleCollider2D circleCollider2D = gameObject.AddComponent<CircleCollider2D>();
-        circleCollider2D.radius = radius;
-        circleCollider2D.isTrigger = true;
+            circleCollider2D.radius = radius;
+            circleCollider2D.isTrigger = true;
         }
     }        
 

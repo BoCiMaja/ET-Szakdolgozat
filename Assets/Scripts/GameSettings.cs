@@ -117,7 +117,6 @@ public class GameSettings : MonoBehaviour
         SettingsData.GetInstance().CurrentBrightness = brightness;
         
         Light2D[] lights = FindObjectsOfType<Light2D>();
-
         if(lights.Length > 0)
             GraphicsLoaderManager.setBrigthnessToLights(lights, SettingsData.GetInstance().CurrentBrightness);
     }

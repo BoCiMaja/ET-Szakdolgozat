@@ -9,11 +9,15 @@ public class PlayerData
         
     }
 
+    Vector3 position;
+    public Vector3 Position;
+
     public static PlayerData LoadPlayerData()
     {
         //instance változtatása 
         return null;
     }
+
 
     //Inventory
     //Player
