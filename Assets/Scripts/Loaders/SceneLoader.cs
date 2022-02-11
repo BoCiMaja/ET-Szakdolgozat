@@ -27,6 +27,11 @@ public static class SceneLoader
         SceneManager.LoadScene(sceneToLoad);
     }
 
+    public static void ReloadCurrentScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
     private static async void LoadWithLoadingScreenAsync(string sceneToLoad)
     {
         var scene = SceneManager.LoadSceneAsync(sceneToLoad);

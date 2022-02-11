@@ -19,6 +19,22 @@ public class CheckpointMaster : MonoBehaviour
             Destroy(gameObject);
         }
 
-     }
     }
+
+    public static CheckpointMaster GetInstance()
+    {
+        return instance;
+    }
+
+    public void SetCheckpointPlayerPosition(Transform tr)
+    {
+        lastCheckPointPos = tr.position;
+        Debug.Log(lastCheckPointPos);
+    }
+
+    public void ReloadLastCheckpoint()
+    {
+        SceneLoader.ReloadCurrentScene();
+    }
+}
 

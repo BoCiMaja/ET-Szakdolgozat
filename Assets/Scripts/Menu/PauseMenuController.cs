@@ -60,6 +60,13 @@ public class PauseMenuController : MonoBehaviour
         isPaused = true;
     }
 
+    public void LoadLastCheckpoint()
+    {
+        CheckpointMaster.GetInstance().ReloadLastCheckpoint();
+        Time.timeScale = 1;
+    }
+
+
     public void LoadMainMenu()
     {
         SceneLoader.LoadMainMenu();

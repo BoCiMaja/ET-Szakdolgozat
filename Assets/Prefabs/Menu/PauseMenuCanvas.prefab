@@ -120,20 +120,8 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5172354986065292213, guid: 5aa289da80bca5a43938576ec89187a4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5172354986065292213, guid: 5aa289da80bca5a43938576ec89187a4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 5172354986065292213, guid: 5aa289da80bca5a43938576ec89187a4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: ReloadLastCheckpoint
-      objectReference: {fileID: 0}
-    - target: {fileID: 5172354986065292213, guid: 5aa289da80bca5a43938576ec89187a4, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: PlayerPos, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 5172354986065292213, guid: 5aa289da80bca5a43938576ec89187a4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
