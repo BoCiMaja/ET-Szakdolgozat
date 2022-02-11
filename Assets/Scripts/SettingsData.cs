@@ -85,6 +85,19 @@ public class SettingsData
     #endregion
 
     //Audio
+    #region Audio
+    private float mainVolume = -20.0f;
+    public float MainVolume { get { return mainVolume; } set { mainVolume = value; } }
+
+    private float musicVolume = -20.0f;
+    public float MusicVolume { get { return musicVolume; } set { musicVolume = value; } }
+
+    private float effectsVolume = -20.0f;
+    public float EffectsVolume { get { return effectsVolume; } set { effectsVolume = value; } }
+
+
+
+    #endregion
     //Controls - Keyboard
     //Controls Controller
 }
