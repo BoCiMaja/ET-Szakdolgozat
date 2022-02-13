@@ -10,9 +10,10 @@ public class MenuController : MonoBehaviour
     public string newGameScene;
     private string levelToLoad;
 
-    private void Awake()
+    private void Start()
     {
-        FindObjectOfType<SoundManager>().Stop("BGM");
+        SoundManager.GetInstance().Play("MenuBGM");
+        SoundManager.GetInstance().Stop("BGM");
     }
 
     [SerializeField] private GameObject noSavedGameDialog = null;
@@ -20,11 +21,15 @@ public class MenuController : MonoBehaviour
     public void LoadNewGameLevel()
     {
         SceneLoader.LoadNewGame(newGameScene);
+        SoundManager.GetInstance().Play("BGM");
+        SoundManager.GetInstance().Stop("MenuBGM");
     }
 
     public void LoadSavedGame()
     {
         noSavedGameDialog.SetActive(true);
+        SoundManager.GetInstance().Play("BGM");
+        SoundManager.GetInstance().Stop("MenuBGM");
     }
 
     public void QuitGame()

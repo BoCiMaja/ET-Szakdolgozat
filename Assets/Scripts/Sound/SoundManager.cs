@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Audio;
 using UnityEngine;
 using System;
+using UnityEngine.SceneManagement;
 
 public class SoundManager : MonoBehaviour
 {
@@ -48,9 +49,17 @@ public class SoundManager : MonoBehaviour
         }
     }
 
-    private void Start()
+    public static SoundManager GetInstance()
     {
-        Play("BGM");
+        return instance;
+    }
+
+    public void Start()
+    {
+        if(SceneManager.GetActiveScene().name != "MainMenu")
+        {
+            Play("BGM");
+        }
     }
 
     public void Play(string name)
