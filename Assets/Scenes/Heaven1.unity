@@ -8244,7 +8244,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 103877617609540862, guid: 99278b04e0b8be941877eaf764425839, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 103877618180342732, guid: 99278b04e0b8be941877eaf764425839, type: 3}
       propertyPath: m_IsActive
@@ -8729,6 +8729,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
+      propertyPath: musicMixerGroup
+      value: 
+      objectReference: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
+    - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
+      propertyPath: effectsMixerGroup
+      value: 
+      objectReference: {fileID: -3176401795520974864, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
+    - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
       propertyPath: sounds.Array.size
       value: 6
       objectReference: {fileID: 0}
@@ -8791,6 +8799,10 @@ PrefabInstance:
     - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
       propertyPath: sounds.Array.data[5].volume
       value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
+      propertyPath: sounds.Array.data[5].audioType
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}

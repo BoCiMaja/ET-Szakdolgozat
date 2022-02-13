@@ -11,7 +11,8 @@ public class SoundManager : MonoBehaviour
 
     public static SoundManager instance;
 
-
+    [SerializeField] private AudioMixerGroup musicMixerGroup;
+    [SerializeField] private AudioMixerGroup effectsMixerGroup;
 
     private void Awake()
     {
@@ -29,6 +30,17 @@ public class SoundManager : MonoBehaviour
            s.source = gameObject.AddComponent<AudioSource>();
             s.source.clip = s.clip;
             s.source.loop = s.loop;
+            s.source.volume = s.volume;
+
+            switch (s.audioType)
+            {
+                case Sound.AudioTypes.effects:
+                    s.source.outputAudioMixerGroup = effectsMixerGroup;
+                    break;
+                case Sound.AudioTypes.music:
+                    s.source.outputAudioMixerGroup = musicMixerGroup;
+                    break;
+            }
         }
     }
 
@@ -43,8 +55,6 @@ public class SoundManager : MonoBehaviour
         if (s == null)
             return;
         s.source.Play();
-        s.source.volume = s.volume;
-        s.source.pitch = s.pitch;
     }
 
     public void Stop(string name)
