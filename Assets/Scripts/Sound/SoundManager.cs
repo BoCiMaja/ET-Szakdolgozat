@@ -13,6 +13,7 @@ public class SoundManager : MonoBehaviour
 
     [SerializeField] private AudioMixerGroup musicMixerGroup;
     [SerializeField] private AudioMixerGroup effectsMixerGroup;
+    [SerializeField] private AudioMixerGroup masterMixerGroup;
 
     private void Awake()
     {
@@ -34,6 +35,9 @@ public class SoundManager : MonoBehaviour
 
             switch (s.audioType)
             {
+                case Sound.AudioTypes.master:
+                    s.source.outputAudioMixerGroup = masterMixerGroup;
+                    break;
                 case Sound.AudioTypes.effects:
                     s.source.outputAudioMixerGroup = effectsMixerGroup;
                     break;
@@ -71,6 +75,13 @@ public class SoundManager : MonoBehaviour
         if (s == null)
             return;
         s.source.Pause();
+    }
+
+    public void UpdateMixerVolume()
+    {
+        musicMixerGroup.audioMixer.SetFloat("Music Volume", Mathf.Log10(AudioOptionsManager.musicVolume) * 20);
+        masterMixerGroup.audioMixer.SetFloat("Master Volume", Mathf.Log10(AudioOptionsManager.masterVolume) * 20);
+        effectsMixerGroup.audioMixer.SetFloat("Effects Volume", Mathf.Log10(AudioOptionsManager.effectsVolume) * 20);
     }
 
     //public void StopPlaying(string sound) // for stopping the BGM or Floating f.e.

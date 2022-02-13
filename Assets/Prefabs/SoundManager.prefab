@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7699205456995314010}
   - component: {fileID: 7699205456995314011}
+  - component: {fileID: -1660876657813868514}
   m_Layer: 0
   m_Name: SoundManager
   m_TagString: Untagged
@@ -44,33 +45,63 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - name: Running
+  - audioType: 1
+    name: Running
     clip: {fileID: 8300000, guid: 453c5a3bf53fbbe48939bddbdd455d89, type: 3}
     volume: 0.16
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Walking
+  - audioType: 1
+    name: Walking
     clip: {fileID: 8300000, guid: c629fbefa75fe724cbb4110db6e82b6f, type: 3}
     volume: 0.16
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Jump
+  - audioType: 1
+    name: Jump
     clip: {fileID: 8300000, guid: e3a5733f240d6974f9e0e7d16ccd1e83, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: Landing
+  - audioType: 1
+    name: Landing
     clip: {fileID: 8300000, guid: b42effe44a945024fa800895fb354812, type: 3}
     volume: 1
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  - name: BGM
+  - audioType: 2
+    name: BGM
     clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
     volume: 0.16
     pitch: 1
     loop: 1
     source: {fileID: 0}
+  - audioType: 2
+    name: MenuBGM
+    clip: {fileID: 8300000, guid: f8d46b95e7bcd2d46bec646fa1290213, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
+  effectsMixerGroup: {fileID: -3176401795520974864, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
+  masterMixerGroup: {fileID: 24300002, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
+--- !u!114 &-1660876657813868514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7699205456995314005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89c88c047fc287945ac94f68a1639bde, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSliderText: {fileID: 0}
+  effectsSliderText: {fileID: 0}
+  masterSliderText: {fileID: 0}

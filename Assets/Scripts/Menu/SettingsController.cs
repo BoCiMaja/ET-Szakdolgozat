@@ -41,11 +41,6 @@ public class SettingsController : MonoBehaviour
         SetFullScreen(fullscreenToggle.isOn);
     }
 
-    private void InitializeSoundsSettingsData()
-    {
-
-    }
-
     //TODO: index szepites
     private void InitializeResolutionDropdown()
     {
@@ -97,28 +92,5 @@ public class SettingsController : MonoBehaviour
     #endregion
 
     #region Audio
-    [SerializeField] Slider mainVolumeSlider;
-    [SerializeField] Slider musicVolumeSlider;
-    [SerializeField] Slider effectsVolumeSlider;
-    public Sound[] sounds;
-
-
-    public void SetVolume(float volume)
-    {
-        audioMixer.SetFloat("volume", volume);
-    }
-
-    public void SetMusicVolume(float volume)
-    {
-        
-        Sound s = Array.Find(sounds, sound => sound.name == "BGM");
-        s.source.volume = musicVolumeSlider.value;
-    }
-
-    public void SetEffectsVolume(float volume)
-    {
-        Sound s = Array.Find(sounds, sound => sound.name == name && sound.name != "BGM");
-        s.source.volume = effectsVolumeSlider.value;
-    }
     #endregion
 }
