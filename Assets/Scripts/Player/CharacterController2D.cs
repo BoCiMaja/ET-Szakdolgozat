@@ -152,7 +152,11 @@ public class CharacterController2D : MonoBehaviour
 
 		if (Input.GetButtonDown("Fire1") && !(ammo <= 0))
 		{
-			Shoot();
+			ThrowSmol();
+		}
+		if (Input.GetButtonDown("Fire2") && !(ammo <= 0))
+		{
+			ThrowBig();
 		}
 		//if (Input.GetButtonDown("Reload")){
 		//	Reload();
@@ -164,13 +168,29 @@ public class CharacterController2D : MonoBehaviour
 		ammo = 5;
 	}
 
-	private void Shoot() //brrrrr
+	private void ThrowSmol() //brrrrr
 	{
 		if (!_rockActive)
 		{
 			Rock rock = Instantiate(this.rockPrefab, this.transform.position, Quaternion.identity); //no rotation = Quaternion.identity
             if(!m_FacingRight)
             {
+				rock.direction = rock.direction * -1;
+			}
+			rock.destroyed += RockDestroyed;
+			_rockActive = true;
+			animator.SetTrigger("isThrowing");
+			FindObjectOfType<SoundManager>().Play("Throwing");
+		}
+	}
+	private void ThrowBig() //brrrrr
+	{
+		if (!_rockActive)
+		{
+			Rock rock = Instantiate(this.rockPrefab, this.transform.position, Quaternion.identity); //no rotation = Quaternion.identity
+			rock.direction = rock.direction * 2;
+			if (!m_FacingRight)
+			{
 				rock.direction = rock.direction * -1;
 			}
 			rock.destroyed += RockDestroyed;

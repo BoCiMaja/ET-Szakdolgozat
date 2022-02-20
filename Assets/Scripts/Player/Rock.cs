@@ -6,14 +6,15 @@ public class Rock : MonoBehaviour
 {
     public Vector3 offset;
     public Vector3 direction;
+    public Vector3 adjustedThrow;
 
     public float speed;
     public System.Action destroyed;
 
     private void Start()
     {
-        var adjustedThrow = direction + Vector3.up;
-        GetComponent<Rigidbody2D>().AddForce(adjustedThrow * speed, ForceMode2D.Impulse);
+        adjustedThrow = direction + Vector3.up;
+            GetComponent<Rigidbody2D>().AddForce(adjustedThrow * speed, ForceMode2D.Impulse);
         transform.Translate(offset);
     }
     private void Update()
