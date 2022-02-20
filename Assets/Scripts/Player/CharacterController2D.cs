@@ -154,9 +154,9 @@ public class CharacterController2D : MonoBehaviour
 		{
 			Shoot();
 		}
-		if (Input.GetButtonDown("Reload")){
-			Reload();
-		}
+		//if (Input.GetButtonDown("Reload")){
+		//	Reload();
+		//}
 	}
 
 	private void Reload()
@@ -196,6 +196,10 @@ public class CharacterController2D : MonoBehaviour
 			{
 				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 			}
+		}
+        if (collision.CompareTag("RockCollection"))
+		{
+			Reload();
 		}
 	}
 

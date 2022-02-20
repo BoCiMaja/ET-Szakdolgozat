@@ -11,6 +11,7 @@ TagManager:
   - Wall
   - Enemy
   - NoClimbWall
+  - RockCollection
   layers:
   - Default
   - TransparentFX
