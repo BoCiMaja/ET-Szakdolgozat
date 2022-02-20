@@ -73,6 +73,13 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - audioType: 1
+    name: Throwing
+    clip: {fileID: 8300000, guid: a395bdac2e8b1bd4686d08ab695d0bee, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
   - audioType: 2
     name: BGM
     clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
