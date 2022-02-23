@@ -25,7 +25,6 @@ public class GameSettings : MonoBehaviour
             SettingsData instance = SettingsData.GetInstance();
 
             resolutions = new List<Resolution>();
-
             SetResolutions();
 
             //Beolvasás
