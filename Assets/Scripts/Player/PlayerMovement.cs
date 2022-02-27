@@ -28,44 +28,48 @@ public class PlayerMovement : MonoBehaviour
         horizontalMove =  Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        if (Input.GetButtonDown("Crouch"))
-        {
-            crouch = true;
-        } else if (Input.GetButtonUp("Crouch"))
-        {
-            crouch = false;
-        }
+        //if (Input.GetButtonDown("Crouch"))
+        //{
+        //    crouch = true;
+        //} else if (Input.GetButtonUp("Crouch"))
+        //{
+        //    crouch = false;
+        //}
 
-        if (Input.GetButtonDown("Run") && jump == false && walk != true && (horizontalMove == 30 || horizontalMove == -30))
+        if (Input.GetButtonDown("Run") && jump == false && walk == false)
         {
+            runSpeed = 30f;
             FindObjectOfType<SoundManager>().Stop("Walking"); 
-            FindObjectOfType<SoundManager>().Play("Running"); // running hang hivás
+            FindObjectOfType<SoundManager>().Play("Running");
         }
         else if (Input.GetButtonUp("Run") || runSpeed == 0f){
-            FindObjectOfType<SoundManager>().Stop("Running"); // running hang hivás
+            FindObjectOfType<SoundManager>().Stop("Running");
         }
-        if (Input.GetButtonDown("Walk") || Input.GetKeyDown(KeyCode.LeftShift))
+        if (Input.GetButtonDown("Walk") && Input.GetButton("Run"))
         {
             walk = true;
             runSpeed = 20f;
-            FindObjectOfType<SoundManager>().Play("Walking"); //walk hang hivas
+            FindObjectOfType<SoundManager>().Play("Walking");
             FindObjectOfType<SoundManager>().Stop("Running");
 
         }
-        else if (Input.GetButtonUp("Walk") || Input.GetKeyUp(KeyCode.LeftShift))
+        else if (Input.GetButtonUp("Walk"))
         {
             walk = false;
-            runSpeed = 30f;
             FindObjectOfType<SoundManager>().Stop("Walking");
+            if(runSpeed > 0f && Input.GetButton("Run"))
+            {
+                runSpeed = 30f;
+                FindObjectOfType<SoundManager>().Play("Running");
+            }
         }
 
     }
 
     private void FixedUpdate()
     {
-        jump = false;
         // MOVE
-        controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump, walk);
+        controller.Move(horizontalMove * Time.fixedDeltaTime, jump, walk);
     }
 
     public void OnLanding()
@@ -74,14 +78,19 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isJumping", false);
         animator.SetBool("jumpedAlready", false);
         animator.SetBool("isFloating", false);
+        if (runSpeed > 0f && Input.GetButton("Run"))
+        {
+            runSpeed = 30f;
+            FindObjectOfType<SoundManager>().Play("Running");
+        }
     }
 
-    public void OnCrouching(bool isCrouching)
-    {
-        animator.SetBool("isCrouching", isCrouching);
-        FindObjectOfType<SoundManager>().Play("Crouching"); //crouch hang hivas
-        FindObjectOfType<SoundManager>().Stop("Running"); //crouch hang hivas
-    }
+    //public void OnCrouching(bool isCrouching)
+    //{
+    //    animator.SetBool("isCrouching", isCrouching);
+    //    FindObjectOfType<SoundManager>().Play("Crouching"); //crouch hang hivas
+    //    FindObjectOfType<SoundManager>().Stop("Running"); //crouch hang hivas
+    //}
 
     public void OnWalking(bool isWalking)
     {

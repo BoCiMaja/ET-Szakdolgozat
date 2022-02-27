@@ -131,24 +131,8 @@ public class CharacterController2D : MonoBehaviour
 		{
 			extraJump = extraJumpValue;			
         }
-       
-		if (Input.GetButtonDown("Jump") && extraJump > 0) {
-			CreateDust();
-			FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
-			FindObjectOfType<SoundManager>().Pause("Walking");
-			FindObjectOfType<SoundManager>().Pause("Running");
-			jump = true;
-			animator.SetBool("isJumping", true);
-			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
-			if (doubleJumpReady)
-            {
-				DoubleJump();
-			}
-			else
-            {
-				PrepareJump();
-            }
-		}
+
+		Jump();
 
 		if (Input.GetButtonDown("Fire1") && !(ammo <= 0))
 		{
@@ -161,6 +145,28 @@ public class CharacterController2D : MonoBehaviour
 		//if (Input.GetButtonDown("Reload")){
 		//	Reload();
 		//}
+	}
+
+	private void Jump()
+    {
+		if (Input.GetButtonDown("Jump") && extraJump > 0)
+		{
+			CreateDust();
+			FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
+			FindObjectOfType<SoundManager>().Stop("Walking");
+			FindObjectOfType<SoundManager>().Stop("Running");
+			jump = true;
+			animator.SetBool("isJumping", true);
+			m_Rigidbody2D.AddForce(new Vector2(0f, m_JumpForce));
+			if (doubleJumpReady)
+			{
+				DoubleJump();
+			}
+			else
+			{
+				PrepareJump();
+			}
+		}
 	}
 
 	private void Reload()
@@ -246,15 +252,15 @@ public class CharacterController2D : MonoBehaviour
 		doubleJumpReady = false;
 	}
 
-    public void Move(float move, bool crouch, bool jump, bool walk)
+    public void Move(float move, bool jump, bool walk)
 	{
-		if (!crouch)
-		{
-			if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
-			{
-				crouch = true;
-			}
-		}
+		//if (!crouch)
+		//{
+		//	if (Physics2D.OverlapCircle(m_CeilingCheck.position, k_CeilingRadius, m_WhatIsGround))
+		//	{
+		//		crouch = true;
+		//	}
+		//}
 		if (m_Grounded && jump)
 		{
 			m_Grounded = false;
@@ -280,29 +286,29 @@ public class CharacterController2D : MonoBehaviour
 
 		if (m_Grounded || m_AirControl)
 		{
-			if (crouch)
-			{
-				if (!m_wasCrouching)
-				{
-					m_wasCrouching = true;
-					OnCrouchEvent.Invoke(true);
-				}
-				move *= m_CrouchSpeed;
+			//if (crouch)
+			//{
+			//	if (!m_wasCrouching)
+			//	{
+			//		m_wasCrouching = true;
+			//		OnCrouchEvent.Invoke(true);
+			//	}
+			//	move *= m_CrouchSpeed;
 
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = false;
-			}
-			else
-			{
-				if (m_CrouchDisableCollider != null)
-					m_CrouchDisableCollider.enabled = true;
+			//	if (m_CrouchDisableCollider != null)
+			//		m_CrouchDisableCollider.enabled = false;
+			//}
+			//else
+			//{
+			//	if (m_CrouchDisableCollider != null)
+			//		m_CrouchDisableCollider.enabled = true;
 
-				if (m_wasCrouching)
-				{
-					m_wasCrouching = false;
-					OnCrouchEvent.Invoke(false);
-				}
-			}
+			//	if (m_wasCrouching)
+			//	{
+			//		m_wasCrouching = false;
+			//		OnCrouchEvent.Invoke(false);
+			//	}
+			//}
 
 			Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
 			m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref m_Velocity, m_MovementSmoothing);
