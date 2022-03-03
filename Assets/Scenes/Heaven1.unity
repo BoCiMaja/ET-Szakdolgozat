@@ -6097,6 +6097,19 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 103877617609540859, guid: 99278b04e0b8be941877eaf764425839, type: 3}
   m_PrefabInstance: {fileID: 103877618473770306}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1418009025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1418009017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73e284cf80669d04e85aecfd3ae878e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  uiSceneName: UI
 --- !u!1 &1426260485
 GameObject:
   m_ObjectHideFlags: 0
@@ -8761,6 +8774,10 @@ PrefabInstance:
     - target: {fileID: 2488131380186806830, guid: 15993316413c62143b32f3a0757be533, type: 3}
       propertyPath: m_Name
       value: PauseMenuCanvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2488131380186806830, guid: 15993316413c62143b32f3a0757be533, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2488131380186806866, guid: 15993316413c62143b32f3a0757be533, type: 3}
       propertyPath: m_Pivot.x
