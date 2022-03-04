@@ -22,9 +22,21 @@ public static class SceneLoader
         LoadWithLoadingScreenAsync(sceneToLoad);
     }
     
+    //public static void LoadNextScene(string sceneToLoad)
+    //{
+    //    SceneManager.LoadScene(sceneToLoad);
+    //}
+
     public static void LoadNextScene(string sceneToLoad)
     {
-        SceneManager.LoadScene(sceneToLoad);
+        if (SceneManager.GetActiveScene().isLoaded)
+            SceneManager.UnloadSceneAsync(SceneManager.GetActiveScene());
+
+        if (SceneManager.GetSceneByName(sceneToLoad).isLoaded == false)
+        {
+            SceneManager.LoadSceneAsync(sceneToLoad, LoadSceneMode.Additive).completed += operation =>
+                SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneToLoad));
+        }
     }
 
     public static void ReloadCurrentScene()
