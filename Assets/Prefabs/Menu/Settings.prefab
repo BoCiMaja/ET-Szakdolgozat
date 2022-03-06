@@ -46,7 +46,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2633206435983909686}
-  - component: {fileID: 2633206435983909681}
+  - component: {fileID: 7390794664531839683}
   m_Layer: 5
   m_Name: SettingsController
   m_TagString: Untagged
@@ -73,7 +73,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2633206435983909681
+--- !u!114 &7390794664531839683
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,11 +82,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 2633206435983909687}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 70ae660412627154db757c9c42cededf, type: 3}
+  m_Script: {fileID: 11500000, guid: d71c2ab2c3efcac42aa9a0bdc608bd67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioMixer: {fileID: 0}
-  masterVolumeText: {fileID: 0}
   resolutionDropdown: {fileID: 1636842431396463262}
   qualityDropdown: {fileID: 391644792448588853}
   brightnessSlider: {fileID: 7573130568321818887}
@@ -143,6 +141,34 @@ PrefabInstance:
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7390794664531839683}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetDefault
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 1571630899173745931, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 1857819295183292005, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_fontAsset
       value: 
@@ -172,12 +198,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
     - target: {fileID: 3842694166946177300, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3842694166946177300, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2633206435983909681}
+      objectReference: {fileID: 7390794664531839683}
     - target: {fileID: 3842694166946177300, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetBrigthness
+      objectReference: {fileID: 0}
+    - target: {fileID: 3842694166946177300, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3899612087144334492, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_Name
+      value: FullscreenToggle
       objectReference: {fileID: 0}
     - target: {fileID: 3984027097385282246, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_AnchorMax.x
@@ -189,7 +227,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4096157104706237692, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4454713817416013791, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_fontAsset
@@ -219,18 +257,50 @@ PrefabInstance:
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 7390794664531839683}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Apply
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5252394443688972553, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5403734991414739597, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2633206435983909681}
+      objectReference: {fileID: 7390794664531839683}
     - target: {fileID: 5403734991414739597, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetResolution
       objectReference: {fileID: 0}
+    - target: {fileID: 5403734991414739597, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 5630758613655258303, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2633206435983909681}
+      objectReference: {fileID: 0}
     - target: {fileID: 5630758613655258303, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetVolume
@@ -262,10 +332,14 @@ PrefabInstance:
     - target: {fileID: 6423735065380133926, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2633206435983909681}
+      objectReference: {fileID: 7390794664531839683}
     - target: {fileID: 6423735065380133926, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetQuality
+      objectReference: {fileID: 0}
+    - target: {fileID: 6423735065380133926, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6587075842135480013, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_fontAsset
@@ -287,21 +361,49 @@ PrefabInstance:
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 7390794664531839683}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: Back
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7694075593740801740, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7913038675816235147, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_fontAsset
       value: 
       objectReference: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
     - target: {fileID: 7958569738529693864, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.79999995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958569738529693864, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7958569738529693864, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0.79999995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8701465279916155602, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_Pivot.x
@@ -389,19 +491,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8963271491875278180, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0.79999995
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8963271491875278180, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9009903008780487189, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 2633206435983909681}
+      objectReference: {fileID: 7390794664531839683}
     - target: {fileID: 9009903008780487189, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SetFullScreen
+      objectReference: {fileID: 0}
+    - target: {fileID: 9009903008780487189, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
+      propertyPath: onValueChanged.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIGraphicsSettingsController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 9168964271467435110, guid: 38799bfdaf37afb4087797b532ab63c7, type: 3}
       propertyPath: m_fontAsset

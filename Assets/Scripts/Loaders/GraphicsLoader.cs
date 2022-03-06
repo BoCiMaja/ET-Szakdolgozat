@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public static class GraphicsLoaderManager
+public static class GraphicsLoader
 {
 
     #region Brightness

@@ -36,6 +36,7 @@ public class GameSettings : MonoBehaviour
                 //Vagy paraméter nélkül legyen?
                 InitializeDefaultGraphicsDatas(instance);
             }
+            //}
         }
     }
 
@@ -45,107 +46,102 @@ public class GameSettings : MonoBehaviour
     {
     }
 
-    public void LoadSettingsData()
-    {
-
-    }
-
-    public static void SetSettingsDataInScenes()
-    {
-        SetGraphicsSettingsInScenes();
-        //SetSoundsSettingsInScenes
-    }
-
-    private void SetResolutions()
-    {
-        resolutions.Clear();
-
-        Resolution[] tempScreenResolutions = Screen.resolutions;
-
-        for (int i = 0; i < tempScreenResolutions.Length; i++)
+        public static void SetSettingsDataInScenes()
         {
-            if (checkAspectRatio(tempScreenResolutions[i]))
+            SetGraphicsSettingsInScenes();
+            //SetSoundsSettingsInScenes
+        }
+
+        private void SetResolutions()
+        {
+            resolutions.Clear();
+
+            Resolution[] tempScreenResolutions = Screen.resolutions;
+
+            for (int i = 0; i < tempScreenResolutions.Length; i++)
             {
-                resolutions.Add(tempScreenResolutions[i]);
+                if (checkAspectRatio(tempScreenResolutions[i]))
+                {
+                    resolutions.Add(tempScreenResolutions[i]);
+                }
             }
+
+            if (resolutions.Count <= 0)
+                resolutions.AddRange(tempScreenResolutions);
         }
-
-        if (resolutions.Count <= 0)
-            resolutions.AddRange(tempScreenResolutions);
-    }
-    public static Resolution[] GetResolutions()
-    {
-        return resolutions.ToArray();
-    }
-    public static Resolution GetResolutionByIndex(int index)
-    {
-        return resolutions[index];
-    }
-
-    #region Graphics methods
-    private void InitializeDefaultGraphicsDatas(SettingsData instance)
-    {
-        if (!checkAspectRatio(instance.DefaultResolution))
+        public static Resolution[] GetResolutions()
         {
-            instance.DefaultResolution = resolutions[resolutions.Count - 1];
-            instance.CurrentResolution = resolutions[resolutions.Count - 1];
+            return resolutions.ToArray();
         }
-        else
+        public static Resolution GetResolutionByIndex(int index)
         {
-            instance.DefaultResolution = Screen.currentResolution;
-            instance.CurrentResolution = Screen.currentResolution;
+            return resolutions[index];
         }
-        instance.DefaultQualityLevel = System.Convert.ToByte(QualitySettings.GetQualityLevel());
-        instance.CurrentQualityLevel = System.Convert.ToByte(QualitySettings.GetQualityLevel());
-        instance.DefaultFullscreen = true; //FullScreenMode.
-        instance.CurrentFullscreen = true; //FullScreenMode.
-        instance.DefaultBrightness = 1.0f;
-        instance.CurrentBrightness = 1.0f;
-    }
 
-    private static void SetGraphicsSettingsInScenes()
-    {
-        Light2D[] lights = FindObjectsOfType<Light2D>();
+        #region Graphics methods
+        private void InitializeDefaultGraphicsDatas(SettingsData instance)
+        {
+            if (!checkAspectRatio(instance.DefaultResolution))
+            {
+                instance.DefaultResolution = resolutions[resolutions.Count - 1];
+                instance.CurrentResolution = resolutions[resolutions.Count - 1];
+            }
+            else
+            {
+                instance.DefaultResolution = Screen.currentResolution;
+                instance.CurrentResolution = Screen.currentResolution;
+            }
+            instance.DefaultQualityLevel = System.Convert.ToByte(QualitySettings.GetQualityLevel());
+            instance.CurrentQualityLevel = System.Convert.ToByte(QualitySettings.GetQualityLevel());
+            instance.DefaultFullscreen = true; //FullScreenMode.
+            instance.CurrentFullscreen = true; //FullScreenMode.
+            instance.DefaultBrightness = 1.0f;
+            instance.CurrentBrightness = 1.0f;
+        }
 
-        //Brightness
-        GraphicsLoaderManager.setBrigthnessToLights(lights, SettingsData.GetInstance().CurrentBrightness);
-    }
+        private static void SetGraphicsSettingsInScenes()
+        {
+            Light2D[] lights = FindObjectsOfType<Light2D>();
 
-    public static void SetBrightness(float brightness)
-    {
-        SettingsData.GetInstance().CurrentBrightness = brightness;
-        
-        Light2D[] lights = FindObjectsOfType<Light2D>();
-        if(lights.Length > 0)
-            GraphicsLoaderManager.setBrigthnessToLights(lights, SettingsData.GetInstance().CurrentBrightness);
-    }
+            //Brightness
+            //GraphicsLoaderManager.setBrigthnessToLights(lights, SettingsData.GetInstance().CurrentBrightness);
+        }
 
-    public static void SetResolution(Resolution resolution)
-    {
-        SettingsData.GetInstance().CurrentResolution = resolution;
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
-    }
+        public static void SetBrightness(float brightness)
+        {
+            SettingsData.GetInstance().CurrentBrightness = brightness;
 
-    public static void SetResolutionByIndex(int index)
-    {
-        SetResolution(resolutions[index]);
-    }
+            Light2D[] lights = FindObjectsOfType<Light2D>();
+            if (lights.Length > 0)
+                GraphicsLoader.setBrigthnessToLights(lights, SettingsData.GetInstance().CurrentBrightness);
+        }
 
-    public static void SetQualityLevel(byte qualityLevel)
-    {
-        SettingsData.GetInstance().CurrentQualityLevel = qualityLevel;
-        QualitySettings.SetQualityLevel(qualityLevel);
-    }
+        public static void SetResolution(Resolution resolution)
+        {
+            SettingsData.GetInstance().CurrentResolution = resolution;
+            Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        }
 
-    public static void SetFullscreen(bool isFullScreen)
-    {
-        SettingsData.GetInstance().CurrentFullscreen = isFullScreen;
-        Screen.fullScreen = isFullScreen;
-    }
+        public static void SetResolutionByIndex(int index)
+        {
+            SetResolution(resolutions[index]);
+        }
 
-    public bool checkAspectRatio(Resolution r)
-    {
-        return 1.0f * r.width / r.height == 1.0f * aspectRatioWidth / aspectRatioHeight;
-    }
-    #endregion
+        public static void SetQualityLevel(byte qualityLevel)
+        {
+            SettingsData.GetInstance().CurrentQualityLevel = qualityLevel;
+            QualitySettings.SetQualityLevel(qualityLevel);
+        }
+
+        public static void SetFullscreen(bool isFullScreen)
+        {
+            SettingsData.GetInstance().CurrentFullscreen = isFullScreen;
+            Screen.fullScreen = isFullScreen;
+        }
+
+        public bool checkAspectRatio(Resolution r)
+        {
+            return 1.0f * r.width / r.height == 1.0f * aspectRatioWidth / aspectRatioHeight;
+        }
+        #endregion
 }
