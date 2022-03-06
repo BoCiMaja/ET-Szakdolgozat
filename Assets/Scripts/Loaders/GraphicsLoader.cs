@@ -11,7 +11,7 @@ public static class GraphicsLoader
 
     public static void setBrigthnessToLights(Light2D[] lights, Light2D.LightType lightType)
     {
-        setBrigthnessToLights(lights, lightType, SettingsData.GetInstance().CurrentBrightness);
+        setBrigthnessToLights(lights, lightType, GraphicsManager.Instance.GraphicsData.Brightness);
     }
 
     public static void setBrigthnessToLights(Light2D[] lights, Light2D.LightType lightType, float brightness)
@@ -29,7 +29,7 @@ public static class GraphicsLoader
 
     public static void setBrigthnessToLights(Light2D[] lights)
     {
-        setBrigthnessToLights(lights, SettingsData.GetInstance().CurrentBrightness);
+        setBrigthnessToLights(lights, GraphicsManager.Instance.GraphicsData.Brightness);
     }
 
     public static void setBrigthnessToLights(Light2D[] lights, float brigthness)
