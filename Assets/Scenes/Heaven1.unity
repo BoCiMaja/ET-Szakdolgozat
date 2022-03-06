@@ -8571,6 +8571,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1778223546958741017, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778223546958741017, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_FlipY
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778223546958741017, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
       propertyPath: m_SortingLayer
       value: 1
       objectReference: {fileID: 0}
