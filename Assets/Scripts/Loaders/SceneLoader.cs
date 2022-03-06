@@ -9,6 +9,8 @@ public static class SceneLoader
 {
     public static void LoadMainMenu()
     {
+        if (SceneManager.GetSceneByName("UI").isLoaded)
+            SceneManager.UnloadSceneAsync("UI");
         LoadWithLoadingScreenAsync("MainMenu");
     }
 
