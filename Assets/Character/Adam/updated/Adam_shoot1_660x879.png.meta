@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 4ffb9a1b4ba3c06458aa3aa0f6d793c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4890270655889559935
+    second: Adam_shoot1_660x879_0
+  - first:
+      213: -3027936949195526882
+    second: Adam_shoot1_660x879_1
+  - first:
+      213: -8341509745271710345
+    second: Adam_shoot1_660x879_2
+  - first:
+      213: -1955682944237803176
+    second: Adam_shoot1_660x879_3
+  - first:
+      213: 4661730626854300416
+    second: Adam_shoot1_660x879_4
+  - first:
+      213: 1553438137598573093
+    second: Adam_shoot1_660x879_5
+  - first:
+      213: 6907974761976048007
+    second: Adam_shoot1_660x879_6
+  - first:
+      213: 5887059154317634139
+    second: Adam_shoot1_660x879_7
+  - first:
+      213: -2545226445574559462
+    second: Adam_shoot1_660x879_8
+  - first:
+      213: 423942007934445893
+    second: Adam_shoot1_660x879_9
+  - first:
+      213: 8777003449655795692
+    second: Adam_shoot1_660x879_10
+  - first:
+      213: -5737340703633739321
+    second: Adam_shoot1_660x879_11
+  - first:
+      213: 448458512224027311
+    second: Adam_shoot1_660x879_12
+  - first:
+      213: -2411348105111603496
+    second: Adam_shoot1_660x879_13
+  - first:
+      213: -872297492299781444
+    second: Adam_shoot1_660x879_14
+  - first:
+      213: -7797840580610695677
+    second: Adam_shoot1_660x879_15
+  - first:
+      213: 931332346924348973
+    second: Adam_shoot1_660x879_16
+  - first:
+      213: 8454227905457409829
+    second: Adam_shoot1_660x879_17
+  - first:
+      213: -9071960218413286028
+    second: Adam_shoot1_660x879_18
+  - first:
+      213: 3697735808971104854
+    second: Adam_shoot1_660x879_19
+  - first:
+      213: -5483269618777588254
+    second: Adam_shoot1_660x879_20
+  - first:
+      213: -8271118978549314170
+    second: Adam_shoot1_660x879_21
+  - first:
+      213: 5625356613196749134
+    second: Adam_shoot1_660x879_22
+  - first:
+      213: 5903669971200944611
+    second: Adam_shoot1_660x879_23
+  - first:
+      213: -7705241238364549927
+    second: Adam_shoot1_660x879_24
+  - first:
+      213: -4782085159711363320
+    second: Adam_shoot1_660x879_25
+  - first:
+      213: -5167838048768214275
+    second: Adam_shoot1_660x879_26
+  - first:
+      213: -4578689165476375001
+    second: Adam_shoot1_660x879_27
+  - first:
+      213: -371398699702298530
+    second: Adam_shoot1_660x879_28
+  - first:
+      213: -2097840401599319962
+    second: Adam_shoot1_660x879_29
+  - first:
+      213: -8448044671252777340
+    second: Adam_shoot1_660x879_30
+  - first:
+      213: 6080757588130885880
+    second: Adam_shoot1_660x879_31
+  - first:
+      213: 474207268791692973
+    second: Adam_shoot1_660x879_32
+  - first:
+      213: 8393824819787457337
+    second: Adam_shoot1_660x879_33
+  - first:
+      213: 3319367321404046396
+    second: Adam_shoot1_660x879_34
+  - first:
+      213: 4396220799237802796
+    second: Adam_shoot1_660x879_35
+  - first:
+      213: -8685893634437429629
+    second: Adam_shoot1_660x879_36
+  - first:
+      213: 7570007237346861951
+    second: Adam_shoot1_660x879_37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18eaf2c8fb4422cb0800000000000000
+      internalID: -4890270655889559935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_1
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1dabec236b9af5d0800000000000000
+      internalID: -3027936949195526882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_2
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77dde96f4110d3c80800000000000000
+      internalID: -8341509745271710345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_3
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8596a6f49b40cd4e0800000000000000
+      internalID: -1955682944237803176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_4
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00ba5346e4bc1b040800000000000000
+      internalID: 4661730626854300416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_5
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a7b1471cbee8510800000000000000
+      internalID: 1553438137598573093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_6
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78922fc227e0edf50800000000000000
+      internalID: 6907974761976048007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_7
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 3526
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a60d02c1903b150800000000000000
+      internalID: 5887059154317634139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a19299e680a8dacd0800000000000000
+      internalID: -2545226445574559462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_9
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5496c44920522e500800000000000000
+      internalID: 423942007934445893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_10
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef9c19822e2ec970800000000000000
+      internalID: 8777003449655795692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_11
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c1758c170fd060b0800000000000000
+      internalID: -5737340703633739321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_12
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa20d9d04ae393600800000000000000
+      internalID: 448458512224027311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_13
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6f20d9cab298ed0800000000000000
+      internalID: -2411348105111603496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_14
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbae1096d0af4e3f0800000000000000
+      internalID: -872297492299781444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_15
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 2647
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30ed2918e4188c390800000000000000
+      internalID: -7797840580610695677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26b14ac5d1ccec00800000000000000
+      internalID: 931332346924348973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_17
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52fcbf2dc73735570800000000000000
+      internalID: 8454227905457409829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_18
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47d30052f3ce91280800000000000000
+      internalID: -9071960218413286028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_19
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652e6f6702ff05330800000000000000
+      internalID: 3697735808971104854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_20
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2edf115555387e3b0800000000000000
+      internalID: -5483269618777588254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_21
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d839c7c15173d80800000000000000
+      internalID: -8271118978549314170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_22
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e499c780908411e40800000000000000
+      internalID: 5625356613196749134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_23
+      rect:
+        serializedVersion: 2
+        x: 4620
+        y: 1768
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e9a2905f8c0ee150800000000000000
+      internalID: 5903669971200944611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc0796faeb711590800000000000000
+      internalID: -7705241238364549927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_25
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80facb142ee92adb0800000000000000
+      internalID: -4782085159711363320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_26
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa3c6ecca62848b0800000000000000
+      internalID: -5167838048768214275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_27
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 726d9d2867a3570c0800000000000000
+      internalID: -4578689165476375001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_28
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e58d332b9d688daf0800000000000000
+      internalID: -371398699702298530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_29
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 660b5330549f2e2e0800000000000000
+      internalID: -2097840401599319962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_30
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 889
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486b853912482ca80800000000000000
+      internalID: -8448044671252777340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f07dc52fc0336450800000000000000
+      internalID: 6080757588130885880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_32
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daeac3e9ff8b49600800000000000000
+      internalID: 474207268791692973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_33
+      rect:
+        serializedVersion: 2
+        x: 1320
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933e942833bdc7470800000000000000
+      internalID: 8393824819787457337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_34
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3cf357fdf2c01e20800000000000000
+      internalID: 3319367321404046396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_35
+      rect:
+        serializedVersion: 2
+        x: 2640
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2bc0c45683820d30800000000000000
+      internalID: 4396220799237802796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_36
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 386c78262c1857780800000000000000
+      internalID: -8685893634437429629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_shoot1_660x879_37
+      rect:
+        serializedVersion: 2
+        x: 3960
+        y: 10
+        width: 660
+        height: 879
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73223989711e0960800000000000000
+      internalID: 7570007237346861951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

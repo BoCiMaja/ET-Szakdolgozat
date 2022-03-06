@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: 91cd3623ae46eb947936143566ac8283
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5265750598429644578
+    second: Adam_suckstone_640x840 __0
+  - first:
+      213: -7151034541195200547
+    second: Adam_suckstone_640x840 __1
+  - first:
+      213: -5119240864943869452
+    second: Adam_suckstone_640x840 __2
+  - first:
+      213: -7889911055968772408
+    second: Adam_suckstone_640x840 __3
+  - first:
+      213: -5837693007566321905
+    second: Adam_suckstone_640x840 __4
+  - first:
+      213: 4342173579956893825
+    second: Adam_suckstone_640x840 __5
+  - first:
+      213: 6484685686228955235
+    second: Adam_suckstone_640x840 __6
+  - first:
+      213: -3840807734903218446
+    second: Adam_suckstone_640x840 __7
+  - first:
+      213: 1861530745555620301
+    second: Adam_suckstone_640x840 __8
+  - first:
+      213: -3582092799277471631
+    second: Adam_suckstone_640x840 __9
+  - first:
+      213: 4989308675368278464
+    second: Adam_suckstone_640x840 __10
+  - first:
+      213: 4006767493810007701
+    second: Adam_suckstone_640x840 __11
+  - first:
+      213: 5260296087912058408
+    second: Adam_suckstone_640x840 __12
+  - first:
+      213: 195868966844208199
+    second: Adam_suckstone_640x840 __13
+  - first:
+      213: 7572944812117598794
+    second: Adam_suckstone_640x840 __14
+  - first:
+      213: -5516514904105608499
+    second: Adam_suckstone_640x840 __15
+  - first:
+      213: 1023191873291134862
+    second: Adam_suckstone_640x840 __16
+  - first:
+      213: -8043947948900449828
+    second: Adam_suckstone_640x840 __17
+  - first:
+      213: -5348787508060309486
+    second: Adam_suckstone_640x840 __18
+  - first:
+      213: 2342947979683271766
+    second: Adam_suckstone_640x840 __19
+  - first:
+      213: -1217514325399086484
+    second: Adam_suckstone_640x840 __20
+  - first:
+      213: -7088946354084350056
+    second: Adam_suckstone_640x840 __21
+  - first:
+      213: 443471993177618981
+    second: Adam_suckstone_640x840 __22
+  - first:
+      213: 6248624037719006536
+    second: Adam_suckstone_640x840 __23
+  - first:
+      213: 3959725338183278373
+    second: Adam_suckstone_640x840 __24
+  - first:
+      213: 6386988514216979266
+    second: Adam_suckstone_640x840 __25
+  - first:
+      213: 4168575150315692933
+    second: Adam_suckstone_640x840 __26
+  - first:
+      213: -8590299517976344997
+    second: Adam_suckstone_640x840 __27
+  - first:
+      213: 3001160447376497134
+    second: Adam_suckstone_640x840 __28
+  - first:
+      213: 2424745600484921845
+    second: Adam_suckstone_640x840 __29
+  - first:
+      213: 8488982477223209831
+    second: Adam_suckstone_640x840 __30
+  - first:
+      213: 413005910509254960
+    second: Adam_suckstone_640x840 __31
+  - first:
+      213: 8508099764309402110
+    second: Adam_suckstone_640x840 __32
+  - first:
+      213: 1837615007496904211
+    second: Adam_suckstone_640x840 __33
+  - first:
+      213: 1292878563995086293
+    second: Adam_suckstone_640x840 __34
+  - first:
+      213: 1725605009471338725
+    second: Adam_suckstone_640x840 __35
+  - first:
+      213: -9160175778554543407
+    second: Adam_suckstone_640x840 __36
+  - first:
+      213: -7937510079429638329
+    second: Adam_suckstone_640x840 __37
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22713372544b31940800000000000000
+      internalID: 5265750598429644578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __1
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7f28bf8fb62cc90800000000000000
+      internalID: -7151034541195200547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __2
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f17b556e8dc4f8b0800000000000000
+      internalID: -5119240864943869452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __3
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cedd8772b7618290800000000000000
+      internalID: -7889911055968772408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __4
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f074a3893295cfea0800000000000000
+      internalID: -5837693007566321905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __5
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188ba6a7ddf724c30800000000000000
+      internalID: 4342173579956893825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __6
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360bcb7364b3ef950800000000000000
+      internalID: 6484685686228955235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __7
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 3370
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fe558ee6b5b2bac0800000000000000
+      internalID: -3840807734903218446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc19f4ba95c75d910800000000000000
+      internalID: 1861530745555620301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __9
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 178e49ae399d94ec0800000000000000
+      internalID: -3582092799277471631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __10
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c9d9164ec59d3540800000000000000
+      internalID: 4989308675368278464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __11
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ea02e8ec5ea9730800000000000000
+      internalID: 4006767493810007701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __12
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e0065fb63500940800000000000000
+      internalID: 5260296087912058408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __13
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744954f99cdd7b200800000000000000
+      internalID: 195868966844208199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __14
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4228e5fe21881960800000000000000
+      internalID: 7572944812117598794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __15
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 2530
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dca13a62ce66173b0800000000000000
+      internalID: -5516514904105608499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e87a590769b133e00800000000000000
+      internalID: 1023191873291134862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __17
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd18e0a85f72e5090800000000000000
+      internalID: -8043947948900449828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __18
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218b40bb91a45c5b0800000000000000
+      internalID: -5348787508060309486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __19
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6549d3826c2d38020800000000000000
+      internalID: 2342947979683271766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __20
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6a53a5fb258a1fe0800000000000000
+      internalID: -1217514325399086484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __21
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897700d89d00f9d90800000000000000
+      internalID: -7088946354084350056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __22
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52abf2d9d67872600800000000000000
+      internalID: 443471993177618981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __23
+      rect:
+        serializedVersion: 2
+        x: 4480
+        y: 1690
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84d5537a47297b650800000000000000
+      internalID: 6248624037719006536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52f178e2735c3f630800000000000000
+      internalID: 3959725338183278373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __25
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24b2766c63423a850800000000000000
+      internalID: 6386988514216979266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __26
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583661e5301c9d930800000000000000
+      internalID: 4168575150315692933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __27
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b568fcc0a1029c880800000000000000
+      internalID: -8590299517976344997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __28
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee914dba68346a920800000000000000
+      internalID: 3001160447376497134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __29
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f1589bd64d66a120800000000000000
+      internalID: 2424745600484921845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __30
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 850
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ba763269ceec570800000000000000
+      internalID: 8488982477223209831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0397a0affaa4bb500800000000000000
+      internalID: 413005910509254960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __32
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef12f3568a7d21670800000000000000
+      internalID: 8508099764309402110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __33
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31e97cbfc15808910800000000000000
+      internalID: 1837615007496904211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __34
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dde4a8343a31f110800000000000000
+      internalID: 1292878563995086293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __35
+      rect:
+        serializedVersion: 2
+        x: 2560
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e87c2c0d9492f710800000000000000
+      internalID: 1725605009471338725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __36
+      rect:
+        serializedVersion: 2
+        x: 3200
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d28e1f79a480e080800000000000000
+      internalID: -9160175778554543407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_suckstone_640x840 __37
+      rect:
+        serializedVersion: 2
+        x: 3840
+        y: 10
+        width: 640
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747838233ac48d190800000000000000
+      internalID: -7937510079429638329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

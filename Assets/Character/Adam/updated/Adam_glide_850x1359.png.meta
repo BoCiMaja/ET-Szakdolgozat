@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: e1e2179cd4b49324da78dc88e0e49028
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2745083861380732002
+    second: Adam_glide_850x1359_0
+  - first:
+      213: -8734743633661792133
+    second: Adam_glide_850x1359_1
+  - first:
+      213: 9109467711830601368
+    second: Adam_glide_850x1359_2
+  - first:
+      213: 8391670037095721735
+    second: Adam_glide_850x1359_3
+  - first:
+      213: -2971653058481608694
+    second: Adam_glide_850x1359_4
+  - first:
+      213: -7206667302328387863
+    second: Adam_glide_850x1359_5
+  - first:
+      213: -6626355688531881639
+    second: Adam_glide_850x1359_6
+  - first:
+      213: 9199524205609450795
+    second: Adam_glide_850x1359_7
+  - first:
+      213: 733626030969956808
+    second: Adam_glide_850x1359_8
+  - first:
+      213: -3373060145080086251
+    second: Adam_glide_850x1359_9
+  - first:
+      213: 3904885488153401472
+    second: Adam_glide_850x1359_10
+  - first:
+      213: -3872299354501022879
+    second: Adam_glide_850x1359_11
+  - first:
+      213: -5189759393054862034
+    second: Adam_glide_850x1359_12
+  - first:
+      213: 3884644113861925022
+    second: Adam_glide_850x1359_13
+  - first:
+      213: -4704637675757911199
+    second: Adam_glide_850x1359_14
+  - first:
+      213: -8673614197855585780
+    second: Adam_glide_850x1359_15
+  - first:
+      213: -1426115422844657867
+    second: Adam_glide_850x1359_16
+  - first:
+      213: 8990911961690364592
+    second: Adam_glide_850x1359_17
+  - first:
+      213: 537804204592330408
+    second: Adam_glide_850x1359_18
+  - first:
+      213: 305941918102783475
+    second: Adam_glide_850x1359_19
+  - first:
+      213: 5343458014212583891
+    second: Adam_glide_850x1359_20
+  - first:
+      213: -4195753152976677433
+    second: Adam_glide_850x1359_21
+  - first:
+      213: 2402342186363440303
+    second: Adam_glide_850x1359_22
+  - first:
+      213: 5017911065405942511
+    second: Adam_glide_850x1359_23
+  - first:
+      213: -8775432301109074757
+    second: Adam_glide_850x1359_24
+  - first:
+      213: 8595538078862277453
+    second: Adam_glide_850x1359_25
+  - first:
+      213: -4788557481397341266
+    second: Adam_glide_850x1359_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9b6ebba5c087e9d0800000000000000
+      internalID: -2745083861380732002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_1
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b70fb7f91f4f7c680800000000000000
+      internalID: -8734743633661792133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_2
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ead80be945b6e70800000000000000
+      internalID: 9109467711830601368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_3
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b21611073357470800000000000000
+      internalID: 8391670037095721735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_4
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08208da94192c6d0800000000000000
+      internalID: -2971653058481608694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_5
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e63b466546ccfb90800000000000000
+      internalID: -7206667302328387863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_6
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 4085
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9511ba5fb947a04a0800000000000000
+      internalID: -6626355688531881639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2d75f916864baf70800000000000000
+      internalID: 9199524205609450795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_8
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9a1fdfcfc5e2a00800000000000000
+      internalID: 733626030969956808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_9
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51159765bab7031d0800000000000000
+      internalID: -3373060145080086251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_10
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08816f999a0f03630800000000000000
+      internalID: 3904885488153401472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_11
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bfdfed044d24ac0800000000000000
+      internalID: -3872299354501022879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_12
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e25d73b14554af7b0800000000000000
+      internalID: -5189759393054862034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_13
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 2726
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e985d856d3709e530800000000000000
+      internalID: 3884644113861925022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 163c78bc5f4c5beb0800000000000000
+      internalID: -4704637675757911199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_15
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a780287d121a780800000000000000
+      internalID: -8673614197855585780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_16
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f53ac249b653ce0800000000000000
+      internalID: -1426115422844657867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_17
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba5d531bc226cc70800000000000000
+      internalID: 8990911961690364592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_18
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a6ff6d131aa67700800000000000000
+      internalID: 537804204592330408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_19
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f50b66bd8cee3400800000000000000
+      internalID: 305941918102783475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_20
+      rect:
+        serializedVersion: 2
+        x: 5100
+        y: 1367
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1fa59c0c6c72a40800000000000000
+      internalID: 5343458014212583891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c59997ccb0b5c5c0800000000000000
+      internalID: -4195753152976677433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_22
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 8
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: facc0278d75d65120800000000000000
+      internalID: 2402342186363440303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_23
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 8
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feae508278333a540800000000000000
+      internalID: 5017911065405942511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_24
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 8
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4a7edf0d6673680800000000000000
+      internalID: -8775432301109074757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_25
+      rect:
+        serializedVersion: 2
+        x: 3400
+        y: 8
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bfde3775c794770800000000000000
+      internalID: 8595538078862277453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_glide_850x1359_26
+      rect:
+        serializedVersion: 2
+        x: 4250
+        y: 8
+        width: 850
+        height: 1359
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3b5ce6750ab8db0800000000000000
+      internalID: -4788557481397341266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

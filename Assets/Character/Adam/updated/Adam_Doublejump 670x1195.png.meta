@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 4eceed25825289e42bc9087dfe2d25fd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6847096214053241779
+    second: Adam_Doublejump 670x1195_0
+  - first:
+      213: 8484486239616196100
+    second: Adam_Doublejump 670x1195_1
+  - first:
+      213: -6812347780115526527
+    second: Adam_Doublejump 670x1195_2
+  - first:
+      213: -5913498920797124579
+    second: Adam_Doublejump 670x1195_3
+  - first:
+      213: -6832576147285206891
+    second: Adam_Doublejump 670x1195_4
+  - first:
+      213: 5950190986518733988
+    second: Adam_Doublejump 670x1195_5
+  - first:
+      213: 5526186889847173063
+    second: Adam_Doublejump 670x1195_6
+  - first:
+      213: -7640174838184956188
+    second: Adam_Doublejump 670x1195_7
+  - first:
+      213: 1262149600563312012
+    second: Adam_Doublejump 670x1195_8
+  - first:
+      213: 1088761908627781983
+    second: Adam_Doublejump 670x1195_9
+  - first:
+      213: -4779918737541593021
+    second: Adam_Doublejump 670x1195_10
+  - first:
+      213: 1266441151080454934
+    second: Adam_Doublejump 670x1195_11
+  - first:
+      213: 751810651362290361
+    second: Adam_Doublejump 670x1195_12
+  - first:
+      213: 5306526576325226066
+    second: Adam_Doublejump 670x1195_13
+  - first:
+      213: -2407134434207764439
+    second: Adam_Doublejump 670x1195_14
+  - first:
+      213: 9205218131978362941
+    second: Adam_Doublejump 670x1195_15
+  - first:
+      213: 6905036562305457643
+    second: Adam_Doublejump 670x1195_16
+  - first:
+      213: 1281724602397990461
+    second: Adam_Doublejump 670x1195_17
+  - first:
+      213: 2902147247348739932
+    second: Adam_Doublejump 670x1195_18
+  - first:
+      213: 940034365863351366
+    second: Adam_Doublejump 670x1195_19
+  - first:
+      213: -8142447240915074922
+    second: Adam_Doublejump 670x1195_20
+  - first:
+      213: 350989530701196932
+    second: Adam_Doublejump 670x1195_21
+  - first:
+      213: 1037977989837909847
+    second: Adam_Doublejump 670x1195_22
+  - first:
+      213: -4156325672071538765
+    second: Adam_Doublejump 670x1195_23
+  - first:
+      213: 7883911584462045229
+    second: Adam_Doublejump 670x1195_24
+  - first:
+      213: -3475653855871039328
+    second: Adam_Doublejump 670x1195_25
+  - first:
+      213: -1917835925033992288
+    second: Adam_Doublejump 670x1195_26
+  - first:
+      213: 8562806840750454816
+    second: Adam_Doublejump 670x1195_27
+  - first:
+      213: -8548472119455738944
+    second: Adam_Doublejump 670x1195_28
+  - first:
+      213: -1681493706981351935
+    second: Adam_Doublejump 670x1195_29
+  - first:
+      213: -1372090588192249288
+    second: Adam_Doublejump 670x1195_30
+  - first:
+      213: -3120289322758273698
+    second: Adam_Doublejump 670x1195_31
+  - first:
+      213: 8880110362291881958
+    second: Adam_Doublejump 670x1195_32
+  - first:
+      213: 3824951222415233199
+    second: Adam_Doublejump 670x1195_33
+  - first:
+      213: -8380976726017631323
+    second: Adam_Doublejump 670x1195_34
+  - first:
+      213: -4790137817891567142
+    second: Adam_Doublejump 670x1195_35
+  - first:
+      213: -5213812802748627565
+    second: Adam_Doublejump 670x1195_36
+  - first:
+      213: -6508889250273535756
+    second: Adam_Doublejump 670x1195_37
+  - first:
+      213: -7350615682183127891
+    second: Adam_Doublejump 670x1195_38
+  - first:
+      213: -3737679295088048635
+    second: Adam_Doublejump 670x1195_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c3f62554a3af0a0800000000000000
+      internalID: -6847096214053241779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_1
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40e530e3843feb570800000000000000
+      internalID: 8484486239616196100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_2
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c0bcf89cda571a0800000000000000
+      internalID: -6812347780115526527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_3
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d184b3600180feda0800000000000000
+      internalID: -5913498920797124579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_4
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5981240d130dd21a0800000000000000
+      internalID: -6832576147285206891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_5
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a42e214d23539250800000000000000
+      internalID: 5950190986518733988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_6
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cfe2c382b5f0bc40800000000000000
+      internalID: 5526186889847173063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_7
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eeab1cc675a8f590800000000000000
+      internalID: -7640174838184956188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_8
+      rect:
+        serializedVersion: 2
+        x: 5360
+        y: 4790
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853af2ef5e048110800000000000000
+      internalID: 1262149600563312012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f593cb8ff2f0c1f00800000000000000
+      internalID: 1088761908627781983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_10
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3488999bb315aadb0800000000000000
+      internalID: -4779918737541593021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_11
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b561b548d439110800000000000000
+      internalID: 1266441151080454934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_12
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9baedccddc7fe6a00800000000000000
+      internalID: 751810651362290361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_13
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25ee8055ec194a940800000000000000
+      internalID: 5306526576325226066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_14
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9207f625cf3289ed0800000000000000
+      internalID: -2407134434207764439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_15
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d302e84ae118fbf70800000000000000
+      internalID: 9205218131978362941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_16
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bed1d414b2e93df50800000000000000
+      internalID: 6905036562305457643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_17
+      rect:
+        serializedVersion: 2
+        x: 5360
+        y: 3595
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3e9fc92cb999c110800000000000000
+      internalID: 1281724602397990461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f69149b8f764820800000000000000
+      internalID: 2902147247348739932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_19
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 644d1f5764cab0d00800000000000000
+      internalID: 940034365863351366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_20
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690c5eaff57300f80800000000000000
+      internalID: -8142447240915074922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_21
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e63595e17fed400800000000000000
+      internalID: 350989530701196932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_22
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75f66f87b73a76e00800000000000000
+      internalID: 1037977989837909847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_23
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7d65982d3c156c0800000000000000
+      internalID: -4156325672071538765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_24
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d208278b0d7496d60800000000000000
+      internalID: 7883911584462045229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_25
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a8079e9b3ff3cfc0800000000000000
+      internalID: -3475653855871039328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_26
+      rect:
+        serializedVersion: 2
+        x: 5360
+        y: 2400
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0afbdd6236a7265e0800000000000000
+      internalID: -1917835925033992288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0283737347335d670800000000000000
+      internalID: 8562806840750454816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_28
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c3928b26e9bd5980800000000000000
+      internalID: -8548472119455738944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_29
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e5257e1622aa8e0800000000000000
+      internalID: -1681493706981351935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_30
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83ae42331ea55fce0800000000000000
+      internalID: -1372090588192249288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_31
+      rect:
+        serializedVersion: 2
+        x: 2680
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e558c88946182b4d0800000000000000
+      internalID: -3120289322758273698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_32
+      rect:
+        serializedVersion: 2
+        x: 3350
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e74cae535d7c3b70800000000000000
+      internalID: 8880110362291881958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_33
+      rect:
+        serializedVersion: 2
+        x: 4020
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa0914f0fd4f41530800000000000000
+      internalID: 3824951222415233199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_34
+      rect:
+        serializedVersion: 2
+        x: 4690
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab17ee621ac0bb80800000000000000
+      internalID: -8380976726017631323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_35
+      rect:
+        serializedVersion: 2
+        x: 5360
+        y: 1205
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9886ba803068db0800000000000000
+      internalID: -4790137817891567142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395c8ce31e0d4a7b0800000000000000
+      internalID: -5213812802748627565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_37
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 10
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8561366b7cba5a0800000000000000
+      internalID: -6508889250273535756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_38
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 10
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dac1f077bfd5df990800000000000000
+      internalID: -7350615682183127891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_Doublejump 670x1195_39
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 10
+        width: 670
+        height: 1195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 506c1f3fb78112cc0800000000000000
+      internalID: -3737679295088048635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

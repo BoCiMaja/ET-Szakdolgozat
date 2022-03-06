@@ -175,6 +175,7 @@ public class CharacterController2D : MonoBehaviour
 	private void Reload()
 	{
 		ammo = 5;
+		animator.SetTrigger("isReloading");
 	}
 
 	private void ThrowSmol() //brrrrr
