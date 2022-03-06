@@ -1,0 +1,948 @@
+fileFormatVersion: 2
+guid: c10a888f99b01f34a8fa7aeb4ef33de4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8875339762824419904
+    second: Adam_idle 500x840_0
+  - first:
+      213: -9196247321104710597
+    second: Adam_idle 500x840_1
+  - first:
+      213: 5418721330786423730
+    second: Adam_idle 500x840_2
+  - first:
+      213: 6404111437732896302
+    second: Adam_idle 500x840_3
+  - first:
+      213: -7578888390247230433
+    second: Adam_idle 500x840_4
+  - first:
+      213: -8998716472967294239
+    second: Adam_idle 500x840_5
+  - first:
+      213: -8081056830960746740
+    second: Adam_idle 500x840_6
+  - first:
+      213: 6786065386554967266
+    second: Adam_idle 500x840_7
+  - first:
+      213: -593908707754222769
+    second: Adam_idle 500x840_8
+  - first:
+      213: 4452322888330402487
+    second: Adam_idle 500x840_9
+  - first:
+      213: -7611035705506766263
+    second: Adam_idle 500x840_10
+  - first:
+      213: -7608597210983652470
+    second: Adam_idle 500x840_11
+  - first:
+      213: 823464798927601278
+    second: Adam_idle 500x840_12
+  - first:
+      213: -9047688437170146221
+    second: Adam_idle 500x840_13
+  - first:
+      213: -8645626336629396855
+    second: Adam_idle 500x840_14
+  - first:
+      213: 591549493764585781
+    second: Adam_idle 500x840_15
+  - first:
+      213: -7049762386830671899
+    second: Adam_idle 500x840_16
+  - first:
+      213: 5070405421742503596
+    second: Adam_idle 500x840_17
+  - first:
+      213: -6949397212571823426
+    second: Adam_idle 500x840_18
+  - first:
+      213: 8479343411763292821
+    second: Adam_idle 500x840_19
+  - first:
+      213: 6119033105556678108
+    second: Adam_idle 500x840_20
+  - first:
+      213: -1300234336503184084
+    second: Adam_idle 500x840_21
+  - first:
+      213: 7878056370450749724
+    second: Adam_idle 500x840_22
+  - first:
+      213: -6766055588253333865
+    second: Adam_idle 500x840_23
+  - first:
+      213: -5043336716641273855
+    second: Adam_idle 500x840_24
+  - first:
+      213: -7618250352207176770
+    second: Adam_idle 500x840_25
+  - first:
+      213: 6418427361329334123
+    second: Adam_idle 500x840_26
+  - first:
+      213: 7466941213319008693
+    second: Adam_idle 500x840_27
+  - first:
+      213: 6159682395812537739
+    second: Adam_idle 500x840_28
+  - first:
+      213: -870638742783138369
+    second: Adam_idle 500x840_29
+  - first:
+      213: -75467267087764560
+    second: Adam_idle 500x840_30
+  - first:
+      213: 244559176775821469
+    second: Adam_idle 500x840_31
+  - first:
+      213: -6055198453243618079
+    second: Adam_idle 500x840_32
+  - first:
+      213: -7904902368562838345
+    second: Adam_idle 500x840_33
+  - first:
+      213: -4632527375657252083
+    second: Adam_idle 500x840_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_idle 500x840_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c563ff528574d480800000000000000
+      internalID: -8875339762824419904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b348ae609cd506080800000000000000
+      internalID: -9196247321104710597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b35b5a375a233b40800000000000000
+      internalID: 5418721330786423730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ed5141c69ffd850800000000000000
+      internalID: 6404111437732896302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f145bfae92162d690800000000000000
+      internalID: -7578888390247230433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e2145a8b032e1380800000000000000
+      internalID: -8998716472967294239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f37d4a0a15adf80800000000000000
+      internalID: -8081056830960746740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4ce24d382fc2e50800000000000000
+      internalID: 6786065386554967266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4b5c4d4d2302c7f0800000000000000
+      internalID: -593908707754222769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_9
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ba5648d314d9cd30800000000000000
+      internalID: 4452322888330402487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9426470d95b206690800000000000000
+      internalID: -7611035705506766263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_11
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83aa401625d86690800000000000000
+      internalID: -7608597210983652470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_12
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7e3e192fd88d6b00800000000000000
+      internalID: 823464798927601278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_13
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35470189d47207280800000000000000
+      internalID: -9047688437170146221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98a617047a0940880800000000000000
+      internalID: -8645626336629396855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_15
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53976e2612b953800800000000000000
+      internalID: 591549493764585781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef3c0ed5763a2e90800000000000000
+      internalID: -7049762386830671899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca63d2eedd2bd5640800000000000000
+      internalID: 5070405421742503596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_18
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2119dfd08ce8f90800000000000000
+      internalID: -6949397212571823426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a23b258edaca570800000000000000
+      internalID: 8479343411763292821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd5af81803c2be450800000000000000
+      internalID: 6119033105556678108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_21
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2546f782c3a4fde0800000000000000
+      internalID: -1300234336503184084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_22
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c195839778a745d60800000000000000
+      internalID: 7878056370450749724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_23
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7960d936a442a12a0800000000000000
+      internalID: -6766055588253333865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10879e91af7720ab0800000000000000
+      internalID: -5043336716641273855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_25
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb52bafaa9864690800000000000000
+      internalID: -7618250352207176770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_26
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b67cea8cda5d21950800000000000000
+      internalID: 6418427361329334123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_27
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b19a92d877ef9760800000000000000
+      internalID: 7466941213319008693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_28
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8522abe0869b7550800000000000000
+      internalID: 6159682395812537739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_29
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb5e7b02daedae3f0800000000000000
+      internalID: -870638742783138369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_30
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b37011abe2e3fef0800000000000000
+      internalID: -75467267087764560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_31
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98e84a8649d46300800000000000000
+      internalID: 244559176775821469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec5beda61d97fba0800000000000000
+      internalID: -6055198453243618079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_33
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b40ba18d252c4290800000000000000
+      internalID: -7904902368562838345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_idle 500x840_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b4da165e4f5bfb0800000000000000
+      internalID: -4632527375657252083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

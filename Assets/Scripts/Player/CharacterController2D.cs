@@ -134,13 +134,16 @@ public class CharacterController2D : MonoBehaviour
 
 		Jump();
 
-		if (Input.GetButtonDown("Fire1") && !(ammo <= 0))
+		if (!(ammo <= 0))
 		{
-			ThrowSmol();
-		}
-		if (Input.GetButtonDown("Fire2") && !(ammo <= 0))
-		{
-			ThrowBig();
+			if (Input.GetButtonDown("Fire1"))
+			{
+				ThrowSmol();
+			}
+			if (Input.GetButtonDown("Fire2"))
+			{
+				ThrowBig();
+			}
 		}
 		//if (Input.GetButtonDown("Reload")){
 		//	Reload();
@@ -172,6 +175,7 @@ public class CharacterController2D : MonoBehaviour
 	private void Reload()
 	{
 		ammo = 5;
+		animator.SetTrigger("isReloading");
 	}
 
 	private void ThrowSmol() //brrrrr

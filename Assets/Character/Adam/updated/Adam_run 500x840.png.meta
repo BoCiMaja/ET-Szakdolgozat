@@ -1,0 +1,1068 @@
+fileFormatVersion: 2
+guid: 138c5c0edcc77e940abc9315a1e973cc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3443390890797314438
+    second: Adam_run 500x840_0
+  - first:
+      213: 2949665554160657590
+    second: Adam_run 500x840_1
+  - first:
+      213: 7707582656474952557
+    second: Adam_run 500x840_2
+  - first:
+      213: -3669249071600532723
+    second: Adam_run 500x840_3
+  - first:
+      213: -293979675662755056
+    second: Adam_run 500x840_4
+  - first:
+      213: 7100161780717385708
+    second: Adam_run 500x840_5
+  - first:
+      213: -1589511053530556886
+    second: Adam_run 500x840_6
+  - first:
+      213: -6199215860374040796
+    second: Adam_run 500x840_7
+  - first:
+      213: -8397177674288245007
+    second: Adam_run 500x840_8
+  - first:
+      213: -3235667568583292174
+    second: Adam_run 500x840_9
+  - first:
+      213: -82806053176720844
+    second: Adam_run 500x840_10
+  - first:
+      213: 733030256357562071
+    second: Adam_run 500x840_11
+  - first:
+      213: 1366203183907884646
+    second: Adam_run 500x840_12
+  - first:
+      213: -201450260201144565
+    second: Adam_run 500x840_13
+  - first:
+      213: -3238307470805276377
+    second: Adam_run 500x840_14
+  - first:
+      213: -3525558636158573551
+    second: Adam_run 500x840_15
+  - first:
+      213: 4025120357038826480
+    second: Adam_run 500x840_16
+  - first:
+      213: 4693736306308898274
+    second: Adam_run 500x840_17
+  - first:
+      213: 2733791240722221756
+    second: Adam_run 500x840_18
+  - first:
+      213: -670793438675430194
+    second: Adam_run 500x840_19
+  - first:
+      213: 7019031281633637997
+    second: Adam_run 500x840_20
+  - first:
+      213: -8811944270196592545
+    second: Adam_run 500x840_21
+  - first:
+      213: 3425987941597471400
+    second: Adam_run 500x840_22
+  - first:
+      213: 3275892839141655220
+    second: Adam_run 500x840_23
+  - first:
+      213: -3889577291306406958
+    second: Adam_run 500x840_24
+  - first:
+      213: 7766701671331454956
+    second: Adam_run 500x840_25
+  - first:
+      213: -2381427542263495753
+    second: Adam_run 500x840_26
+  - first:
+      213: -8317781820703936992
+    second: Adam_run 500x840_27
+  - first:
+      213: 4536751973111457245
+    second: Adam_run 500x840_28
+  - first:
+      213: -5251026513488243642
+    second: Adam_run 500x840_29
+  - first:
+      213: -705798566743002218
+    second: Adam_run 500x840_30
+  - first:
+      213: 8071468296490489920
+    second: Adam_run 500x840_31
+  - first:
+      213: 120182571290127632
+    second: Adam_run 500x840_32
+  - first:
+      213: -5816192842282241137
+    second: Adam_run 500x840_33
+  - first:
+      213: 2156106178834274524
+    second: Adam_run 500x840_34
+  - first:
+      213: -1037498110639990299
+    second: Adam_run 500x840_35
+  - first:
+      213: 6306266694923655853
+    second: Adam_run 500x840_36
+  - first:
+      213: -4924076290632100235
+    second: Adam_run 500x840_37
+  - first:
+      213: -2611355261958414862
+    second: Adam_run 500x840_38
+  - first:
+      213: -446295924621432589
+    second: Adam_run 500x840_39
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_run 500x840_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7ec53b8a3e9630d0800000000000000
+      internalID: -3443390890797314438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4a3f981315fe820800000000000000
+      internalID: 2949665554160657590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d63b62ce695d6fa60800000000000000
+      internalID: 7707582656474952557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0381dee865341dc0800000000000000
+      internalID: -3669249071600532723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01bdfe4ea039bebf0800000000000000
+      internalID: -293979675662755056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7f6737587d88260800000000000000
+      internalID: 7100161780717385708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2611cf4e1ce0f9e0800000000000000
+      internalID: -1589511053530556886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f00741506f7f9a0800000000000000
+      internalID: -6199215860374040796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3370
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f65538356b377b80800000000000000
+      internalID: -8397177674288245007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fa475b5d799813d0800000000000000
+      internalID: -3235667568583292174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_10
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43246275550d9def0800000000000000
+      internalID: -82806053176720844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_11
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d65ec7622f3c2a00800000000000000
+      internalID: 733030256357562071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_12
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66e46dbae8ab5f210800000000000000
+      internalID: 1366203183907884646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_13
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0ffcc04e0e443df0800000000000000
+      internalID: -201450260201144565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_14
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 729682933883f03d0800000000000000
+      internalID: -3238307470805276377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_15
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11425f08913b21fc0800000000000000
+      internalID: -3525558636158573551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_16
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f32e7383a91cd730800000000000000
+      internalID: 4025120357038826480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_17
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2530
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ed55e65d40832140800000000000000
+      internalID: 4693736306308898274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba825136a060f520800000000000000
+      internalID: 2733791240722221756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_19
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec4961aebecd0b6f0800000000000000
+      internalID: -670793438675430194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_20
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d66b02123cb986160800000000000000
+      internalID: 7019031281633637997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_21
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50b46abf5fa5b580800000000000000
+      internalID: -8811944270196592545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_22
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a260b791ed8b8f20800000000000000
+      internalID: 3425987941597471400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_23
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b2c8474e2f467d20800000000000000
+      internalID: 3275892839141655220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_24
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2db6149bf02750ac0800000000000000
+      internalID: -3889577291306406958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_25
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefd424350ed8cb60800000000000000
+      internalID: 7766701671331454956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_26
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1690
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b38d05844873fed0800000000000000
+      internalID: -2381427542263495753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e6db9e08d419c80800000000000000
+      internalID: -8317781820703936992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_28
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd56c5ff1e7c5fe30800000000000000
+      internalID: 4536751973111457245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6441065053b9027b0800000000000000
+      internalID: -5251026513488243642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_30
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 693bd4a61ff7436f0800000000000000
+      internalID: -705798566743002218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_31
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0489424b6ad930070800000000000000
+      internalID: 8071468296490489920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_32
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01de0fd6969faa100800000000000000
+      internalID: 120182571290127632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_33
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83f89aec6bb84fa0800000000000000
+      internalID: -5816192842282241137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_34
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8117765270ced10800000000000000
+      internalID: 2156106178834274524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_35
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 850
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e91a2c17f01a91f0800000000000000
+      internalID: -1037498110639990299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa1dc1a52c548750800000000000000
+      internalID: 6306266694923655853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_37
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57653f9d3ba2aabb0800000000000000
+      internalID: -4924076290632100235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_38
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fd1f9c893a92cbd0800000000000000
+      internalID: -2611355261958414862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_run 500x840_39
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 10
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f82c3c98307ec9f0800000000000000
+      internalID: -446295924621432589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
