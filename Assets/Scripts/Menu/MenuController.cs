@@ -28,9 +28,17 @@ public class MenuController : MonoBehaviour
     public void LoadSavedGame()
     {
         noSavedGameDialog.SetActive(true);
-        SoundManager.GetInstance().Play("BGM");
-        SoundManager.GetInstance().Stop("MenuBGM");
+        if (noSavedGameDialog)
+        {
+
+        }
+        else
+        {
+            SoundManager.GetInstance().Play("BGM");
+            SoundManager.GetInstance().Stop("MenuBGM");
+        }
     }
+
 
     public void QuitGame()
     {
