@@ -38,15 +38,18 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Run") && jump == false && walk == false)
         {
+            animator.SetBool("isRunning", true);
             runSpeed = 30f;
             FindObjectOfType<SoundManager>().Stop("Walking"); 
             FindObjectOfType<SoundManager>().Play("Running");
         }
         else if (Input.GetButtonUp("Run") || runSpeed == 0f){
+            animator.SetBool("isRunning", false);
             FindObjectOfType<SoundManager>().Stop("Running");
         }
         if (Input.GetButtonDown("Walk") && Input.GetButton("Run"))
         {
+            animator.SetBool("isRunning", false);
             walk = true;
             runSpeed = 20f;
             FindObjectOfType<SoundManager>().Play("Walking");
@@ -59,6 +62,7 @@ public class PlayerMovement : MonoBehaviour
             FindObjectOfType<SoundManager>().Stop("Walking");
             if(runSpeed > 0f && Input.GetButton("Run"))
             {
+                animator.SetBool("isRunning", true);
                 runSpeed = 30f;
                 FindObjectOfType<SoundManager>().Play("Running");
             }
@@ -80,6 +84,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isFloating", false);
         if (runSpeed > 0f && Input.GetButton("Run"))
         {
+            animator.SetBool("isRunning", true);
             runSpeed = 30f;
             FindObjectOfType<SoundManager>().Play("Running");
         }

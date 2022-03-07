@@ -1,0 +1,1092 @@
+fileFormatVersion: 2
+guid: 8f4e6788818730a4e996bf5528117880
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2769297776989343950
+    second: adam_walk_500x840_0
+  - first:
+      213: 1402956497839084862
+    second: adam_walk_500x840_1
+  - first:
+      213: -5722331695043560626
+    second: adam_walk_500x840_2
+  - first:
+      213: 7576422315768449354
+    second: adam_walk_500x840_3
+  - first:
+      213: 6143261780056051229
+    second: adam_walk_500x840_4
+  - first:
+      213: 399169239305248199
+    second: adam_walk_500x840_5
+  - first:
+      213: 92308943451047806
+    second: adam_walk_500x840_6
+  - first:
+      213: -4902990581803249574
+    second: adam_walk_500x840_7
+  - first:
+      213: -22025782929085245
+    second: adam_walk_500x840_8
+  - first:
+      213: -7971502139825320557
+    second: adam_walk_500x840_9
+  - first:
+      213: 8391448661936662457
+    second: adam_walk_500x840_10
+  - first:
+      213: 1459270683084053411
+    second: adam_walk_500x840_11
+  - first:
+      213: -8170960251730854040
+    second: adam_walk_500x840_12
+  - first:
+      213: -6650226066259589937
+    second: adam_walk_500x840_13
+  - first:
+      213: 4514776390302219377
+    second: adam_walk_500x840_14
+  - first:
+      213: 2643333964278769668
+    second: adam_walk_500x840_15
+  - first:
+      213: 5912429730969466146
+    second: adam_walk_500x840_16
+  - first:
+      213: 5450861314600917638
+    second: adam_walk_500x840_17
+  - first:
+      213: 5633097100081225207
+    second: adam_walk_500x840_18
+  - first:
+      213: 8458819858506309692
+    second: adam_walk_500x840_19
+  - first:
+      213: 2138444605784307550
+    second: adam_walk_500x840_20
+  - first:
+      213: 6472969659454635679
+    second: adam_walk_500x840_21
+  - first:
+      213: -2780843159755086886
+    second: adam_walk_500x840_22
+  - first:
+      213: 8571524327846838759
+    second: adam_walk_500x840_23
+  - first:
+      213: -8056561079850390992
+    second: adam_walk_500x840_24
+  - first:
+      213: -4539811614333799833
+    second: adam_walk_500x840_25
+  - first:
+      213: -8161015100398851986
+    second: adam_walk_500x840_26
+  - first:
+      213: 5361187682256093207
+    second: adam_walk_500x840_27
+  - first:
+      213: -4244068392261889759
+    second: adam_walk_500x840_28
+  - first:
+      213: -6405524581482799952
+    second: adam_walk_500x840_29
+  - first:
+      213: -3505871257126573194
+    second: adam_walk_500x840_30
+  - first:
+      213: 7330084682740960692
+    second: adam_walk_500x840_31
+  - first:
+      213: 7949478567924075259
+    second: adam_walk_500x840_32
+  - first:
+      213: 3786597829956647605
+    second: adam_walk_500x840_33
+  - first:
+      213: -397732745028209116
+    second: adam_walk_500x840_34
+  - first:
+      213: 3157061292987867271
+    second: adam_walk_500x840_35
+  - first:
+      213: -2747006549848292109
+    second: adam_walk_500x840_36
+  - first:
+      213: -5482063437057052387
+    second: adam_walk_500x840_37
+  - first:
+      213: -8622371944719511670
+    second: adam_walk_500x840_38
+  - first:
+      213: 7142069889394433172
+    second: adam_walk_500x840_39
+  - first:
+      213: -3156247902293898125
+    second: adam_walk_500x840_40
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: adam_walk_500x840_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec09ab2e7a58e6620800000000000000
+      internalID: 2769297776989343950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_1
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e355609608d487310800000000000000
+      internalID: 1402956497839084862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_2
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b38fd34a13690b0800000000000000
+      internalID: -5722331695043560626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_3
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4988bf54fbd42960800000000000000
+      internalID: 7576422315768449354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_4
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e89726a00414550800000000000000
+      internalID: 6143261780056051229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_5
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd5d0aee422a8500800000000000000
+      internalID: 399169239305248199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_6
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77cdf7be72f74100800000000000000
+      internalID: 92308943451047806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_7
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5018820b0415fbb0800000000000000
+      internalID: -4902990581803249574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_8
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccac98caafb1bff0800000000000000
+      internalID: -22025782929085245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_9
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d0275e9098f5190800000000000000
+      internalID: -7971502139825320557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_10
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b769a5291a647470800000000000000
+      internalID: 8391448661936662457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_11
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3abdd5864fe504410800000000000000
+      internalID: 1459270683084053411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_12
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86ffeb151faea9e80800000000000000
+      internalID: -8170960251730854040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_13
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc4cd8c80a6a5b3a0800000000000000
+      internalID: -6650226066259589937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_14
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cb848e435b7ae30800000000000000
+      internalID: 4514776390302219377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_15
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 3256
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408af8b4c320fa420800000000000000
+      internalID: 2643333964278769668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 225b4e1d38b2d0250800000000000000
+      internalID: 5912429730969466146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_17
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ad4b85c7955ab40800000000000000
+      internalID: 5450861314600917638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_18
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fddf9397f7cc2e40800000000000000
+      internalID: 5633097100081225207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_19
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c30e94538d3c36570800000000000000
+      internalID: 8458819858506309692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_20
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57bf9bf9084dad10800000000000000
+      internalID: 2138444605784307550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_21
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9ebca92c9b94d950800000000000000
+      internalID: 6472969659454635679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_22
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad329b631e57869d0800000000000000
+      internalID: -2780843159755086886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_23
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e10ee856fb24f670800000000000000
+      internalID: 8571524327846838759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_24
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03aa7442268513090800000000000000
+      internalID: -8056561079850390992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_25
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 762f074c3695ff0c0800000000000000
+      internalID: -4539811614333799833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_26
+      rect:
+        serializedVersion: 2
+        x: 5000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e68a02e41004ebe80800000000000000
+      internalID: -8161015100398851986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_27
+      rect:
+        serializedVersion: 2
+        x: 5500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 710031fcac3c66a40800000000000000
+      internalID: 5361187682256093207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_28
+      rect:
+        serializedVersion: 2
+        x: 6000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12154c4884a0a15c0800000000000000
+      internalID: -4244068392261889759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_29
+      rect:
+        serializedVersion: 2
+        x: 6500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc5fa0c4510b17a0800000000000000
+      internalID: -6405524581482799952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_30
+      rect:
+        serializedVersion: 2
+        x: 7000
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67be7b2aaa4a85fc0800000000000000
+      internalID: -3505871257126573194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_31
+      rect:
+        serializedVersion: 2
+        x: 7500
+        y: 2416
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd8e48be21b9b560800000000000000
+      internalID: 7330084682740960692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfa02bea3a8325e60800000000000000
+      internalID: 7949478567924075259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_33
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bab4d10aa2bc8430800000000000000
+      internalID: 3786597829956647605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_34
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4267d09fc28fa7af0800000000000000
+      internalID: -397732745028209116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_35
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7806da6e48220db20800000000000000
+      internalID: 3157061292987867271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_36
+      rect:
+        serializedVersion: 2
+        x: 2000
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f40f90e81ca0e9d0800000000000000
+      internalID: -2747006549848292109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_37
+      rect:
+        serializedVersion: 2
+        x: 2500
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11be06695ccbe3b0800000000000000
+      internalID: -5482063437057052387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_38
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8f03b9466e275880800000000000000
+      internalID: -8622371944719511670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_39
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c5e5e59babd1360800000000000000
+      internalID: 7142069889394433172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: adam_walk_500x840_40
+      rect:
+        serializedVersion: 2
+        x: 4000
+        y: 1576
+        width: 500
+        height: 840
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c43b06141c234d0800000000000000
+      internalID: -3156247902293898125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
