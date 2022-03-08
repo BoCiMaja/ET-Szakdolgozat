@@ -37,7 +37,10 @@ public static class SceneLoader
         if (SceneManager.GetSceneByName(sceneToLoad).isLoaded == false)
         {
             SceneManager.LoadSceneAsync(sceneToLoad, LoadSceneMode.Additive).completed += operation =>
+            {
                 SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneToLoad));
+                SceneGraphicsController.ApplyGraphicsSettings();
+            };
         }
     }
 

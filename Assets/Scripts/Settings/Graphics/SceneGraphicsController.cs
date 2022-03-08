@@ -60,4 +60,9 @@ public class SceneGraphicsController : MonoBehaviour
         SetQualityLevel(data.QualityLevel);
         SetFullscreen(data.Fullscreen);
     }
+
+    public static void ApplyGraphicsSettings()
+    {
+        ApplyGraphicsSettings(GraphicsManager.Instance.GraphicsData);
+    }
 }

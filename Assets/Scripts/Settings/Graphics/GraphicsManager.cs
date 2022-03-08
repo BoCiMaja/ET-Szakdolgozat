@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class GraphicsManager
 {
+    #region Static fields
+
     private static List<Resolution> resolutions;
     public static Resolution[] Resolutions
     {
@@ -17,6 +19,7 @@ public class GraphicsManager
         aspectRatio = new Tuple<float, float>(width, height);
     }
 
+    #endregion
 
     private static GraphicsManager instance;
     public static GraphicsManager Instance
@@ -116,7 +119,7 @@ public class GraphicsManager
 
     #endregion
 
-    #region Datas and properties
+    #region Fields and properties
 
     private GraphicsData graphicsData;
     public GraphicsData GraphicsData
