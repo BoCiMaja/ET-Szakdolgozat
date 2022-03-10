@@ -999,6 +999,7 @@ GameObject:
   - component: {fileID: 955182469}
   - component: {fileID: 955182468}
   - component: {fileID: 955182470}
+  - component: {fileID: 955182471}
   m_Layer: 0
   m_Name: Document3
   m_TagString: Untagged
@@ -1097,6 +1098,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.2744231, y: 19.873621}
   m_EdgeRadius: 0
+--- !u!114 &955182471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955182467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3f2365472b38e409c4d78c9a15207b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteToShow: {fileID: 11400000, guid: 13311ae7642e6ee4eab7a8cb99cba820, type: 2}
 --- !u!1 &1133448186
 GameObject:
   m_ObjectHideFlags: 0
@@ -1108,6 +1122,7 @@ GameObject:
   - component: {fileID: 1133448188}
   - component: {fileID: 1133448187}
   - component: {fileID: 1133448189}
+  - component: {fileID: 1133448190}
   m_Layer: 0
   m_Name: Document2
   m_TagString: Untagged
@@ -1206,6 +1221,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.8073614, y: 10.012912}
   m_EdgeRadius: 0
+--- !u!114 &1133448190
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1133448186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3f2365472b38e409c4d78c9a15207b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteToShow: {fileID: 11400000, guid: 5f01675f19dddc7499b7b808a5390462, type: 2}
 --- !u!1 &1151346555
 GameObject:
   m_ObjectHideFlags: 0
@@ -1829,6 +1857,7 @@ GameObject:
   - component: {fileID: 1884287751}
   - component: {fileID: 1884287750}
   - component: {fileID: 1884287749}
+  - component: {fileID: 1884287752}
   m_Layer: 0
   m_Name: Book
   m_TagString: Untagged
@@ -1927,6 +1956,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1884287752
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884287748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c3f2365472b38e409c4d78c9a15207b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  noteToShow: {fileID: 11400000, guid: ad840bc93b7223c45ab51dddf47377cb, type: 2}
 --- !u!1001 &1994909260
 PrefabInstance:
   m_ObjectHideFlags: 0
