@@ -10,25 +10,25 @@ public class NotePanel : MonoBehaviour
     [SerializeField] private Image noteImage;
     [SerializeField] private TMP_Text noteLabelText;
 
-    private Note boundNote;
+    [SerializeField] private Button nextButton;
+    [SerializeField] private Button previousButton;
 
-    //private void OnDestroy()
-    //{
-    //    if (boundNote != null) ;
-    //    //NoteHandler.Instance.OnNoteChanged += HandleNoteChanged;
-    //}
+    private Note boundNote;
 
     public void Bind(Note note)
     {
-        //if (boundNote != null)
-            //boundNote.OnHealthChanged -= HandleHealthChanged;
+        if (boundNote == null)
+            Time.timeScale = 0;
 
         boundNote = note;
 
         if (boundNote != null)
         {
             panelRoot.SetActive(true);
-            //_boundEntity.OnHealthChanged += HandleHealthChanged;
+
+            nextButton.gameObject.SetActive(boundNote is ScrollableNote);
+            previousButton.gameObject.SetActive(boundNote is ScrollableNote);
+
             HandlePageChanged(boundNote);
         }
         else
@@ -42,6 +42,15 @@ public class NotePanel : MonoBehaviour
         noteImage.sprite = note.ActivePage.Sprite;
         if (noteLabelText != null && note.HasLabel)
             noteLabelText.SetText(note.Label);
+
+        if (note is ScrollableNote)
+            HandleScrollPageChanged(note as ScrollableNote);
+    }
+
+    private void HandleScrollPageChanged(ScrollableNote note)
+    {
+        previousButton.interactable = !note.IsActiveTheFirstPage;
+        nextButton.interactable = !note.IsActiveTheLastPage;
     }
 
     public void NextPage()
@@ -76,6 +85,7 @@ public class NotePanel : MonoBehaviour
 
     public void Close()
     {
+        Time.timeScale = 1;
         this.Bind(null);
     }
 }

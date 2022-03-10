@@ -18,11 +18,13 @@ public class ScrollableNote : Note
             return pages[currentPage];
         } 
     }
+    public bool IsActiveTheFirstPage { get { return CurrentPage == 0; } }
+    public bool IsActiveTheLastPage { get { return CurrentPage >= pages.Length - 1; } }
 
     private byte currentPage;
     public byte CurrentPage
     {
-        private get { return currentPage; }
+        get { return currentPage; }
         set
         {
             if (value > pages.Length - 1)

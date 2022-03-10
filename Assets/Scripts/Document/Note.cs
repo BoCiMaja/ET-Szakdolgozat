@@ -14,7 +14,7 @@ public abstract class Note : ScriptableObject
     }
     public bool HasLabel
     {
-        get { return string.IsNullOrWhiteSpace(label);}
+        get { return !string.IsNullOrWhiteSpace(label);}
     }
 
     [SerializeField] private AudioClip pickup;
