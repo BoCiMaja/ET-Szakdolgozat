@@ -5,8 +5,6 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    [SerializeField] private float JumpForce = 400f;
-
     public CharacterController2D controller;
     private Rigidbody2D Rigidbody2D;
 
@@ -19,9 +17,12 @@ public class PlayerMovement : MonoBehaviour
     bool walk = false;
 
     bool jump = false;
+    [SerializeField] private float jumpForce = 400f;
     private int extraJump;
     public int extraJumpValue;
     [SerializeField] private bool airControl = false;
+    public float jumpDelay = 0.5f;
+    public bool doubleJumpReady = false;
 
     private bool floating;
 
@@ -47,47 +48,21 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalMove =  Input.GetAxisRaw("Horizontal") * runSpeed;
         animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-        if (Input.GetButtonDown("Walk") && jump == false && walk == false)
+        if (controller.m_Grounded == true)
         {
-            animator.SetBool("isWalking", true);
-            runSpeed = 10f;
-            FindObjectOfType<SoundManager>().Stop("Running"); 
-            FindObjectOfType<SoundManager>().Play("Walking");
+            extraJump = extraJumpValue;
         }
-        else if (Input.GetButtonUp("Walk") || runSpeed == 0f){
-            animator.SetBool("isWalking", false);
-            FindObjectOfType<SoundManager>().Stop("Walking");
-        }
-        if (Input.GetButtonDown("Run") && Input.GetButton("Walk"))
-        {
-            animator.SetBool("isWalking", false);
-            walk = false;
-            runSpeed = 30f;
-            FindObjectOfType<SoundManager>().Play("Running");
-            FindObjectOfType<SoundManager>().Stop("Walking");
-
-        }
-        else if (Input.GetButtonUp("Run"))
-        {
-            run = false;
-            FindObjectOfType<SoundManager>().Stop("Running");
-            if(runSpeed > 0f && Input.GetButton("Walk"))
-            {
-                walk = true;
-                animator.SetBool("isWalking", true);
-                runSpeed = 10f;
-                FindObjectOfType<SoundManager>().Play("Walking");
-            }
-        }
-
+        Jump();
+        MoveWithAnimations();
+        
     }
 
     private void FixedUpdate()
     {
+        jump = false;
         Physics2D.gravity = new Vector2(0, -9.8f);
         floating = false;
-        Move(horizontalMove * Time.fixedDeltaTime, jump);
+        BasicMove(horizontalMove * Time.fixedDeltaTime, jump);
         Turning();
         Floating();
     }
@@ -106,12 +81,12 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    public void Move(float move, bool jump)
+    public void BasicMove(float move, bool jump)
     {
         if (controller.m_Grounded && jump)
         {
             controller.m_Grounded = false;
-            Rigidbody2D.AddForce(new Vector2(0f, JumpForce));
+            Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
         }
 
         if (controller.m_Grounded || airControl)
@@ -121,21 +96,85 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-
-    private void Turning()
+    private void MoveWithAnimations()
     {
-        if (horizontalMove > 0 && !m_FacingRight)
+        if (Input.GetButtonDown("Walk") && jump == false && walk == false)
         {
-            CreateDust(); // PARTICLE WHEN TURNING
-            Flip();
-            //animator.SetBool("isTurning", true);
+            animator.SetBool("isWalking", true);
+            runSpeed = 10f;
+            FindObjectOfType<SoundManager>().Stop("Running");
+            FindObjectOfType<SoundManager>().Play("Walking");
         }
-        else if (horizontalMove < 0 && m_FacingRight)
+        else if (Input.GetButtonUp("Walk") || runSpeed == 0f)
         {
-            CreateDust(); // PARTICLE WHEN TURNING
-            Flip();
-            //animator.SetBool("isTurning", false);
+            animator.SetBool("isWalking", false);
+            FindObjectOfType<SoundManager>().Stop("Walking");
         }
+        if (Input.GetButtonDown("Run") && Input.GetButton("Walk"))
+        {
+            animator.SetBool("isWalking", false);
+            walk = false;
+            runSpeed = 30f;
+            FindObjectOfType<SoundManager>().Play("Running");
+            FindObjectOfType<SoundManager>().Stop("Walking");
+
+        }
+        else if (Input.GetButtonUp("Run"))
+        {
+            run = false;
+            FindObjectOfType<SoundManager>().Stop("Running");
+            if (runSpeed > 0f && Input.GetButton("Walk"))
+            {
+                walk = true;
+                animator.SetBool("isWalking", true);
+                runSpeed = 10f;
+                FindObjectOfType<SoundManager>().Play("Walking");
+            }
+        }
+    }
+
+    private void Jump()
+    {
+        if (Input.GetButtonDown("Jump") && extraJump > 0)
+        {
+            CreateDust();
+            FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
+            FindObjectOfType<SoundManager>().Stop("Walking");
+            FindObjectOfType<SoundManager>().Stop("Running");
+            jump = true;
+            animator.SetBool("isJumping", true);
+            Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+            if (doubleJumpReady)
+            {
+                DoubleJump();
+            }
+            else
+            {
+                PrepareJump();
+            }
+        }
+    }
+
+    void DoubleJump()
+    {
+        doubleJumpReady = false;
+        Rigidbody2D.AddForce(new Vector2(0f, jumpForce / 4));
+        animator.SetBool("isJumping", false);
+        animator.SetBool("jumpedAlready", true);
+        extraJump--;
+        //cameraShake.start = true;
+    }
+    void PrepareJump()
+    {
+        //this is where the handling happens
+        CancelInvoke("NoJump");
+        Invoke("NoJump", jumpDelay);
+        doubleJumpReady = true;
+    }
+
+    void NoJump()
+    {
+        doubleJumpReady = false;
     }
 
     public void Floating()
@@ -153,6 +192,21 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void Turning()
+    {
+        if (horizontalMove > 0 && !m_FacingRight)
+        {
+            CreateDust(); // PARTICLE WHEN TURNING
+            Flip();
+            //animator.SetBool("isTurning", true);
+        }
+        else if (horizontalMove < 0 && m_FacingRight)
+        {
+            CreateDust(); // PARTICLE WHEN TURNING
+            Flip();
+            //animator.SetBool("isTurning", false);
+        }
+    }
     private void Flip()
     {
         m_FacingRight = !m_FacingRight;
