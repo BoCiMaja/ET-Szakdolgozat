@@ -202,13 +202,13 @@ public class PlayerMovement : MonoBehaviour
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
-            //animator.SetBool("isTurning", true);
+            animator.SetBool("isTurning", true);
         }
         else if (horizontalMove < 0 && m_FacingRight)
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
-            //animator.SetBool("isTurning", false);
+            animator.SetBool("isTurning", true);
         }
     }
     private void Flip()
