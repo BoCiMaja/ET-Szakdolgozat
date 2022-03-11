@@ -5,11 +5,11 @@ using UnityEngine;
 
 public class PlayerInteractionController : MonoBehaviour
 {
-    CharacterController2D charController;
+    PlayerActions charController;
 
     private void Start()
     {
-        charController = GetComponent<CharacterController2D>();
+        charController = GetComponent<PlayerActions>();
     }
 
     private void Update()

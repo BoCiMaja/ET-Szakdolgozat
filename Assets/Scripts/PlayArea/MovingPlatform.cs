@@ -9,7 +9,7 @@ public class MovingPlatform : MonoBehaviour
     public float speed = 4;
     public int dir;
     public GameObject Adam;
-    public CharacterController2D characterController;
+    public PlayerActions characterController;
     public PlayerMovement player;
 
     // Start is called before the first frame update

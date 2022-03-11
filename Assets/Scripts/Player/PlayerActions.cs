@@ -4,7 +4,7 @@ using System.Collections;
 using UnityEngine.SceneManagement;
 using UnityEngine.Audio;
 
-public class CharacterController2D : MonoBehaviour
+public class PlayerActions : MonoBehaviour
 {
 	[SerializeField] private LayerMask m_WhatIsGround;                          // A mask determining what is ground to the character
 	[SerializeField] public Transform m_GroundCheck;                           // A position marking where to check if the player is grounded.

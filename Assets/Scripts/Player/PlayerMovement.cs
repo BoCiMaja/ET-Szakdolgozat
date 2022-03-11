@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
 
-    public CharacterController2D controller;
+    public PlayerActions controller;
     private Rigidbody2D Rigidbody2D;
 
     public float runSpeed;
@@ -71,6 +71,7 @@ public class PlayerMovement : MonoBehaviour
     {
         CreateDust();
         FindObjectOfType<SoundManager>().Play("Landing");
+        FindObjectOfType<SoundManager>().Stop("Floating");
         animator.SetBool("isJumping", false);
         animator.SetBool("isDoubleJumping", false);
         animator.SetBool("isFloating", false);
@@ -189,13 +190,11 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.gravity = new Vector2(0, -0.8f);
             jump = false;
             floating = true;
-            FindObjectOfType<SoundManager>().Play("Floating"); 
             FindObjectOfType<SoundManager>().Stop("Running");
             FindObjectOfType<SoundManager>().Stop("Walking");
             animator.SetBool("isJumping", false);
             animator.SetBool("isFloating", true);
         }
-        FindObjectOfType<SoundManager>().Stop("Floating");
     }
 
     private void Turning()
