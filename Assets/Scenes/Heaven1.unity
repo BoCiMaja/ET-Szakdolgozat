@@ -2232,6 +2232,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1778223546958741016, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
   m_PrefabInstance: {fileID: 1778223546464429927}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &495622530 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1778223546958741218, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+  m_PrefabInstance: {fileID: 1778223546464429927}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495622525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80398fee43cf74945bb8506454178b8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &495622532 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1778223546958741219, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
@@ -7957,6 +7968,7 @@ MonoBehaviour:
   dir: 0
   Adam: {fileID: 495622525}
   characterController: {fileID: 495622532}
+  player: {fileID: 495622530}
 --- !u!1 &2100406703
 GameObject:
   m_ObjectHideFlags: 0

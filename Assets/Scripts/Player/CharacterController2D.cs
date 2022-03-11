@@ -25,10 +25,6 @@ public class CharacterController2D : MonoBehaviour
 	[System.Serializable]
 	public class BoolEvent : UnityEvent<bool> { }
 
-	public bool jump = false;
-	private int extraJump;
-	public int extraJumpValue;
-
 	public Animator animator;
 	public ParticleSystem dust;
 
@@ -44,7 +40,6 @@ public class CharacterController2D : MonoBehaviour
 
 	private void Awake()
 	{
-		extraJump = extraJumpValue;
 		m_Rigidbody2D = GetComponent<Rigidbody2D>();
 
 		if (OnLandEvent == null)
@@ -65,7 +60,6 @@ public class CharacterController2D : MonoBehaviour
     {
 		bool wasGrounded = m_Grounded;
 		m_Grounded = false;
-		animator.SetBool("isTurning", false);
 
 		Collider2D[] colliders = Physics2D.OverlapCircleAll(m_GroundCheck.position, k_GroundedRadius, m_WhatIsGround);
 		for (int i = 0; i < colliders.Length; i++)

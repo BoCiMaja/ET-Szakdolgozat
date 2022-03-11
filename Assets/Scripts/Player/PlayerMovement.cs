@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     bool run = false;
     bool walk = false;
 
-    bool jump = false;
+    public bool jump = false;
     [SerializeField] private float jumpForce = 400f;
     private int extraJump;
     public int extraJumpValue;
@@ -59,6 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
+        animator.SetBool("isTurning", false);
         jump = false;
         Physics2D.gravity = new Vector2(0, -9.8f);
         floating = false;
@@ -71,7 +72,7 @@ public class PlayerMovement : MonoBehaviour
     {
         CreateDust();
         animator.SetBool("isJumping", false);
-        animator.SetBool("jumpedAlready", false);
+        animator.SetBool("isDoubleJumping", false);
         animator.SetBool("isFloating", false);
         if (runSpeed > 0f && Input.GetButton("Walk"))
         {
@@ -98,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void MoveWithAnimations()
     {
-        if (Input.GetButtonDown("Walk") && jump == false && walk == false)
+        if (Input.GetButtonDown("Walk") && jump == false && run == false)
         {
             animator.SetBool("isWalking", true);
             runSpeed = 10f;
@@ -113,7 +114,9 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Run") && Input.GetButton("Walk"))
         {
             animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", true);
             walk = false;
+            run = true;
             runSpeed = 30f;
             FindObjectOfType<SoundManager>().Play("Running");
             FindObjectOfType<SoundManager>().Stop("Walking");
@@ -123,6 +126,7 @@ public class PlayerMovement : MonoBehaviour
         {
             run = false;
             FindObjectOfType<SoundManager>().Stop("Running");
+            animator.SetBool("isRunning", false);
             if (runSpeed > 0f && Input.GetButton("Walk"))
             {
                 walk = true;
@@ -160,7 +164,7 @@ public class PlayerMovement : MonoBehaviour
         doubleJumpReady = false;
         Rigidbody2D.AddForce(new Vector2(0f, jumpForce / 4));
         animator.SetBool("isJumping", false);
-        animator.SetBool("jumpedAlready", true);
+        animator.SetBool("isDoubleJumping", true);
         extraJump--;
         //cameraShake.start = true;
     }

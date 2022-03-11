@@ -10,6 +10,7 @@ public class MovingPlatform : MonoBehaviour
     public int dir;
     public GameObject Adam;
     public CharacterController2D characterController;
+    public PlayerMovement player;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,7 @@ public class MovingPlatform : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (characterController.m_GroundCheck && !characterController.jump && collision.gameObject.tag == "Player")
+        if (characterController.m_GroundCheck && !player.jump && collision.gameObject.tag == "Player")
         {
             Adam.transform.parent = transform;
         }
