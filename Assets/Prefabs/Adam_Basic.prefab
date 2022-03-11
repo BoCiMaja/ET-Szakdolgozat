@@ -284,7 +284,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.2
+      scalar: 0.4
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -4758,7 +4758,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: e823cd5b5d27c0f4b8256e7c12ee3e6d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4776,9 +4776,9 @@ ParticleSystemRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -968065393
+  m_SortingLayer: 1
+  m_SortingOrder: 2
   m_RenderMode: 0
   m_SortMode: 0
   m_MinParticleSize: 0
@@ -4945,10 +4945,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -968065393
+  m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 1755826959690271033, guid: f648dbae5d0711f499a1551b13269d70, type: 3}
+  m_Sprite: {fileID: -8875339762824419904, guid: c10a888f99b01f34a8fa7aeb4ef33de4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -4988,7 +4988,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 8.89}
+    oldSize: {x: 5.000956, y: 8.4}
     newSize: {x: 5, y: 8.89}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5014,7 +5014,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 8.89}
+    oldSize: {x: 5.000956, y: 8.4}
     newSize: {x: 5, y: 8.89}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5040,7 +5040,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5, y: 8.89}
+    oldSize: {x: 5.000956, y: 8.4}
     newSize: {x: 5, y: 8.89}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -5101,21 +5101,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f57cadf78e461d428f86368dead2a7d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_JumpForce: 350
-  m_CrouchSpeed: 0.36
-  m_WalkSpeed: 0.3
-  m_MovementSmoothing: 0.156
-  m_AirControl: 1
   m_WhatIsGround:
     serializedVersion: 2
     m_Bits: 64
   m_GroundCheck: {fileID: 1778223546578369968}
   m_CeilingCheck: {fileID: 1778223545388635720}
-  m_CrouchDisableCollider: {fileID: 1778223546958741217}
   m_Grounded: 0
-  floating: 0
-  jumpDelay: 0.5
-  doubleJumpReady: 0
   cameraShake: {fileID: 0}
   OnLandEvent:
     m_PersistentCalls:
@@ -5132,38 +5123,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  OnCrouchEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1778223546958741218}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: OnCrouching
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  OnWalkEvent:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1778223546958741218}
-        m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
-        m_MethodName: OnWalking
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-  jump: 0
-  extraJumpValue: 1
   animator: {fileID: 1778223546958741220}
   dust: {fileID: 1778223545256266979}
   sound: {fileID: 0}
@@ -5187,6 +5146,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1778223546958741219}
   runSpeed: 30
+  movementSmoothing: 0.05
+  jump: 0
+  jumpForce: 400
+  extraJumpValue: 1
+  airControl: 1
+  jumpDelay: 0.5
+  doubleJumpReady: 0
   animator: {fileID: 1778223546958741220}
   dust: {fileID: 1778223545256266979}
 --- !u!114 &1778223546958741216

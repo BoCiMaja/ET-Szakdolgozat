@@ -80,6 +80,34 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - audioType: 1
+    name: DocumentumView
+    clip: {fileID: 8300000, guid: 3b6cb4951d8e87f4191965b428f228f3, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: BookFlipPage
+    clip: {fileID: 8300000, guid: aa27da91b125cc44bbeca73f40e1a410, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: BookView
+    clip: {fileID: 8300000, guid: 4f543de26b62aad4c899ecfc1fdb4a32, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: BookClose
+    clip: {fileID: 8300000, guid: 3f84cd799c633f148a14fa3d48ec86ec, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
   - audioType: 2
     name: BGM
     clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}

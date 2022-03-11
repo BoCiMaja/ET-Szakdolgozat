@@ -25,6 +25,7 @@ public class NotePanel : MonoBehaviour
         if (boundNote != null)
         {
             panelRoot.SetActive(true);
+            FindObjectOfType<SoundManager>().Play("BookView");
 
             nextButton.gameObject.SetActive(boundNote is ScrollableNote);
             previousButton.gameObject.SetActive(boundNote is ScrollableNote);
@@ -65,6 +66,7 @@ public class NotePanel : MonoBehaviour
             //(boundNote as ScrollableNote).CurrentPage++;
 
             HandlePageChanged(boundNote);
+            FindObjectOfType<SoundManager>().Play("BookFlipPage");
         }
     }
 
@@ -80,11 +82,13 @@ public class NotePanel : MonoBehaviour
             //(boundNote as ScrollableNote).CurrentPage++;
 
             HandlePageChanged(boundNote);
+            FindObjectOfType<SoundManager>().Play("BookFlipPage");
         }
     }
 
     public void Close()
     {
+        FindObjectOfType<SoundManager>().Play("BookClose");
         Time.timeScale = 1;
         this.Bind(null);
     }
