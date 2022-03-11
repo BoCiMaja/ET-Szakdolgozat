@@ -59,7 +59,6 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        animator.SetBool("isTurning", false);
         jump = false;
         Physics2D.gravity = new Vector2(0, -9.8f);
         floating = false;
@@ -71,6 +70,7 @@ public class PlayerMovement : MonoBehaviour
     public void OnLanding()
     {
         CreateDust();
+        FindObjectOfType<SoundManager>().Play("Landing");
         animator.SetBool("isJumping", false);
         animator.SetBool("isDoubleJumping", false);
         animator.SetBool("isFloating", false);
@@ -189,11 +189,13 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.gravity = new Vector2(0, -0.8f);
             jump = false;
             floating = true;
-            FindObjectOfType<SoundManager>().Stop("Running"); // running hang hivás
-            FindObjectOfType<SoundManager>().Stop("Walking"); // running hang hivás
+            FindObjectOfType<SoundManager>().Play("Floating"); 
+            FindObjectOfType<SoundManager>().Stop("Running");
+            FindObjectOfType<SoundManager>().Stop("Walking");
             animator.SetBool("isJumping", false);
             animator.SetBool("isFloating", true);
         }
+        FindObjectOfType<SoundManager>().Stop("Floating");
     }
 
     private void Turning()
@@ -202,13 +204,13 @@ public class PlayerMovement : MonoBehaviour
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
-            animator.SetBool("isTurning", true);
+            animator.SetTrigger("isTurning");
         }
         else if (horizontalMove < 0 && m_FacingRight)
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
-            animator.SetBool("isTurning", true);
+            animator.SetTrigger("isTurning");
         }
     }
     private void Flip()
@@ -217,7 +219,7 @@ public class PlayerMovement : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
-        animator.SetBool("isTurning", true);
+        animator.SetTrigger("isTurning");
     }
 
     void CreateDust()

@@ -19,6 +19,7 @@ public class WallClimbing : MonoBehaviour
         {
             isClimbing = true;
             animator.SetBool("isClimbing",true);
+            FindObjectOfType<SoundManager>().Play("Climbing");
         }
     }
 
@@ -51,6 +52,7 @@ public class WallClimbing : MonoBehaviour
             isWall= false;
             isClimbing  = false;
             animator.SetBool("isClimbing", false);
+            FindObjectOfType<SoundManager>().Stop("Climbing");
         }
     }
 

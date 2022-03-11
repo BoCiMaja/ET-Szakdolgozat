@@ -67,11 +67,25 @@ MonoBehaviour:
     loop: 0
     source: {fileID: 0}
   - audioType: 1
+    name: Floating
+    clip: {fileID: 8300000, guid: a1460effe8f6c7d4bb18ab6ec3637949, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
     name: Landing
     clip: {fileID: 8300000, guid: b42effe44a945024fa800895fb354812, type: 3}
-    volume: 1
+    volume: 0.199
     pitch: 1
     loop: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: Climbing
+    clip: {fileID: 8300000, guid: 50b6a2bca13c0ac458c7dfb6072a4eb5, type: 3}
+    volume: 0.16
+    pitch: 1
+    loop: 1
     source: {fileID: 0}
   - audioType: 1
     name: Throwing
@@ -111,7 +125,7 @@ MonoBehaviour:
   - audioType: 2
     name: BGM
     clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
-    volume: 0.16
+    volume: 0.089
     pitch: 1
     loop: 1
     source: {fileID: 0}
