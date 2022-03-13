@@ -8431,6 +8431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Adam_Basic
       objectReference: {fileID: 0}
+    - target: {fileID: 1778223546958741218, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: jumpDelay
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
 --- !u!1001 &3037103823381956306

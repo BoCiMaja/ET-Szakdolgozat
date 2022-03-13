@@ -85,16 +85,16 @@ public class PlayerMovement : MonoBehaviour
 
     public void BasicMove(float move, bool jump)
     {
-        if (controller.m_Grounded && jump)
-        {
-            controller.m_Grounded = false;
-            Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
-        }
-
         if (controller.m_Grounded || airControl)
         {
             Vector3 targetVelocity = new Vector2(move * 10f, Rigidbody2D.velocity.y);
             Rigidbody2D.velocity = Vector3.SmoothDamp(Rigidbody2D.velocity, targetVelocity, ref velocity, movementSmoothing);
+        }
+
+        if (controller.m_Grounded && jump)
+        {
+            controller.m_Grounded = false;
+            Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
         }
     }
 
