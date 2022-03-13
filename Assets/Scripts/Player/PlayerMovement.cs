@@ -75,11 +75,17 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isJumping", false);
         animator.SetBool("isDoubleJumping", false);
         animator.SetBool("isFloating", false);
-        if (runSpeed > 0f && Input.GetButton("Walk"))
+        if (runSpeed > 0f && Input.GetButton("Walk") && !Input.GetButton("Run"))
         {
             animator.SetBool("isWalking", true);
             runSpeed = 10f;
             FindObjectOfType<SoundManager>().Play("Walking");
+        }
+        if(runSpeed >0f && Input.GetButton("Run") && Input.GetButton("Walk"))
+        {
+            animator.SetBool("isRunning", true);
+            runSpeed = 30f;
+            FindObjectOfType<SoundManager>().Play("Running");
         }
     }
 
@@ -93,8 +99,7 @@ public class PlayerMovement : MonoBehaviour
 
         if (controller.m_Grounded && jump)
         {
-            controller.m_Grounded = false;
-            Rigidbody2D.AddForce(new Vector2(0f, jumpForce));
+            controller.m_Grounded = false; 
         }
     }
 
@@ -199,13 +204,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Turning()
     {
-        if (horizontalMove > 0 && !m_FacingRight)
+        if (horizontalMove > 0 && !m_FacingRight && controller.m_Grounded)
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
             animator.SetTrigger("isTurning");
         }
-        else if (horizontalMove < 0 && m_FacingRight)
+        else if (horizontalMove < 0 && m_FacingRight && controller.m_Grounded)
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
