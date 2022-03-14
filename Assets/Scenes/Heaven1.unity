@@ -8427,6 +8427,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1778223546958741017, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_Size.x
+      value: 5.000956
+      objectReference: {fileID: 0}
+    - target: {fileID: 1778223546958741017, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_Size.y
+      value: 8.4
+      objectReference: {fileID: 0}
     - target: {fileID: 1778223546958741018, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
       propertyPath: m_Name
       value: Adam_Basic
