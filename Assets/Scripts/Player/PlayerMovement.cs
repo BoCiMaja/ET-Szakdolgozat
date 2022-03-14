@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
     private bool floating;
 
-    private bool m_FacingRight = true;
+    public bool m_FacingRight = true;
 
     public Animator animator;
 

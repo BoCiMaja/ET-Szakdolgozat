@@ -14,7 +14,6 @@ public class PlayerActions : MonoBehaviour
 	public bool m_Grounded;            // Whether or not the player is grounded.
 	const float k_CeilingRadius = .2f; // Radius of the overlap circle to determine if the player can stand up
 	private Rigidbody2D m_Rigidbody2D;
-	private bool m_FacingRight = true;  // For determining which way the player is currently facing.
 	public CameraShake cameraShake;
 
 	[Header("Events")]
@@ -106,7 +105,7 @@ public class PlayerActions : MonoBehaviour
 		if (!_rockActive)
 		{
 			Rock rock = Instantiate(this.rockPrefab, this.transform.position, Quaternion.identity); //no rotation = Quaternion.identity
-            if(!m_FacingRight)
+            if(!playerMovement.m_FacingRight)
             {
 				rock.direction = rock.direction * -1;
 			}
@@ -122,7 +121,7 @@ public class PlayerActions : MonoBehaviour
 		{
 			Rock rock = Instantiate(this.rockPrefab, this.transform.position, Quaternion.identity); //no rotation = Quaternion.identity
 			rock.direction = rock.direction * 2;
-			if (!m_FacingRight)
+			if (!playerMovement.m_FacingRight)
 			{
 				rock.direction = rock.direction * -1;
 			}
