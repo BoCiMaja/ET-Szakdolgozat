@@ -117,7 +117,7 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("isWalking", false);
             FindObjectOfType<SoundManager>().Stop("Walking");
         }
-        if (Input.GetButtonDown("Run") && Input.GetButton("Walk"))
+        if (Input.GetButtonDown("Run") && Input.GetButton("Walk") && jump != true && floating != true)
         {
             animator.SetBool("isWalking", false);
             animator.SetBool("isRunning", true);
@@ -133,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
             run = false;
             FindObjectOfType<SoundManager>().Stop("Running");
             animator.SetBool("isRunning", false);
-            if (runSpeed > 0f && Input.GetButton("Walk"))
+            if (runSpeed > 0f && Input.GetButton("Walk") && jump!=true && floating!=true)
             {
                 walk = true;
                 animator.SetBool("isWalking", true);
@@ -147,6 +147,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetButtonDown("Jump") && extraJump > 0)
         {
+            runSpeed = 30f;
             CreateDust();
             FindObjectOfType<SoundManager>().Play("Jump"); //jump hang hivas
             FindObjectOfType<SoundManager>().Stop("Walking");
