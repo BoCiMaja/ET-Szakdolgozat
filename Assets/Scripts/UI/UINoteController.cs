@@ -11,7 +11,6 @@ public class UINoteController : MonoBehaviour
     private void Awake()
     {
         InteractableNote.OnNoteInteraction += HandleSelectedNoteChanged;
-        Debug.Log("Handle");
     }
 
     private void OnDestroy()
