@@ -19,6 +19,8 @@ public class GraphicsManager
         aspectRatio = new Tuple<float, float>(width, height);
     }
 
+    private static string path = "graphics.bin";
+
     #endregion
 
     private static GraphicsManager instance;
@@ -41,17 +43,21 @@ public class GraphicsManager
             SetAspectRatio(16, 9);
         resolutions = new List<Resolution>();
         SetResolutions(resolutions);
-
-        instance.graphicsData = new GraphicsData();
         
-        //Beolvasás
-        //ha nem sikerül akkor
-        //else
-        //catch(Exception e)
-        //{
+        instance.DefaultGraphicsSettings = new GraphicsSettings();
+        instance.DefaultGraphicsSettings.Resolution = resolutions[resolutions.Count - 1];
 
-            InitializeDefaultGraphicsDatas(instance.graphicsData = new GraphicsData(), instance.defaultGraphicsData = new GraphicsData());
-        //}
+        GraphicsData data = new GraphicsData(instance.defaultGraphicsSettings);
+
+        try
+        {
+            SaveSystem.LoadSettings(ref data, path);
+        }
+        finally
+        {
+            instance.GraphicsSettings = new GraphicsSettings(data);
+        }
+
     }
 
     private static void SetResolutions(List<Resolution> resolutions)
@@ -84,10 +90,10 @@ public class GraphicsManager
 
     public static int GetCurrentResolutionIndex()
     {
-        return GetResolutionIndex(instance.graphicsData.Resolution);
+        return GetResolutionIndex(instance.graphicsSettings.Resolution);
     }
 
-    public static int GetResolutionIndex(Resolution  resolution)
+    public static int GetResolutionIndex(Resolution resolution)
     {
         for (int i = 0; i < resolutions.Count; i++)
         {
@@ -100,43 +106,41 @@ public class GraphicsManager
 
     public static Resolution GetCurrentResolution()
     {
-        return Instance.graphicsData.Resolution;
-    }
-
-    private static void InitializeDefaultGraphicsDatas(GraphicsData data, GraphicsData defaultData)
-    {
-        data.Resolution = defaultData.Resolution = resolutions[resolutions.Count - 1];
-        data.QualityLevel = defaultData.QualityLevel = byte.Parse(QualitySettings.GetQualityLevel().ToString());
-        data.Fullscreen = defaultData.Fullscreen = true; //FullScreenMode.
-        data.Brightness = defaultData.Brightness = 1.0f;
+        return Instance.graphicsSettings.Resolution;
     }
 
     public static void SetDefaultGraphics()
     {
-        instance.graphicsData = instance.defaultGraphicsData;
-        SceneGraphicsController.ApplyGraphicsSettings(instance.GraphicsData);
+        instance.graphicsSettings = new GraphicsSettings(instance.defaultGraphicsSettings);
+        SceneGraphicsController.ApplyGraphicsSettings(instance.GraphicsSettings);
+    }
+
+    public static void SetGraphicsSettings(GraphicsSettings settings)
+    {
+        instance.GraphicsSettings = new GraphicsSettings(settings);
     }
 
     #endregion
 
     #region Fields and properties
 
-    private GraphicsData graphicsData;
-    public GraphicsData GraphicsData
+    private GraphicsSettings graphicsSettings;
+    public GraphicsSettings GraphicsSettings
     {
-        get { return graphicsData; }
-        set 
+        get { return graphicsSettings; }
+        private set 
         { 
-            if(resolutions.Contains(value.Resolution))
-                graphicsData = value;
+            if(GraphicsManager.resolutions.Contains(value.Resolution))
+                graphicsSettings = value;
+            else throw new Exception("Cannnot find resolution.");
         }
     }
 
-    private GraphicsData defaultGraphicsData;
-    public GraphicsData DefaultGraphicsData
+    private GraphicsSettings defaultGraphicsSettings;
+    public GraphicsSettings DefaultGraphicsSettings
     {
-        get { return defaultGraphicsData; }
-        private set { defaultGraphicsData = value; }
+        get { return defaultGraphicsSettings; }
+        private set { defaultGraphicsSettings = value; }
     }
 
     #endregion

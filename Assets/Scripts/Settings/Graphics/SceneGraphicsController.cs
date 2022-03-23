@@ -23,7 +23,7 @@ public class SceneGraphicsController : MonoBehaviour
         Light2D[] lights = FindObjectsOfType<Light2D>();
 
         //Brightness
-        GraphicsLoader.setBrigthnessToLights(lights, GraphicsManager.Instance.GraphicsData.Brightness);
+        GraphicsLoader.setBrigthnessToLights(lights, GraphicsManager.Instance.GraphicsSettings.Brightness);
     }
 
     public static void SetBrightness(float brightness)
@@ -53,7 +53,7 @@ public class SceneGraphicsController : MonoBehaviour
         Screen.fullScreen = isFullScreen;
     }
 
-    public static void ApplyGraphicsSettings(GraphicsData data)
+    public static void ApplyGraphicsSettings(GraphicsSettings data)
     {
         SetBrightness(data.Brightness);
         SetResolution(data.Resolution);
@@ -63,6 +63,6 @@ public class SceneGraphicsController : MonoBehaviour
 
     public static void ApplyGraphicsSettings()
     {
-        ApplyGraphicsSettings(GraphicsManager.Instance.GraphicsData);
+        ApplyGraphicsSettings(GraphicsManager.Instance.GraphicsSettings);
     }
 }

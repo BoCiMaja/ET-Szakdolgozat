@@ -24,7 +24,7 @@ public class UIGraphicsSettingsController : MonoBehaviour, IUISettings
     private void InitializeDatas()
     {
         InitializeResolutionDropdown();
-        GraphicsData data = GraphicsManager.Instance.GraphicsData;
+        GraphicsSettings data = GraphicsManager.Instance.GraphicsSettings;
         brightnessSlider.value = data.Brightness;
         brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightnessSlider.value * 100));
         qualityDropdown.value = data.QualityLevel;
@@ -35,7 +35,7 @@ public class UIGraphicsSettingsController : MonoBehaviour, IUISettings
     private void InitializeResolutionDropdown()
     {
         Resolution[] resolutions = GraphicsManager.Resolutions;
-        Resolution currentResolution = GraphicsManager.Instance.GraphicsData.Resolution;
+        Resolution currentResolution = GraphicsManager.Instance.GraphicsSettings.Resolution;
 
         resolutionDropdown.ClearOptions();
 
@@ -82,19 +82,18 @@ public class UIGraphicsSettingsController : MonoBehaviour, IUISettings
     public void Back()
     {
         SetGraphicsSettingsValues();
-        SceneGraphicsController.ApplyGraphicsSettings(GraphicsManager.Instance.GraphicsData);
+        SceneGraphicsController.ApplyGraphicsSettings(GraphicsManager.Instance.GraphicsSettings);
     }
 
     public void Apply()
     {
-        GraphicsData data = new GraphicsData()
-        {
-            Brightness = brightnessSlider.value,
-            Fullscreen = fullscreenToggle.isOn,
-            QualityLevel = byte.Parse(qualityDropdown.value.ToString()),
-            Resolution = GraphicsManager.GetResolutionByIndex(resolutionDropdown.value)
-        };
-        GraphicsManager.Instance.GraphicsData = data;
+        GraphicsSettings data = new GraphicsSettings(
+            GraphicsManager.GetResolutionByIndex(resolutionDropdown.value),
+            byte.Parse(qualityDropdown.value.ToString()),
+            fullscreenToggle.isOn,
+            brightnessSlider.value);
+
+        GraphicsManager.SetGraphicsSettings(data);
     }
 
     public void SetDefault()
@@ -105,7 +104,7 @@ public class UIGraphicsSettingsController : MonoBehaviour, IUISettings
 
     private void SetGraphicsSettingsValues()
     {
-        GraphicsData data = GraphicsManager.Instance.GraphicsData;
+        GraphicsSettings data = GraphicsManager.Instance.GraphicsSettings;
         brightnessSlider.value = data.Brightness;
         brightnessText.text = string.Format("{0}%", Mathf.RoundToInt(brightnessSlider.value * 100));
         qualityDropdown.value = data.QualityLevel;
