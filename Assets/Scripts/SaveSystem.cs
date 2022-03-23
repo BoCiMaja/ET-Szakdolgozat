@@ -18,9 +18,14 @@ public static class SaveSystem
             BinaryFormatter formatter = new BinaryFormatter();
             FileStream stream = new FileStream(loadPath, FileMode.Open);
 
-            data.Load(formatter.Deserialize(stream) as ISaveable);
-
-            stream.Close();
+            try
+            {
+                data.Load(formatter.Deserialize(stream) as ISaveable);
+            }
+            finally
+            {
+                stream.Close();
+            }
         }
         else SaveSettings(data, filePath);
     }
@@ -31,7 +36,7 @@ public static class SaveSystem
 
         string loadPath = string.Format("{0}/{1}", path, filePath);
 
-        FileStream stream = new FileStream(path, FileMode.Create);
+        FileStream stream = new FileStream(loadPath, FileMode.Create);
 
         formatter.Serialize(stream, dataToStore);
 

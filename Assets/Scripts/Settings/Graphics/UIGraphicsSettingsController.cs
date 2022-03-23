@@ -93,7 +93,7 @@ public class UIGraphicsSettingsController : MonoBehaviour, IUISettings
             fullscreenToggle.isOn,
             brightnessSlider.value);
 
-        GraphicsManager.SetGraphicsSettings(data);
+        GraphicsManager.ApplyGraphicsSettings(data);
     }
 
     public void SetDefault()

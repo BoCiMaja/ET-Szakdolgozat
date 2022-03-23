@@ -21,6 +21,8 @@ public class GraphicsManager
 
     private static string path = "graphics.bin";
 
+    public static event Action<GraphicsSettings> OnGraphicsChange;
+
     #endregion
 
     private static GraphicsManager instance;
@@ -39,6 +41,8 @@ public class GraphicsManager
     private static void CreateInstance()
     {
         instance = new GraphicsManager();
+        OnGraphicsChange += SaveSettings;
+
         if (aspectRatio == null)
             SetAspectRatio(16, 9);
         resolutions = new List<Resolution>();
@@ -112,12 +116,18 @@ public class GraphicsManager
     public static void SetDefaultGraphics()
     {
         instance.graphicsSettings = new GraphicsSettings(instance.defaultGraphicsSettings);
-        SceneGraphicsController.ApplyGraphicsSettings(instance.GraphicsSettings);
+        OnGraphicsChange.Invoke(instance.GraphicsSettings);
     }
 
-    public static void SetGraphicsSettings(GraphicsSettings settings)
+    public static void ApplyGraphicsSettings(GraphicsSettings settings)
     {
         instance.GraphicsSettings = new GraphicsSettings(settings);
+        OnGraphicsChange.Invoke(instance.GraphicsSettings);
+    }
+
+    public static void SaveSettings(GraphicsSettings settings)
+    {
+        SaveSystem.SaveSettings(new GraphicsData(instance.GraphicsSettings), path);
     }
 
     #endregion
@@ -132,7 +142,7 @@ public class GraphicsManager
         { 
             if(GraphicsManager.resolutions.Contains(value.Resolution))
                 graphicsSettings = value;
-            else throw new Exception("Cannnot find resolution.");
+            else throw new Exception("Cannot find resolution.");
         }
     }
 

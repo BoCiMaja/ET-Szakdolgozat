@@ -15,7 +15,15 @@ public class SceneGraphicsController : MonoBehaviour
         if (instanceCount > 1)
             Destroy(gameObject);
         else
+        {
             DontDestroyOnLoad(gameObject);
+            GraphicsManager.OnGraphicsChange += ApplyGraphicsSettings;
+        }
+    }
+
+    private void OnDestroy()
+    {
+        GraphicsManager.OnGraphicsChange -= ApplyGraphicsSettings;
     }
 
     private void SetGraphicsSettingsInScene()
