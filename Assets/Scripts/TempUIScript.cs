@@ -6,13 +6,11 @@ public class TempUIScript : MonoBehaviour
 {
     public void SaveGraphics()
     {
-        GraphicsData data = new GraphicsData(GraphicsManager.Instance.GraphicsSettings);
-        SaveSystem.SaveSettings(data, "graphics.bin");
+        GameSession.SaveSession();
     }
 
     public void LoadGraphics()
     {
-        GraphicsData data = new GraphicsData(GraphicsManager.Instance.DefaultGraphicsSettings);
-        SaveSystem.LoadSettings(ref data, "graphics.bin");
+        GameSession.LoadSession();
     }
 }

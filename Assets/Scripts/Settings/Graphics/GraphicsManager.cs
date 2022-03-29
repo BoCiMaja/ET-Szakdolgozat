@@ -51,15 +51,16 @@ public class GraphicsManager
         instance.DefaultGraphicsSettings = new GraphicsSettings();
         instance.DefaultGraphicsSettings.Resolution = resolutions[resolutions.Count - 1];
 
-        GraphicsData data = new GraphicsData(instance.defaultGraphicsSettings);
+        GraphicsData data;
 
         try
         {
-            SaveSystem.LoadSettings(ref data, path);
-        }
-        finally
-        {
+            data = SaveSystem.LoadSettings<GraphicsData>(path);
             instance.GraphicsSettings = new GraphicsSettings(data);
+        }
+        catch
+        {
+            SetDefaultGraphics();
         }
 
     }

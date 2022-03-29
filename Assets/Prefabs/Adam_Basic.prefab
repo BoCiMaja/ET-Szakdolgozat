@@ -4882,7 +4882,6 @@ GameObject:
   - component: {fileID: 1778223546958741220}
   - component: {fileID: 1778223546958741219}
   - component: {fileID: 1778223546958741218}
-  - component: {fileID: 1778223546958741216}
   - component: {fileID: 1778223546958741230}
   m_Layer: 0
   m_Name: Adam_Basic
@@ -5153,20 +5152,9 @@ MonoBehaviour:
   airControl: 1
   jumpDelay: 0.5
   doubleJumpReady: 0
+  m_FacingRight: 1
   animator: {fileID: 1778223546958741220}
   dust: {fileID: 1778223545256266979}
---- !u!114 &1778223546958741216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1778223546958741018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed2d91bb7ef3cb1488e7f09ea04f425f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1778223546958741230
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,7 +5,7 @@ using System.Text;
 using UnityEngine;
 
 [Serializable]
-public class GraphicsData : ISaveable
+public struct GraphicsData : ISaveable
 {
     public GraphicsData(GraphicsSettings settings)
     {
@@ -32,23 +32,23 @@ public class GraphicsData : ISaveable
     {
         if (!(data is GraphicsData))
             throw new Exception("The parameter's type doesn't GraphicsData");
-        
-        GraphicsData loadedData = data as GraphicsData;
+
+        GraphicsData loadedData = (GraphicsData)data;// as GraphicsData;
         this.resolution = loadedData.resolution;
         this.qualityLevel = loadedData.qualityLevel;
         this.fullscreen = loadedData.fullscreen;
         this.brightness = loadedData.brightness;
     }
 
-    public static explicit operator GraphicsSettings(GraphicsData data)
-    {
-        return new GraphicsSettings(data);
-    }
+    //public static explicit operator GraphicsSettings(GraphicsData data)
+    //{
+    //    return new GraphicsSettings(data);
+    //}
 
-    public static explicit operator GraphicsData(GraphicsSettings settings)
-    {
-        return new GraphicsData(settings);
-    }
+    //public static explicit operator GraphicsData(GraphicsSettings settings)
+    //{
+    //    return new GraphicsData(settings);
+    //}
 
     public override string ToString()
     {

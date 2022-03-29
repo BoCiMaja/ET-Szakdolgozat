@@ -6,10 +6,10 @@ using System.Runtime.Serialization.Formatters.Binary;
 
 public static class SaveSystem
 {
-    static private string path = @"M:/EKKE/Szakdolgozat";
+    static private string path = @"M:/EKKE/Szakdolgozat/saves";
 
-    public static void LoadSettings<T>(ref T data, string filePath)
-        where T: ISaveable
+    public static T LoadSettings<T>(string filePath)
+        where T: ISaveable, new()
     {
         string loadPath = string.Format("{0}/{1}", path, filePath);
 
@@ -20,23 +20,31 @@ public static class SaveSystem
 
             try
             {
-                data.Load(formatter.Deserialize(stream) as ISaveable);
+              T data = new T();
+              data.Load(formatter.Deserialize(stream) as ISaveable);
+            
+              stream.Close();
+            
+              return data;
             }
-            finally
+            catch(System.Exception e)
             {
-                stream.Close();
+                throw new System.Exception(e.Message);
             }
         }
-        else SaveSettings(data, filePath);
+        else throw new System.Exception("Save cannot found.");
     }
 
     public static void SaveSettings<T>(T dataToStore, string filePath) //path
     {
+        string savePath = string.Format("{0}/{1}", path, filePath);
+
+        if(!Directory.Exists(savePath))
+            Directory.CreateDirectory(path);
+
         BinaryFormatter formatter = new BinaryFormatter();
 
-        string loadPath = string.Format("{0}/{1}", path, filePath);
-
-        FileStream stream = new FileStream(loadPath, FileMode.Create);
+        FileStream stream = new FileStream(savePath, FileMode.Create);
 
         formatter.Serialize(stream, dataToStore);
 
