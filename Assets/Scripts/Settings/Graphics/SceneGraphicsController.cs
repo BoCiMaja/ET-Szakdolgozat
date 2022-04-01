@@ -18,12 +18,14 @@ public class SceneGraphicsController : MonoBehaviour
         {
             DontDestroyOnLoad(gameObject);
             GraphicsManager.OnGraphicsChange += ApplyGraphicsSettings;
+            SceneLoader.OnLoadNextScene += ApplyGraphicsSettings;
         }
     }
 
     private void OnDestroy()
     {
         GraphicsManager.OnGraphicsChange -= ApplyGraphicsSettings;
+        SceneLoader.OnLoadNextScene -= ApplyGraphicsSettings;
     }
 
     private void SetGraphicsSettingsInScene()

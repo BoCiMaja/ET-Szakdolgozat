@@ -25,19 +25,41 @@ public class MenuController : MonoBehaviour
         SoundManager.GetInstance().Stop("MenuBGM");
     }
 
-    public void LoadSavedGame()
+    public void Continue()
     {
-        noSavedGameDialog.SetActive(true);
-        if (noSavedGameDialog)
-        {
+        GameSessionManager.LoadSaves();
+    }
 
-        }
-        else
+    public void Load()
+    {
+        if (noSavedGameDialog == null)
+            throw new System.Exception("Missing 'No saved game' dialog!");
+
+
+        try
         {
-            SoundManager.GetInstance().Play("BGM");
-            SoundManager.GetInstance().Stop("MenuBGM");
+            GameSessionManager.Load();
+            //SceneLoader.Continue(GameSession.Instance.);
+        }
+        catch(System.Exception e)
+        {
+            Debug.LogError(e.Message);
         }
     }
+
+    //public void LoadSavedGame()
+    //{
+    //    noSavedGameDialog.SetActive(true);
+    //    if (noSavedGameDialog)
+    //    {
+
+    //    }
+    //    else
+    //    {
+    //        SoundManager.GetInstance().Play("BGM");
+    //        SoundManager.GetInstance().Stop("MenuBGM");
+    //    }
+    //}
 
 
     public void QuitGame()

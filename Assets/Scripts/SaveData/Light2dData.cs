@@ -20,4 +20,19 @@ public struct Light2dData
     //public Vector3 position;
 
     public bool enabled;
+
+    public override bool Equals(object obj)
+    {
+        if (obj is Light2dData)
+        {
+            Light2dData masik = (Light2dData)obj;
+            return masik.id == this.id && this.type == masik.type;
+        }
+        if(obj is Light2D)
+        {
+            Light2D light = (Light2D)obj;
+            return light.GetHashCode().ToString() == this.id && light.lightType == this.type;
+        }
+        return false;
+    }
 }

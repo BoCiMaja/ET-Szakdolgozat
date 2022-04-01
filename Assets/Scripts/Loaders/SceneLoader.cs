@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -7,6 +8,8 @@ using UnityEngine.SceneManagement;
 
 public static class SceneLoader
 {
+    public static event Action OnLoadNextScene;
+
     public static void LoadMainMenu()
     {
         if (SceneManager.GetSceneByName("UI").isLoaded)
@@ -17,7 +20,7 @@ public static class SceneLoader
     public static void LoadNewGame(string sceneToLoad)
     {
         LoadWithLoadingScreenAsync(sceneToLoad);
-        GameSessionManager.NewGame();
+        GameSessionManager.NewGame(sceneToLoad);
     }
     
     public static void Continue(string sceneToLoad)
@@ -40,7 +43,7 @@ public static class SceneLoader
             SceneManager.LoadSceneAsync(sceneToLoad, LoadSceneMode.Additive).completed += operation =>
             {
                 SceneManager.SetActiveScene(SceneManager.GetSceneByName(sceneToLoad));
-                SceneGraphicsController.ApplyGraphicsSettings();
+                OnLoadNextScene.Invoke();
             };
         }
     }

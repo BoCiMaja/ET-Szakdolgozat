@@ -6,11 +6,11 @@ public class TempUIScript : MonoBehaviour
 {
     public void SaveGraphics()
     {
-        GameSession.SaveSession();
+        GameSessionManager.Save();
     }
 
     public void LoadGraphics()
     {
-        GameSession.LoadSession();
+        GameSessionManager.LoadSessionFromFile();
     }
 }

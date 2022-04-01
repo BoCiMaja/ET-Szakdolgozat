@@ -17,6 +17,7 @@ public struct GameData : ISaveable
         //playerData = new PlayerData(gameSession.player);
 
         Path = gameSession.Path;
+        ActualScene = gameSession.ActualScene;
 
         Light2D[] lights = gameSession.Lights;
         LightsDatas = new Light2dData[lights.Length];
@@ -32,7 +33,7 @@ public struct GameData : ISaveable
             LightsDatas[i] = new Light2dData(lights[i]);
     }
 
-    //public string ActualScene;
+    public string ActualScene;
 
     public string Path;
 
@@ -44,7 +45,7 @@ public struct GameData : ISaveable
         GameData loadedData = (GameData)data;// as GameData;
         //this.playerData = loadedData.playerData;
         this.LightsDatas = loadedData.LightsDatas;
-        //this.ActualScene = loadedData.ActualScene;
+        this.ActualScene = loadedData.ActualScene;
         this.Path = loadedData.Path;
     }
 

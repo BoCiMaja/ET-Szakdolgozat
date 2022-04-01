@@ -3,27 +3,30 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
+using UnityEngine.SceneManagement;
 
 public class GameSession
 {
-    public static event Action<GameData> OnGraphicsChange;
+    public static event Action<GameData> OnSavedSessionReload;
 
-    private GameSession(string path)
+    private GameSession(string path, Profile profile, string scene)
     {
         this.Path = path;
+        this.Profile = profile;
+        this.ActualScene = scene;
     }
 
     public GameSession(GameData data)
     {
         //Profile = new Profile(data.Profile);
-        Path = data.Path;
+        this.Path = data.Path;
     }
 
     public GameSession(GameSession session)
     {
-        Path = session.Path;
-        PlayerPrefab = session.PlayerPrefab;
-        Profile = session.Profile;
+        this.Path = session.Path;
+        this.PlayerPrefab = session.PlayerPrefab;
+        this.Profile = session.Profile;
     }
 
     private static GameSession instance;
@@ -38,7 +41,7 @@ public class GameSession
         private set
         {
             instance = new GameSession(value);
-            instance.savedSession = new GameData(instance);
+            //instance.savedSession = new GameData(instance);
         }
     }
 
@@ -60,7 +63,12 @@ public class GameSession
         }
     }
 
-    private GameData savedSession;
+    private string actualScene;
+    public string ActualScene
+    {
+        get { return actualScene; }
+        set { actualScene = value; }
+    }
 
     private Profile profile;
     public Profile Profile
@@ -79,6 +87,8 @@ public class GameSession
             playerPrefab = value;
         }
     }
+
+    private GameData savedSession;
 
     #endregion
 
@@ -109,35 +119,35 @@ public class GameSession
 
     #endregion
 
-    public static void NewSession(string path)
+    public static void NewSession(string path, Profile profile, string firstScene)
     {
-        instance = new GameSession(path);
+        instance = new GameSession(path, profile, firstScene);
+    }
+
+    public static void LoadSession(GameData data)
+    {
+        ChangeInstance(data);
+        Instance.savedSession = data;
+        OnSavedSessionReload.Invoke(data);
     }
 
     public static void ChangeInstance(GameSession newInstance)
     {
         Instance = newInstance;
-        SceneSessionManager.LoadSession(instance.savedSession);
+    }
+
+    public static void ChangeInstance(GameData data)
+    {
+        Instance = new GameSession(data);
     }
 
     public static void SaveSession()
-    //public void SaveSession()
     {
-        GameSessionManager.Save(Instance);
         instance.savedSession = new GameData(instance);
-        //GameSessionManager.Save(this);
     }
 
-    public static void LoadSession()
-    //public void LoadSession()
+    internal static void SetSceneData(string sceneName)
     {
-        GameSessionManager.Load("cica");
+        instance.ActualScene = sceneName;
     }
-
-
-    //public void LoadDataInScene()
-    //{
-    //    throw new System.NotImplementedException();
-    //}
-
 }

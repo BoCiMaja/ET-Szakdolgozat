@@ -5,6 +5,13 @@ using UnityEngine;
 
 public class Profile
 {
+    public Profile(string id)
+    {
+        this.Id = id;
+        lastSave = DateTime.Now;
+        gameTime = 0;
+    }
+
     public Profile(ProfileData profile)
     {
         this.Id = profile.Id;

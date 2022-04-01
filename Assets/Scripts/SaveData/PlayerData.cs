@@ -14,11 +14,8 @@ public struct PlayerData //: ISaveable
 
     private PlayerData(PlayerData playerData)
     {
-        position = playerData.position;
         rockCount = playerData.rockCount;
     }
-
-    public Vector3 position;
     
     public ushort rockCount;
 
