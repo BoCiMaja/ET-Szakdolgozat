@@ -116,8 +116,9 @@ public class SceneSessionManager : MonoBehaviour
 
     private static void ReloadCharacter(Vector3 position, PlayerData data)
     {
-        GameObject playerInScene = GameObject.FindGameObjectWithTag("Player");
-        Destroy(playerInScene);
+        GameObject[] playersInScene = GameObject.FindGameObjectsWithTag("Player");
+        foreach (GameObject playerInScene in playersInScene)
+            Destroy(playerInScene);
 
         GameObject player = Instantiate(Instance.playerPrefab, position, new Quaternion());
         PlayerDataController controller = player.GetComponent<PlayerDataController>();

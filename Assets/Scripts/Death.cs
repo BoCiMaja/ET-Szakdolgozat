@@ -8,6 +8,9 @@ public class Death : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Player")
-            CheckpointMaster.GetInstance().ReloadLastCheckpoint();
+        {
+            GameSessionManager.ReloadLastSavedSession();
+            Destroy(collision.gameObject);
+        }
     }
 }
