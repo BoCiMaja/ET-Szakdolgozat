@@ -67,7 +67,7 @@ public class SoundManager : MonoBehaviour
        Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
             return;
-        s.source.Play();
+        //s.source.Play();
     }
 
     public void Stop(string name)
@@ -75,7 +75,7 @@ public class SoundManager : MonoBehaviour
         Sound s = Array.Find(sounds, sound => sound.name == name);
         if (s == null)
             return;
-        s.source.Stop();
+        //s.source.Stop();
     }
 
     public void Pause(string name)

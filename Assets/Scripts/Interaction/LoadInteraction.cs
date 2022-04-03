@@ -8,6 +8,7 @@ public class LoadInteraction : Interactable
 
     public override void Interact()
     {
+        //GameSession.SaveAtPosition(this.transform.position);
         SceneLoader.LoadNextScene(SceneToLoad);
     }
 }

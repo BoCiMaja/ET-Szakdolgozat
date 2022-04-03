@@ -9,12 +9,14 @@ using UnityEngine.SceneManagement;
 public static class SceneLoader
 {
     public static event Action OnLoadNextScene;
+    public static event Action OnLoadMainMenu;
 
     public static void LoadMainMenu()
     {
         if (SceneManager.GetSceneByName("UI").isLoaded)
             SceneManager.UnloadSceneAsync("UI");
         LoadWithLoadingScreenAsync("MainMenu");
+        OnLoadMainMenu?.Invoke();
     }
 
     public static void LoadNewGame(string sceneToLoad)

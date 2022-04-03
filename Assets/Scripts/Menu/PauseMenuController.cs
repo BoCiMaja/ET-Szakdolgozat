@@ -62,8 +62,8 @@ public class PauseMenuController : MonoBehaviour
 
     public void LoadLastCheckpoint()
     {
-        CheckpointMaster.GetInstance().ReloadLastCheckpoint();
-        Time.timeScale = 1;
+        GameSessionManager.ReloadLastSavedSession();
+        Resume();
     }
 
 

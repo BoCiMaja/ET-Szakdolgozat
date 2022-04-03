@@ -11,22 +11,27 @@ public class GameSession
 
     private GameSession(string path, Profile profile, string scene)
     {
-        this.Path = path;
-        this.Profile = profile;
+        this.path = path;
+        this.profile = profile;
         this.ActualScene = scene;
     }
 
     public GameSession(GameData data)
     {
-        //Profile = new Profile(data.Profile);
-        this.Path = data.Path;
+        this.profile = new Profile(data.ProfileData);
+        this.path = data.Path;
+        this.ActualScene = data.ActualScene;
+        this.SavePosition = data.SavePosition;
+        this.PlayerData = data.PlayerData;
     }
 
     public GameSession(GameSession session)
     {
-        this.Path = session.Path;
-        this.PlayerPrefab = session.PlayerPrefab;
-        this.Profile = session.Profile;
+        this.Path = session.path;
+        this.ActualScene = session.actualScene;
+        this.SavePosition = session.savePosition;
+        this.Profile = session.profile;
+        this.PlayerData = session.playerData;
     }
 
     private static GameSession instance;
@@ -40,10 +45,12 @@ public class GameSession
         }
         private set
         {
-            instance = new GameSession(value);
-            //instance.savedSession = new GameData(instance);
+            instance = value;
+            instance.lastChangeInSession = DateTime.Now;
+            instance.savedSession = new GameData(instance);
         }
     }
+
 
     #region Fields and their properties
 
@@ -67,7 +74,34 @@ public class GameSession
     public string ActualScene
     {
         get { return actualScene; }
-        set { actualScene = value; }
+        set 
+        {
+            try
+            {
+                SceneManager.GetSceneByName(value);
+                actualScene = value; 
+            }
+            catch
+            {
+                throw new Exception("Scene does not exist.");
+            }
+            
+        }
+    }
+
+    private Vector3 savePosition;
+    public Vector3 SavePosition
+    {
+        private set
+        {
+            savePosition = value;
+        }
+        get { return savePosition; }
+    }
+    internal static void SaveAtPosition(Vector3 position)
+    {
+        Instance.savePosition = position;
+        GameSessionManager.Save();
     }
 
     private Profile profile;
@@ -88,7 +122,32 @@ public class GameSession
         }
     }
 
+    private PlayerDataController playerContr;
+    public PlayerDataController PlayerContr
+    {
+        get { return playerContr; }
+        set 
+        {
+            if (value == null && playerContr != null)
+            {
+                PlayerData = new PlayerData(playerContr);
+            }
+            playerContr = value;
+        }
+    }
+
+    private PlayerData playerData;
+    public PlayerData PlayerData
+    {
+        get
+        {
+            return playerData; 
+        }
+        set { playerData = value; }
+    }
+
     private GameData savedSession;
+    private DateTime lastChangeInSession;
 
     #endregion
 
@@ -117,23 +176,52 @@ public class GameSession
         }
     }
 
+
     #endregion
+
+    #region Methods
+
+    private GameData Save()
+    {
+        if (PlayerContr != null)
+        {
+            PlayerData = new PlayerData(playerContr);
+            //SavePosition = playerContr.transform.position;
+        }
+        savedSession = new GameData(this);
+
+        profile.GameTime += (DateTime.Now - lastChangeInSession).TotalSeconds;
+
+        profile.LastSave = DateTime.Now;
+        return savedSession;
+    }
+
+    #endregion
+
+    #region Static Methods
 
     public static void NewSession(string path, Profile profile, string firstScene)
     {
-        instance = new GameSession(path, profile, firstScene);
+        Instance = new GameSession(path, profile, firstScene);
     }
 
     public static void LoadSession(GameData data)
     {
-        ChangeInstance(data);
+        Instance = new GameSession(data);
         Instance.savedSession = data;
-        OnSavedSessionReload.Invoke(data);
+        OnSavedSessionReload?.Invoke(data);
     }
+
+    internal static void ReloadSavedSession()
+    {
+        Instance.Profile.GameTime += (DateTime.Now - Instance.lastChangeInSession).TotalSeconds;
+        LoadSession(Instance.savedSession);
+    }
+
 
     public static void ChangeInstance(GameSession newInstance)
     {
-        Instance = newInstance;
+        Instance = new GameSession(newInstance);
     }
 
     public static void ChangeInstance(GameData data)
@@ -141,13 +229,15 @@ public class GameSession
         Instance = new GameSession(data);
     }
 
-    public static void SaveSession()
+    public static GameData SaveSession()
     {
-        instance.savedSession = new GameData(instance);
+        return Instance.Save();
     }
 
     internal static void SetSceneData(string sceneName)
     {
         instance.ActualScene = sceneName;
     }
+
+    #endregion
 }

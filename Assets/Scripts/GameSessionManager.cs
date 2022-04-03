@@ -32,10 +32,9 @@ public class GameSessionManager
         gameDatas[0] = SaveSystem.LoadSettings<GameData>(loadPath);
     }
 
-    public static void LoadSessionFromFile()
+    public static void LoadSessionFromDefaultFile()
     {
         string loadPath = "playerTime.save";
-        //string loadPath = GameSession.Instance.Path;
 
         GameData data = SaveSystem.LoadSettings<GameData>(loadPath);
 
@@ -48,9 +47,7 @@ public class GameSessionManager
 
         GameData data = SaveSystem.LoadSettings<GameData>(loadPath);
 
-        GameSession session = new GameSession(data);
-
-        GameSession.ChangeInstance(session);
+        GameSession.LoadSession(data);
     }
 
     public static void Load(int index)
@@ -58,19 +55,18 @@ public class GameSessionManager
         if (gameDatas == null)
             LoadSaves();
 
-        if (index > gameDatas.Length)
+        if (index + 1 > gameDatas.Length)
             throw new System.Exception("Save cannot found.");
 
-        GameSession session = new GameSession(gameDatas[index]);
-
-        GameSession.ChangeInstance(session);
+        GameSession.LoadSession(gameDatas[index]);
     }
 
     public static void Load()
     {
-        GameSession session = new GameSession(gameDatas[0]);
+        if (gameDatas.Length < 0)
+            throw new System.Exception("Save not found.");
 
-        GameSession.ChangeInstance(session);
+        Load(0);
 
         SceneLoader.Continue(gameDatas[0].ActualScene);
     }
@@ -78,7 +74,12 @@ public class GameSessionManager
     public static void Save()
     {
         string savePath = "playerTime.save";
-        SaveSystem.SaveSettings(new GameData(GameSession.Instance), savePath);
-        GameSession.SaveSession();
+        GameData dataToStore = GameSession.SaveSession();
+        SaveSystem.SaveSettings(dataToStore, savePath);
+    }
+
+    public static void ReloadLastSavedSession()
+    {
+        GameSession.ReloadSavedSession();
     }
 }

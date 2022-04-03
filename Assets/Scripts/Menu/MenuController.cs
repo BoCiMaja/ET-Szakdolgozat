@@ -39,11 +39,12 @@ public class MenuController : MonoBehaviour
         try
         {
             GameSessionManager.Load();
-            //SceneLoader.Continue(GameSession.Instance.);
+          ////SceneLoader.Continue(GameSession.Instance.);
         }
         catch(System.Exception e)
         {
-            Debug.LogError(e.Message);
+            Debug.LogError(e);
+            noSavedGameDialog.SetActive(true);
         }
     }
 

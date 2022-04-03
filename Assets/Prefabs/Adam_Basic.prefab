@@ -4883,6 +4883,7 @@ GameObject:
   - component: {fileID: 1778223546958741219}
   - component: {fileID: 1778223546958741218}
   - component: {fileID: 1778223546958741230}
+  - component: {fileID: -560224101769591274}
   m_Layer: 0
   m_Name: Adam_Basic
   m_TagString: Player
@@ -5171,3 +5172,15 @@ MonoBehaviour:
   isClimbing: 0
   animator: {fileID: 1778223546958741220}
   rb: {fileID: 1778223546958741222}
+--- !u!114 &-560224101769591274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778223546958741018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0de64e2b5712d70428e64ae74eae6cdd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

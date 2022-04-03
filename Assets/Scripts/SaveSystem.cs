@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
+using System.Runtime.Serialization;
 
 public static class SaveSystem
 {
-    static private string path = @"M:/EKKE/Szakdolgozat/saves";
+    static private string path = Application.persistentDataPath + "/saves";
 
     public static T LoadSettings<T>(string filePath)
         where T: ISaveable, new()
@@ -16,16 +17,27 @@ public static class SaveSystem
         if (File.Exists(loadPath))
         {
             BinaryFormatter formatter = new BinaryFormatter();
+
+            SurrogateSelector selector = new SurrogateSelector();
+            Vector3SerializationSurrogates vector3Surrogate =
+                new Vector3SerializationSurrogates();
+
+            selector.AddSurrogate(typeof(Vector3),
+                                  new StreamingContext(StreamingContextStates.All),
+                                  vector3Surrogate);
+
+            formatter.SurrogateSelector = selector;
+
             FileStream stream = new FileStream(loadPath, FileMode.Open);
 
             try
             {
-              T data = new T();
-              data.Load(formatter.Deserialize(stream) as ISaveable);
+                T data = new T();
+                data.Load(formatter.Deserialize(stream) as ISaveable);
             
-              stream.Close();
+                stream.Close();
             
-              return data;
+                return data;
             }
             catch(System.Exception e)
             {
@@ -43,6 +55,16 @@ public static class SaveSystem
             Directory.CreateDirectory(path);
 
         BinaryFormatter formatter = new BinaryFormatter();
+
+        SurrogateSelector selector = new SurrogateSelector();
+        Vector3SerializationSurrogates vector3Surrogate =
+            new Vector3SerializationSurrogates();
+
+        selector.AddSurrogate(typeof(Vector3),
+                              new StreamingContext(StreamingContextStates.All),
+                              vector3Surrogate);
+
+        formatter.SurrogateSelector = selector;
 
         FileStream stream = new FileStream(savePath, FileMode.Create);
 

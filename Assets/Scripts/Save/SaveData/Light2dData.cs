@@ -10,14 +10,14 @@ public struct Light2dData
         id = light.GetHashCode().ToString();
         type = light.lightType;
         enabled = light.enabled;
-        //position = light.transform.position;
+        position = light.transform.position;
     }
 
     public string id;
 
     public Light2D.LightType type;
 
-    //public Vector3 position;
+    public Vector3 position;
 
     public bool enabled;
 
