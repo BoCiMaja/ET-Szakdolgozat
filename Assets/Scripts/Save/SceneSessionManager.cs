@@ -125,7 +125,7 @@ public class SceneSessionManager : MonoBehaviour
         controller.SetPlayerData(data);
         Instance.PlayerController = controller;
 
-        Camera.main.GetComponent<CameraMovement>().character = player.transform;
+        Camera.main.GetComponent<TempCameraMovement>().character = player.transform;
     }
 
 

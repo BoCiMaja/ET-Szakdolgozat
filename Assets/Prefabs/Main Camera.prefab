@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 103877617609540860}
   - component: {fileID: 103877617609540863}
   - component: {fileID: 103877617609540862}
-  - component: {fileID: 103877617609540857}
   - component: {fileID: 103877617609540856}
   - component: {fileID: 103877617609540861}
   - component: {fileID: 103877617609540738}
   - component: {fileID: 8089892579150072037}
+  - component: {fileID: 3162644019130356760}
+  - component: {fileID: 1869228717970809698}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -88,23 +89,6 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 103877617609540859}
   m_Enabled: 1
---- !u!114 &103877617609540857
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 103877617609540859}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bc11f598158c0f84486aa96f47893d6c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  defaultSize: 5
-  zoomSpeed: 0.6
-  character: {fileID: 0}
-  speed: 0.3
-  minX: 0
 --- !u!114 &103877617609540856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -188,3 +172,32 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   uiSceneName: UI
+--- !u!114 &3162644019130356760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103877617609540859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a5bac758600a0488ce72f5dfbf2a39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  defaultSize: 5
+  zoomSpeed: 0.6
+--- !u!114 &1869228717970809698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103877617609540859}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 533c5d0e237c962488fe161daea2804f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
+  speed: 0.3
+  offsetY: 2.5

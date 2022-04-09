@@ -11,17 +11,17 @@ public class Boundary : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            CameraMovement cm = Camera.main.GetComponent<CameraMovement>();
-            cm.SetActualCameraDatas(this);
+            TempCameraMovement cm = Camera.main.GetComponent<TempCameraMovement>();
+            cm.EnterBoundary(this);
         }
     }
 
-    //private void OnTriggerExit2D(Collider2D collision)
-    //{
-    //    if (collision.gameObject.tag == "Player")
-    //    {
-    //        CameraMovement cm = Camera.main.GetComponent<CameraMovement>();
-    //        cm.SetActualCameraDatas();
-    //    }
-    //}
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            TempCameraMovement cm = Camera.main.GetComponent<TempCameraMovement>();
+            cm.ExitBounday(this);
+        }
+    }
 }

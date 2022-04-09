@@ -81,5 +81,6 @@ public class GameSessionManager
     public static void ReloadLastSavedSession()
     {
         GameSession.ReloadSavedSession();
+        //újratöltés
     }
 }

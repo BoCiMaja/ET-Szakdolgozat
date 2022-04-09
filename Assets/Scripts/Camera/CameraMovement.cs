@@ -30,11 +30,22 @@ public class CameraMovement : MonoBehaviour
 
     private Vector3 velocity = Vector3.zero;
 
-    private void Start()
+
+    List<Bounds> intersectingBoundaries;
+
+
+
+
+    private void Awake()
     {
         cameraBox = GetComponent<BoxCollider2D>();
         colliderComponent = GetComponent<CameraColliderBox>();
         cam = GetComponent<Camera>();
+        intersectingBoundaries = new List<Bounds>();
+    }
+
+    private void Start()
+    {
 
         FindBoundaries();
         SetActualCameraDatas();
