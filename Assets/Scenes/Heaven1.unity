@@ -3218,16 +3218,17 @@ GameObject:
   - component: {fileID: 767450262}
   - component: {fileID: 767450261}
   - component: {fileID: 767450260}
+  - component: {fileID: 767450267}
   - component: {fileID: 767450264}
   - component: {fileID: 767450265}
   - component: {fileID: 767450266}
   m_Layer: 0
-  m_Name: Boss_TEMP
+  m_Name: Boss
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!70 &767450260
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -3235,7 +3236,7 @@ CapsuleCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767450259}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
@@ -3305,9 +3306,9 @@ SpriteRenderer:
   m_SortingLayerID: -968065393
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: -9095717837082945937, guid: 63c2a1c24631c6643838d5db8ef940fe, type: 3}
+  m_Sprite: {fileID: -3781910019033479378, guid: 8167dc8d0d8145e4ebda6a23af20a5ba, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 2}
@@ -3324,8 +3325,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 767450259}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.9, y: -1.37, z: 0}
-  m_LocalScale: {x: 1.769975, y: 2.0585759, z: 1}
+  m_LocalPosition: {x: 7.32, y: -0.5, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -3378,6 +3379,32 @@ MonoBehaviour:
   health: 20
   isInvulnerable: 0
   deathEffect: {fileID: 0}
+--- !u!61 &767450267
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767450259}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.106570244, y: -0.042628527}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 13.402772, y: 12.400001}
+    newSize: {x: 1, y: 2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 9.779348, y: 10.694859}
+  m_EdgeRadius: 0
 --- !u!1 &769720967
 GameObject:
   m_ObjectHideFlags: 0
