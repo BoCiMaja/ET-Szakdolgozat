@@ -1,0 +1,684 @@
+fileFormatVersion: 2
+guid: 7bbf1f553431bcc4c93b66603989b30e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8221851925056479893
+    second: Adam_hold_the_ladder_974x1222_0
+  - first:
+      213: 2064735791260911954
+    second: Adam_hold_the_ladder_974x1222_1
+  - first:
+      213: 82087380491532673
+    second: Adam_hold_the_ladder_974x1222_2
+  - first:
+      213: -7683945303289837418
+    second: Adam_hold_the_ladder_974x1222_3
+  - first:
+      213: 3705062420776263216
+    second: Adam_hold_the_ladder_974x1222_4
+  - first:
+      213: -8788054940998067097
+    second: Adam_hold_the_ladder_974x1222_5
+  - first:
+      213: 2460754988035779364
+    second: Adam_hold_the_ladder_974x1222_6
+  - first:
+      213: 2633985539084060088
+    second: Adam_hold_the_ladder_974x1222_7
+  - first:
+      213: -602357882651333451
+    second: Adam_hold_the_ladder_974x1222_8
+  - first:
+      213: -4599043139506450231
+    second: Adam_hold_the_ladder_974x1222_9
+  - first:
+      213: -2728613221833057331
+    second: Adam_hold_the_ladder_974x1222_10
+  - first:
+      213: -6091511525183434565
+    second: Adam_hold_the_ladder_974x1222_11
+  - first:
+      213: 2417141866335009500
+    second: Adam_hold_the_ladder_974x1222_12
+  - first:
+      213: 2967387413558640744
+    second: Adam_hold_the_ladder_974x1222_13
+  - first:
+      213: -8358482986158055084
+    second: Adam_hold_the_ladder_974x1222_14
+  - first:
+      213: 2958471945446183265
+    second: Adam_hold_the_ladder_974x1222_15
+  - first:
+      213: 3665147320115621420
+    second: Adam_hold_the_ladder_974x1222_16
+  - first:
+      213: 9212553373076979861
+    second: Adam_hold_the_ladder_974x1222_17
+  - first:
+      213: -7032187933227856772
+    second: Adam_hold_the_ladder_974x1222_18
+  - first:
+      213: 1306108407431454488
+    second: Adam_hold_the_ladder_974x1222_19
+  - first:
+      213: 4892320022761808864
+    second: Adam_hold_the_ladder_974x1222_20
+  - first:
+      213: 6023284155738016974
+    second: Adam_hold_the_ladder_974x1222_21
+  - first:
+      213: 7733147998111518882
+    second: Adam_hold_the_ladder_974x1222_22
+  - first:
+      213: 7164706149340663942
+    second: Adam_hold_the_ladder_974x1222_23
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d95234c3d16ed80800000000000000
+      internalID: -8221851925056479893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_1
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2594421434a67ac10800000000000000
+      internalID: 2064735791260911954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_2
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1897db2a902a32100800000000000000
+      internalID: 82087380491532673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_3
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698c0eb35742d5590800000000000000
+      internalID: -7683945303289837418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_4
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e940534a60b6330800000000000000
+      internalID: 3705062420776263216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_5
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76c913f979e8a0680800000000000000
+      internalID: -8788054940998067097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ba42dbf9b562220800000000000000
+      internalID: 2460754988035779364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_7
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b50f9074ebcd8420800000000000000
+      internalID: 2633985539084060088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_8
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bc29e872bef3a7f0800000000000000
+      internalID: -602357882651333451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_9
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c05503a1aaec20c0800000000000000
+      internalID: -4599043139506450231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_10
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcbd4374bb4022ad0800000000000000
+      internalID: -2728613221833057331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_11
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb05e34ca8a967ba0800000000000000
+      internalID: -6091511525183434565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cda7f9a88b96b8120800000000000000
+      internalID: 2417141866335009500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_13
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 860c02871274e2920800000000000000
+      internalID: 2967387413558640744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_14
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45127ec5204b00c80800000000000000
+      internalID: -8358482986158055084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_15
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161574a4f8a9e0920800000000000000
+      internalID: 2958471945446183265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_16
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e67f0a1183dd230800000000000000
+      internalID: 3665147320115621420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_17
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590849c8b7099df70800000000000000
+      internalID: 9212553373076979861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c4a263556a86e90800000000000000
+      internalID: -7032187933227856772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_19
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f5a1f2daa302210800000000000000
+      internalID: 1306108407431454488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_20
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e3af3cd32305e340800000000000000
+      internalID: 4892320022761808864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_21
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eccc004e601079350800000000000000
+      internalID: 6023284155738016974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_22
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0d5fed129a15b60800000000000000
+      internalID: 7733147998111518882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_hold_the_ladder_974x1222_23
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680d18758462e6360800000000000000
+      internalID: 7164706149340663942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

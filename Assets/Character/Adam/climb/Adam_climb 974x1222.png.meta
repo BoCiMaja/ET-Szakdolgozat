@@ -1,0 +1,612 @@
+fileFormatVersion: 2
+guid: 97b6c8afae2c01a4d9157a6786da5fba
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5689026708741005472
+    second: Adam_climb 974x1222_0
+  - first:
+      213: -5278601842413009955
+    second: Adam_climb 974x1222_1
+  - first:
+      213: 339697363814591207
+    second: Adam_climb 974x1222_2
+  - first:
+      213: 3648808565551877377
+    second: Adam_climb 974x1222_3
+  - first:
+      213: 321604164259000460
+    second: Adam_climb 974x1222_4
+  - first:
+      213: -617254954352629097
+    second: Adam_climb 974x1222_5
+  - first:
+      213: -6568571998493520528
+    second: Adam_climb 974x1222_6
+  - first:
+      213: -512888662107912404
+    second: Adam_climb 974x1222_7
+  - first:
+      213: -1719338205778435948
+    second: Adam_climb 974x1222_8
+  - first:
+      213: 5784080925371464628
+    second: Adam_climb 974x1222_9
+  - first:
+      213: 6065131754009219914
+    second: Adam_climb 974x1222_10
+  - first:
+      213: -7861099446672714759
+    second: Adam_climb 974x1222_11
+  - first:
+      213: -8517326778495146453
+    second: Adam_climb 974x1222_12
+  - first:
+      213: 6435395058058072197
+    second: Adam_climb 974x1222_13
+  - first:
+      213: 1325230091871043221
+    second: Adam_climb 974x1222_14
+  - first:
+      213: 6937872612942552572
+    second: Adam_climb 974x1222_15
+  - first:
+      213: 4215497985157219715
+    second: Adam_climb 974x1222_16
+  - first:
+      213: -2227161949899633112
+    second: Adam_climb 974x1222_17
+  - first:
+      213: 7169526759047844253
+    second: Adam_climb 974x1222_18
+  - first:
+      213: -2957975183278897334
+    second: Adam_climb 974x1222_19
+  - first:
+      213: 1073342458517820878
+    second: Adam_climb 974x1222_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0a73c56ab73fe40800000000000000
+      internalID: 5689026708741005472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_1
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd300407793aeb6b0800000000000000
+      internalID: -5278601842413009955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_2
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea2e4dd3f8d6b400800000000000000
+      internalID: 339697363814591207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_3
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10d4f13ee0c23a230800000000000000
+      internalID: 3648808565551877377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_4
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c80b1f09841967400800000000000000
+      internalID: 321604164259000460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_5
+      rect:
+        serializedVersion: 2
+        x: 4870
+        y: 3674
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a26fda3e11f67f0800000000000000
+      internalID: -617254954352629097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d4734b19eb7d4a0800000000000000
+      internalID: -6568571998493520528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_7
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c278bbdaa7ad1e8f0800000000000000
+      internalID: -512888662107912404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_8
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 490a1d3e20fa328e0800000000000000
+      internalID: -1719338205778435948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_9
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bbf0ecc4fe254050800000000000000
+      internalID: 5784080925371464628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_10
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 2452
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4359a1223dab2450800000000000000
+      internalID: 6065131754009219914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f39d0104b3c7e290800000000000000
+      internalID: -7861099446672714759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_12
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b26efd3fb606cc980800000000000000
+      internalID: -8517326778495146453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_13
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5801bd885bd1f4950800000000000000
+      internalID: 6435395058058072197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_14
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59eb1a74fb9246210800000000000000
+      internalID: 1325230091871043221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_15
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 1230
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfd1a5f0266484060800000000000000
+      internalID: 6937872612942552572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385cba43515708a30800000000000000
+      internalID: 4215497985157219715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_17
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82e47fea1088711e0800000000000000
+      internalID: -2227161949899633112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_18
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9154b00a964f7360800000000000000
+      internalID: 7169526759047844253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_19
+      rect:
+        serializedVersion: 2
+        x: 2922
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a478d3a2e3923f6d0800000000000000
+      internalID: -2957975183278897334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Adam_climb 974x1222_20
+      rect:
+        serializedVersion: 2
+        x: 3896
+        y: 8
+        width: 974
+        height: 1222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec59c4a774745ee00800000000000000
+      internalID: 1073342458517820878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
