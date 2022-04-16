@@ -24,7 +24,7 @@ public class PlayerMovement : MonoBehaviour
     public float jumpDelay = 0.5f;
     public bool doubleJumpReady = false;
 
-    private bool floating;
+    public bool floating;
 
     public bool m_FacingRight = true;
 

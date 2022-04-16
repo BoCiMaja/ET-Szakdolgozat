@@ -17,9 +17,12 @@ public class WallClimbing : MonoBehaviour
         vertical = Input.GetAxis("Wallclimb");
         if (isWall && Mathf.Abs(vertical) > 0f)
         {
+  
             isClimbing = true;
             animator.SetBool("isClimbing",true);
-            FindObjectOfType<SoundManager>().Play("Climbing");
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isFloating", false);
+            animator.SetBool("isWalking", false);
         }
     }
 
@@ -29,10 +32,12 @@ public class WallClimbing : MonoBehaviour
         {
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * 2);
+            FindObjectOfType<SoundManager>().Play("Climbing");
         }
         else
         {
             rb.gravityScale = 1f;
+            FindObjectOfType<SoundManager>().Stop("Climbing");
         }
     }
 
@@ -47,13 +52,9 @@ public class WallClimbing : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Wall")){
-
-            isWall= false;
-            isClimbing  = false;
+            isWall = false;
+            isClimbing = false;
             animator.SetBool("isClimbing", false);
-            FindObjectOfType<SoundManager>().Pause("Climbing");
-        }
     }
 
 }
