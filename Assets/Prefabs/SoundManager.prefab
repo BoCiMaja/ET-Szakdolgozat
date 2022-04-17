@@ -50,6 +50,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 453c5a3bf53fbbe48939bddbdd455d89, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 1
     source: {fileID: 0}
   - audioType: 1
@@ -57,6 +58,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: c629fbefa75fe724cbb4110db6e82b6f, type: 3}
     volume: 0.312
     pitch: 1
+    spatialBlend: 0
     loop: 1
     source: {fileID: 0}
   - audioType: 1
@@ -64,6 +66,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: e3a5733f240d6974f9e0e7d16ccd1e83, type: 3}
     volume: 1
     pitch: 1
+    spatialBlend: 0
     loop: 0
     source: {fileID: 0}
   - audioType: 1
@@ -71,6 +74,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: a1460effe8f6c7d4bb18ab6ec3637949, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 1
     source: {fileID: 0}
   - audioType: 1
@@ -78,6 +82,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: b42effe44a945024fa800895fb354812, type: 3}
     volume: 0.199
     pitch: 1
+    spatialBlend: 0
     loop: 0
     source: {fileID: 0}
   - audioType: 1
@@ -85,6 +90,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 50b6a2bca13c0ac458c7dfb6072a4eb5, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 1
     source: {fileID: 0}
   - audioType: 1
@@ -92,6 +98,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: a395bdac2e8b1bd4686d08ab695d0bee, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 0
     source: {fileID: 0}
   - audioType: 1
@@ -99,6 +106,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 3b6cb4951d8e87f4191965b428f228f3, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 0
     source: {fileID: 0}
   - audioType: 1
@@ -106,6 +114,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: aa27da91b125cc44bbeca73f40e1a410, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 0
     source: {fileID: 0}
   - audioType: 1
@@ -113,6 +122,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 4f543de26b62aad4c899ecfc1fdb4a32, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 0
     source: {fileID: 0}
   - audioType: 1
@@ -120,13 +130,31 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 3f84cd799c633f148a14fa3d48ec86ec, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: Kerek
+    clip: {fileID: 8300000, guid: 6091bed629f18794db757af874b8908f, type: 3}
+    volume: 0.208
+    pitch: 1
+    spatialBlend: 1
+    loop: 1
+    source: {fileID: 0}
+  - audioType: 1
+    name: Ambient
+    clip: {fileID: 8300000, guid: cf1a773f8c465ef47863678a4742eb88, type: 3}
+    volume: 0.16
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
     source: {fileID: 0}
   - audioType: 2
     name: BGM
     clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
     volume: 0.089
     pitch: 1
+    spatialBlend: 0
     loop: 1
     source: {fileID: 0}
   - audioType: 2
@@ -134,6 +162,7 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: f8d46b95e7bcd2d46bec646fa1290213, type: 3}
     volume: 0.16
     pitch: 1
+    spatialBlend: 0
     loop: 1
     source: {fileID: 0}
   musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}

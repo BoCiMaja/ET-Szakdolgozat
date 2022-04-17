@@ -76,7 +76,9 @@ public class PlayerActions : MonoBehaviour
 		}
 	}
 
-	
+	public Transform kerek;
+	public GameObject player;
+
 	private void Update()
     {
 
@@ -91,7 +93,7 @@ public class PlayerActions : MonoBehaviour
 				ThrowBig();
 			}
 		}
-		
+
 	}
 
 	private void Reload()

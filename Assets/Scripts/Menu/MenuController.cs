@@ -13,6 +13,7 @@ public class MenuController : MonoBehaviour
     private void Start()
     {
         SoundManager.GetInstance().Play("MenuBGM");
+        SoundManager.GetInstance().Stop("Ambient");
         SoundManager.GetInstance().Stop("BGM");
     }
 
@@ -22,6 +23,7 @@ public class MenuController : MonoBehaviour
     {
         SceneLoader.LoadNewGame(newGameScene);
         SoundManager.GetInstance().Play("BGM");
+        SoundManager.GetInstance().Play("Ambient");
         SoundManager.GetInstance().Stop("MenuBGM");
     }
 
