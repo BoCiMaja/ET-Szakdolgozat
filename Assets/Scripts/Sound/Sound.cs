@@ -17,6 +17,7 @@ public class Sound
     public float pitch;
     public float spatialBlend;
     public bool loop;
+    public bool playOnAwake;
     [HideInInspector] //hide it in the inspector, despite it's public
     public AudioSource source;
 

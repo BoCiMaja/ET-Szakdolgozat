@@ -34,6 +34,7 @@ public class SoundManager : MonoBehaviour
             s.source.loop = s.loop;
             s.source.volume = s.volume;
             s.source.spatialBlend = s.spatialBlend;
+            s.source.playOnAwake = s.playOnAwake;
 
             switch (s.audioType)
             {

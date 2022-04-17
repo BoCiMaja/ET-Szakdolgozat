@@ -52,6 +52,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Walking
@@ -60,6 +61,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Jump
@@ -68,6 +70,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Floating
@@ -76,6 +79,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Landing
@@ -84,6 +88,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Climbing
@@ -92,6 +97,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Throwing
@@ -100,6 +106,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: DocumentumView
@@ -108,6 +115,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: BookFlipPage
@@ -116,6 +124,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: BookView
@@ -124,6 +133,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: BookClose
@@ -132,6 +142,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 0
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 1
     name: Kerek
@@ -140,6 +151,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 1
     loop: 1
+    playOnAwake: 1
     source: {fileID: 0}
   - audioType: 1
     name: Ambient
@@ -148,6 +160,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 1
     source: {fileID: 0}
   - audioType: 2
     name: BGM
@@ -156,6 +169,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
     source: {fileID: 0}
   - audioType: 2
     name: MenuBGM
@@ -164,6 +178,7 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
     source: {fileID: 0}
   musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
   effectsMixerGroup: {fileID: -3176401795520974864, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
