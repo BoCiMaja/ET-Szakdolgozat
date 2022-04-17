@@ -143,7 +143,7 @@ public class PlayerActions : MonoBehaviour
 
 	private void OnTriggerEnter2D(Collider2D collision)
 	{
-		if (collision.CompareTag("Enemy"))
+		if (collision.CompareTag("Enemy") || collision.CompareTag("Beam"))
 		{
 			hp--;
 			if (hp == 0)

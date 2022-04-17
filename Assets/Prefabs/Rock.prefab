@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: -727872422536395371}
   m_Layer: 7
   m_Name: Rock
-  m_TagString: Untagged
+  m_TagString: Rock
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -147,6 +147,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offset: {x: -0.1, y: 0.3, z: 0}
   direction: {x: 1, y: 0, z: 0}
+  adjustedThrow: {x: 0, y: 0, z: 0}
   speed: 4
 --- !u!82 &-727872422536395371
 AudioSource:

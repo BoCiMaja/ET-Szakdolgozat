@@ -8,19 +8,21 @@ public class Boss_Health : MonoBehaviour
     public bool isInvulnerable = false;
     public GameObject deathEffect;
 
-    public void TakeDamage(int damage)
+    private void Update()
+    {
+        TakeDamage();
+    }
+    public void TakeDamage()
     {
         if (isInvulnerable)
             return;
 
-        health -= damage;
-
-        if(health <= 10)
+        if (health <= 10)
         {
             GetComponent<Animator>().SetBool("is2ndPhase", true);
         }
 
-        if(health <= 0)
+        if (health <= 0)
         {
             Die();
         }
@@ -30,6 +32,15 @@ public class Boss_Health : MonoBehaviour
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Rock"))
+        {
+            health--;
+            GetComponent<Animator>().SetTrigger("Hurt");
+        }
     }
 
 }
