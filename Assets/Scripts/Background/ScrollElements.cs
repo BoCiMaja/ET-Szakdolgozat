@@ -20,10 +20,11 @@ public class ScrollElements : Scroll
     {
         foreach (GameObject child in children)
         {
-            child.transform.position = new Vector3(
-                child.transform.position.x - diffX,
-                child.transform.position.y,
-                child.transform.position.z);
+            //child.transform.position = new Vector3(
+            //    child.transform.position.x - diffX,
+            //    child.transform.position.y,
+            //    child.transform.position.z);
+            ScrollElement(child.transform);
         }
     }
 }
