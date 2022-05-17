@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 2787de09e1235f0489e04fb12260e50e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -308632866951169483
+    second: umbrella 850x890_0
+  - first:
+      213: 6277795886335535750
+    second: umbrella 850x890_1
+  - first:
+      213: -3151754866344873737
+    second: umbrella 850x890_2
+  - first:
+      213: 6673126285871696155
+    second: umbrella 850x890_3
+  - first:
+      213: -6555910353498660117
+    second: umbrella 850x890_4
+  - first:
+      213: 3717699486573879612
+    second: umbrella 850x890_5
+  - first:
+      213: 7988731501964965172
+    second: umbrella 850x890_6
+  - first:
+      213: 3317491482569064878
+    second: umbrella 850x890_7
+  - first:
+      213: 5969754803241425750
+    second: umbrella 850x890_8
+  - first:
+      213: 4497544536679796278
+    second: umbrella 850x890_9
+  - first:
+      213: -7185300655007382045
+    second: umbrella 850x890_10
+  - first:
+      213: -5517433852844393675
+    second: umbrella 850x890_11
+  - first:
+      213: -5386628529142527394
+    second: umbrella 850x890_12
+  - first:
+      213: 1968321447297342244
+    second: umbrella 850x890_13
+  - first:
+      213: -1246768715623512249
+    second: umbrella 850x890_14
+  - first:
+      213: 7041437758904976111
+    second: umbrella 850x890_15
+  - first:
+      213: -6761022254024234538
+    second: umbrella 850x890_16
+  - first:
+      213: 7775737688167502768
+    second: umbrella 850x890_17
+  - first:
+      213: 4181756470901948703
+    second: umbrella 850x890_18
+  - first:
+      213: -5337814989821148287
+    second: umbrella 850x890_19
+  - first:
+      213: 7069392738804532952
+    second: umbrella 850x890_20
+  - first:
+      213: -7704321378433279413
+    second: umbrella 850x890_21
+  - first:
+      213: 6826882922871361179
+    second: umbrella 850x890_22
+  - first:
+      213: 1851418226495457720
+    second: umbrella 850x890_23
+  - first:
+      213: 8917267872054303072
+    second: umbrella 850x890_24
+  - first:
+      213: -5858514119030466764
+    second: umbrella 850x890_25
+  - first:
+      213: -6352905230557095525
+    second: umbrella 850x890_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: umbrella 850x890_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3568
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a7d5fea0487bbf0800000000000000
+      internalID: -308632866951169483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_1
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 3568
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68a2071f8163f1750800000000000000
+      internalID: 6277795886335535750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_2
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 3568
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0b764d5a7b244d0800000000000000
+      internalID: -3151754866344873737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_3
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 3568
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1944b25005bb9c50800000000000000
+      internalID: 6673126285871696155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_4
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 3568
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be22868a44ab405a0800000000000000
+      internalID: -6555910353498660117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_5
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 3568
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3163ee5cfbe79330800000000000000
+      internalID: 3717699486573879612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2676
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 435389499fcadde60800000000000000
+      internalID: 7988731501964965172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_7
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2676
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1c9e33de81a0e20800000000000000
+      internalID: 3317491482569064878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_8
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2676
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65b136b4d54d8d250800000000000000
+      internalID: 5969754803241425750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_9
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 2676
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e4c465dec7a6e30800000000000000
+      internalID: 4497544536679796278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_10
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 2676
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e547e5af1fa84c90800000000000000
+      internalID: -7185300655007382045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_11
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 2676
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53bbe79b4232e63b0800000000000000
+      internalID: -5517433852844393675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1784
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5a897f64e9de35b0800000000000000
+      internalID: -5386628529142527394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_13
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1784
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bd0fd7de1e05b10800000000000000
+      internalID: 1968321447297342244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_14
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1784
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747c034757692bee0800000000000000
+      internalID: -1246768715623512249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_15
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1784
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe2cd87a55638b160800000000000000
+      internalID: 7041437758904976111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_16
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 1784
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d9ef56d4160c22a0800000000000000
+      internalID: -6761022254024234538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 892
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b357d1da38f8eb60800000000000000
+      internalID: 7775737688167502768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_18
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 892
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f114d49ba55980a30800000000000000
+      internalID: 4181756470901948703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_19
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 892
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18384f63c854ce5b0800000000000000
+      internalID: -5337814989821148287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_20
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 892
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d68b2e9d378b1260800000000000000
+      internalID: 7069392738804532952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_21
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 892
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4a590b8680c41590800000000000000
+      internalID: -7704321378433279413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9e8de419d5fdbe50800000000000000
+      internalID: 6826882922871361179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_23
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b902f8511f81b910800000000000000
+      internalID: 1851418226495457720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_24
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 069dcc842ef70cb70800000000000000
+      internalID: 8917267872054303072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_25
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 0
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 437149fc27062bea0800000000000000
+      internalID: -5858514119030466764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella 850x890_26
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 0
+        width: 852
+        height: 892
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b995ce81a52f5d7a0800000000000000
+      internalID: -6352905230557095525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

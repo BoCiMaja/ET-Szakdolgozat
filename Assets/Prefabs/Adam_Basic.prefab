@@ -284,7 +284,7 @@ ParticleSystem:
     startSize:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.4
+      scalar: 0.2
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -600,7 +600,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 1000
+    maxNumParticles: 2000
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -865,7 +865,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 100
+      scalar: 1000
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -4905,6 +4905,7 @@ Transform:
   - {fileID: 1778223545388635720}
   - {fileID: 1778223546578369968}
   - {fileID: 1778223545256266981}
+  - {fileID: 7646175893506591174}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
@@ -4953,7 +4954,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 5, y: 8.89}
+  m_Size: {x: 5.000956, y: 8.4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -4988,8 +4989,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.000956, y: 8.4}
-    newSize: {x: 5, y: 8.89}
+    oldSize: {x: 5.0209594, y: 8.42}
+    newSize: {x: 5.000956, y: 8.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -5014,8 +5015,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.000956, y: 8.4}
-    newSize: {x: 5, y: 8.89}
+    oldSize: {x: 5.0209594, y: 8.42}
+    newSize: {x: 5.000956, y: 8.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -5040,8 +5041,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 5.000956, y: 8.4}
-    newSize: {x: 5, y: 8.89}
+    oldSize: {x: 5.0209594, y: 8.42}
+    newSize: {x: 5.000956, y: 8.4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -5125,13 +5126,15 @@ MonoBehaviour:
         m_CallState: 2
   animator: {fileID: 1778223546958741220}
   dust: {fileID: 1778223545256266979}
-  sound: {fileID: 0}
+  sound: {fileID: 7699205456995314011, guid: 42bd1e304a3b1ed419af0c37d33bb4b6, type: 3}
   playerMovement: {fileID: 1778223546958741218}
   wallClimbing: {fileID: 1778223546958741230}
   rockPrefab: {fileID: 5036474341563434967, guid: 37b37dbb3cfb58a4f92997a9d45023a8, type: 3}
   _rockActive: 0
   hp: 3
   ammo: 5
+  kerek: {fileID: 0}
+  player: {fileID: 1778223546958741018}
 --- !u!114 &1778223546958741218
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5151,8 +5154,9 @@ MonoBehaviour:
   jumpForce: 400
   extraJumpValue: 1
   airControl: 1
-  jumpDelay: 0.5
+  jumpDelay: 1
   doubleJumpReady: 0
+  floating: 0
   m_FacingRight: 1
   animator: {fileID: 1778223546958741220}
   dust: {fileID: 1778223545256266979}
@@ -5184,3 +5188,69 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0de64e2b5712d70428e64ae74eae6cdd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1001 &2994639163892725976
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1778223546958741016}
+    m_Modifications:
+    - target: {fileID: 4869433546236883229, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: controller
+      value: 
+      objectReference: {fileID: 1778223546958741218}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4869433546236883231, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+      propertyPath: m_Name
+      value: Umbrella
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+--- !u!4 &7646175893506591174 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4869433546236883230, guid: d9af8d904bfc068498e4467cf2a8c8d0, type: 3}
+  m_PrefabInstance: {fileID: 2994639163892725976}
+  m_PrefabAsset: {fileID: 0}
