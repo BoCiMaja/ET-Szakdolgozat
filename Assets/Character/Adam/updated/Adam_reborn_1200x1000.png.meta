@@ -205,10 +205,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_0
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 7016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 7014
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -226,10 +226,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_1
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 6016
-        width: 1200
-        height: 1000
+        x: 1202
+        y: 6012
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -247,10 +247,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_2
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 6016
-        width: 1200
-        height: 1000
+        x: 2404
+        y: 6012
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,10 +268,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_3
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 6016
-        width: 1200
-        height: 1000
+        x: 3606
+        y: 6012
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -289,10 +289,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_4
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 6016
-        width: 1200
-        height: 1000
+        x: 4808
+        y: 6012
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -310,10 +310,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_5
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 6016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 6012
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,9 +332,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 5016
-        width: 1200
-        height: 1000
+        y: 5010
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -352,10 +352,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_7
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 1202
+        y: 5010
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -373,10 +373,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_8
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 2404
+        y: 5010
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -394,10 +394,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_9
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 3606
+        y: 5010
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,10 +415,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_10
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 4808
+        y: 5010
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -436,10 +436,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_11
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 5010
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -458,9 +458,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4016
-        width: 1200
-        height: 1000
+        y: 4008
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -478,10 +478,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_13
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 1202
+        y: 4008
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -499,10 +499,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_14
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 2404
+        y: 4008
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -520,10 +520,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_15
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 3606
+        y: 4008
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -541,10 +541,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_16
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 4808
+        y: 4008
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -562,10 +562,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_17
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 4008
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,9 +584,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3016
-        width: 1200
-        height: 1000
+        y: 3006
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -604,10 +604,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_19
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 1202
+        y: 3006
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -625,10 +625,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_20
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 2404
+        y: 3006
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -646,10 +646,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_21
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 3606
+        y: 3006
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -667,10 +667,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_22
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 4808
+        y: 3006
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,10 +688,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_23
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 3006
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,9 +710,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2016
-        width: 1200
-        height: 1000
+        y: 2004
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -730,10 +730,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_25
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 1202
+        y: 2004
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -751,10 +751,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_26
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 2404
+        y: 2004
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -772,10 +772,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_27
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 3606
+        y: 2004
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -793,10 +793,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_28
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 4808
+        y: 2004
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -814,10 +814,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_29
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 2004
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -836,9 +836,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1016
-        width: 1200
-        height: 1000
+        y: 1002
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -856,10 +856,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_31
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 1202
+        y: 1002
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,10 +877,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_32
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 2404
+        y: 1002
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -898,10 +898,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_33
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 3606
+        y: 1002
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -919,10 +919,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_34
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 4808
+        y: 1002
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -940,10 +940,10 @@ TextureImporter:
       name: Adam_reborn_1200x1000_35
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 6010
+        y: 1002
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,9 +962,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 1200
-        height: 1000
+        y: 0
+        width: 1202
+        height: 1002
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
