@@ -196,6 +196,7 @@ public class PlayerMovement : MonoBehaviour
             Physics2D.gravity = new Vector2(0, -0.8f);
             jump = false;
             floating = true;
+            runSpeed = 36f;
             FindObjectOfType<SoundManager>().Stop("Running");
             FindObjectOfType<SoundManager>().Stop("Walking");
             animator.SetBool("isJumping", false);

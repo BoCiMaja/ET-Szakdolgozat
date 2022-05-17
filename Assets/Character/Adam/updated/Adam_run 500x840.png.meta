@@ -215,9 +215,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3370
-        width: 500
-        height: 840
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +235,10 @@ TextureImporter:
       name: Adam_run 500x840_1
       rect:
         serializedVersion: 2
-        x: 500
-        y: 3370
-        width: 500
-        height: 840
+        x: 502
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,10 +256,10 @@ TextureImporter:
       name: Adam_run 500x840_2
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 3370
-        width: 500
-        height: 840
+        x: 1004
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,10 +277,10 @@ TextureImporter:
       name: Adam_run 500x840_3
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 3370
-        width: 500
-        height: 840
+        x: 1506
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,10 +298,10 @@ TextureImporter:
       name: Adam_run 500x840_4
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 3370
-        width: 500
-        height: 840
+        x: 2008
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -319,10 +319,10 @@ TextureImporter:
       name: Adam_run 500x840_5
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 3370
-        width: 500
-        height: 840
+        x: 2510
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -340,10 +340,10 @@ TextureImporter:
       name: Adam_run 500x840_6
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 3370
-        width: 500
-        height: 840
+        x: 3012
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -361,10 +361,10 @@ TextureImporter:
       name: Adam_run 500x840_7
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 3370
-        width: 500
-        height: 840
+        x: 3514
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -382,10 +382,10 @@ TextureImporter:
       name: Adam_run 500x840_8
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 3370
-        width: 500
-        height: 840
+        x: 4016
+        y: 3368
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -404,9 +404,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2530
-        width: 500
-        height: 840
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -424,10 +424,10 @@ TextureImporter:
       name: Adam_run 500x840_10
       rect:
         serializedVersion: 2
-        x: 500
-        y: 2530
-        width: 500
-        height: 840
+        x: 502
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -445,10 +445,10 @@ TextureImporter:
       name: Adam_run 500x840_11
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 2530
-        width: 500
-        height: 840
+        x: 1004
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -466,10 +466,10 @@ TextureImporter:
       name: Adam_run 500x840_12
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 2530
-        width: 500
-        height: 840
+        x: 1506
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -487,10 +487,10 @@ TextureImporter:
       name: Adam_run 500x840_13
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 2530
-        width: 500
-        height: 840
+        x: 2008
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,10 +508,10 @@ TextureImporter:
       name: Adam_run 500x840_14
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 2530
-        width: 500
-        height: 840
+        x: 2510
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -529,10 +529,10 @@ TextureImporter:
       name: Adam_run 500x840_15
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 2530
-        width: 500
-        height: 840
+        x: 3012
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -550,10 +550,10 @@ TextureImporter:
       name: Adam_run 500x840_16
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 2530
-        width: 500
-        height: 840
+        x: 3514
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -571,10 +571,10 @@ TextureImporter:
       name: Adam_run 500x840_17
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 2530
-        width: 500
-        height: 840
+        x: 4016
+        y: 2526
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -593,9 +593,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1690
-        width: 500
-        height: 840
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,10 +613,10 @@ TextureImporter:
       name: Adam_run 500x840_19
       rect:
         serializedVersion: 2
-        x: 500
-        y: 1690
-        width: 500
-        height: 840
+        x: 502
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -634,10 +634,10 @@ TextureImporter:
       name: Adam_run 500x840_20
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 1690
-        width: 500
-        height: 840
+        x: 1004
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -655,10 +655,10 @@ TextureImporter:
       name: Adam_run 500x840_21
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 1690
-        width: 500
-        height: 840
+        x: 1506
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -676,10 +676,10 @@ TextureImporter:
       name: Adam_run 500x840_22
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 1690
-        width: 500
-        height: 840
+        x: 2008
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -697,10 +697,10 @@ TextureImporter:
       name: Adam_run 500x840_23
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 1690
-        width: 500
-        height: 840
+        x: 2510
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -718,10 +718,10 @@ TextureImporter:
       name: Adam_run 500x840_24
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1690
-        width: 500
-        height: 840
+        x: 3012
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -739,10 +739,10 @@ TextureImporter:
       name: Adam_run 500x840_25
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 1690
-        width: 500
-        height: 840
+        x: 3514
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -760,10 +760,10 @@ TextureImporter:
       name: Adam_run 500x840_26
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 1690
-        width: 500
-        height: 840
+        x: 4016
+        y: 1684
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -782,9 +782,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 850
-        width: 500
-        height: 840
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -802,10 +802,10 @@ TextureImporter:
       name: Adam_run 500x840_28
       rect:
         serializedVersion: 2
-        x: 500
-        y: 850
-        width: 500
-        height: 840
+        x: 502
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -823,10 +823,10 @@ TextureImporter:
       name: Adam_run 500x840_29
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 850
-        width: 500
-        height: 840
+        x: 1004
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -844,10 +844,10 @@ TextureImporter:
       name: Adam_run 500x840_30
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 850
-        width: 500
-        height: 840
+        x: 1506
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -865,10 +865,10 @@ TextureImporter:
       name: Adam_run 500x840_31
       rect:
         serializedVersion: 2
-        x: 2000
-        y: 850
-        width: 500
-        height: 840
+        x: 2008
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -886,10 +886,10 @@ TextureImporter:
       name: Adam_run 500x840_32
       rect:
         serializedVersion: 2
-        x: 2500
-        y: 850
-        width: 500
-        height: 840
+        x: 2510
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -907,10 +907,10 @@ TextureImporter:
       name: Adam_run 500x840_33
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 850
-        width: 500
-        height: 840
+        x: 3012
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -928,10 +928,10 @@ TextureImporter:
       name: Adam_run 500x840_34
       rect:
         serializedVersion: 2
-        x: 3500
-        y: 850
-        width: 500
-        height: 840
+        x: 3514
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -949,10 +949,10 @@ TextureImporter:
       name: Adam_run 500x840_35
       rect:
         serializedVersion: 2
-        x: 4000
-        y: 850
-        width: 500
-        height: 840
+        x: 4016
+        y: 842
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -971,9 +971,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 500
-        height: 840
+        y: 0
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -991,10 +991,10 @@ TextureImporter:
       name: Adam_run 500x840_37
       rect:
         serializedVersion: 2
-        x: 500
-        y: 10
-        width: 500
-        height: 840
+        x: 502
+        y: 0
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1012,10 +1012,10 @@ TextureImporter:
       name: Adam_run 500x840_38
       rect:
         serializedVersion: 2
-        x: 1000
-        y: 10
-        width: 500
-        height: 840
+        x: 1004
+        y: 0
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1033,10 +1033,10 @@ TextureImporter:
       name: Adam_run 500x840_39
       rect:
         serializedVersion: 2
-        x: 1500
-        y: 10
-        width: 500
-        height: 840
+        x: 1506
+        y: 0
+        width: 502
+        height: 842
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

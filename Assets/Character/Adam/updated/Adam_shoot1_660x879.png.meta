@@ -209,9 +209,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3526
-        width: 660
-        height: 879
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,10 +229,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_1
       rect:
         serializedVersion: 2
-        x: 660
-        y: 3526
-        width: 660
-        height: 879
+        x: 662
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,10 +250,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_2
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 3526
-        width: 660
-        height: 879
+        x: 1324
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,10 +271,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_3
       rect:
         serializedVersion: 2
-        x: 1980
-        y: 3526
-        width: 660
-        height: 879
+        x: 1986
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,10 +292,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_4
       rect:
         serializedVersion: 2
-        x: 2640
-        y: 3526
-        width: 660
-        height: 879
+        x: 2648
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,10 +313,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_5
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 3526
-        width: 660
-        height: 879
+        x: 3310
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,10 +334,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_6
       rect:
         serializedVersion: 2
-        x: 3960
-        y: 3526
-        width: 660
-        height: 879
+        x: 3972
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,10 +355,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_7
       rect:
         serializedVersion: 2
-        x: 4620
-        y: 3526
-        width: 660
-        height: 879
+        x: 4634
+        y: 3524
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -377,9 +377,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2647
-        width: 660
-        height: 879
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,10 +397,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_9
       rect:
         serializedVersion: 2
-        x: 660
-        y: 2647
-        width: 660
-        height: 879
+        x: 662
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,10 +418,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_10
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 2647
-        width: 660
-        height: 879
+        x: 1324
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,10 +439,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_11
       rect:
         serializedVersion: 2
-        x: 1980
-        y: 2647
-        width: 660
-        height: 879
+        x: 1986
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,10 +460,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_12
       rect:
         serializedVersion: 2
-        x: 2640
-        y: 2647
-        width: 660
-        height: 879
+        x: 2648
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,10 +481,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_13
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 2647
-        width: 660
-        height: 879
+        x: 3310
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,10 +502,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_14
       rect:
         serializedVersion: 2
-        x: 3960
-        y: 2647
-        width: 660
-        height: 879
+        x: 3972
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,10 +523,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_15
       rect:
         serializedVersion: 2
-        x: 4620
-        y: 2647
-        width: 660
-        height: 879
+        x: 4634
+        y: 2643
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -545,9 +545,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1768
-        width: 660
-        height: 879
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,10 +565,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_17
       rect:
         serializedVersion: 2
-        x: 660
-        y: 1768
-        width: 660
-        height: 879
+        x: 662
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,10 +586,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_18
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 1768
-        width: 660
-        height: 879
+        x: 1324
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,10 +607,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_19
       rect:
         serializedVersion: 2
-        x: 1980
-        y: 1768
-        width: 660
-        height: 879
+        x: 1986
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,10 +628,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_20
       rect:
         serializedVersion: 2
-        x: 2640
-        y: 1768
-        width: 660
-        height: 879
+        x: 2648
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,10 +649,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_21
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 1768
-        width: 660
-        height: 879
+        x: 3310
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,10 +670,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_22
       rect:
         serializedVersion: 2
-        x: 3960
-        y: 1768
-        width: 660
-        height: 879
+        x: 3972
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,10 +691,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_23
       rect:
         serializedVersion: 2
-        x: 4620
-        y: 1768
-        width: 660
-        height: 879
+        x: 4634
+        y: 1762
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -713,9 +713,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 889
-        width: 660
-        height: 879
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,10 +733,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_25
       rect:
         serializedVersion: 2
-        x: 660
-        y: 889
-        width: 660
-        height: 879
+        x: 662
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,10 +754,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_26
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 889
-        width: 660
-        height: 879
+        x: 1324
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,10 +775,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_27
       rect:
         serializedVersion: 2
-        x: 1980
-        y: 889
-        width: 660
-        height: 879
+        x: 1986
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,10 +796,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_28
       rect:
         serializedVersion: 2
-        x: 2640
-        y: 889
-        width: 660
-        height: 879
+        x: 2648
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,10 +817,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_29
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 889
-        width: 660
-        height: 879
+        x: 3310
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,10 +838,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_30
       rect:
         serializedVersion: 2
-        x: 3960
-        y: 889
-        width: 660
-        height: 879
+        x: 3972
+        y: 881
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -860,9 +860,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 10
-        width: 660
-        height: 879
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -880,10 +880,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_32
       rect:
         serializedVersion: 2
-        x: 660
-        y: 10
-        width: 660
-        height: 879
+        x: 662
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,10 +901,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_33
       rect:
         serializedVersion: 2
-        x: 1320
-        y: 10
-        width: 660
-        height: 879
+        x: 1324
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -922,10 +922,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_34
       rect:
         serializedVersion: 2
-        x: 1980
-        y: 10
-        width: 660
-        height: 879
+        x: 1986
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,10 +943,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_35
       rect:
         serializedVersion: 2
-        x: 2640
-        y: 10
-        width: 660
-        height: 879
+        x: 2648
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,10 +964,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_36
       rect:
         serializedVersion: 2
-        x: 3300
-        y: 10
-        width: 660
-        height: 879
+        x: 3310
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -985,10 +985,10 @@ TextureImporter:
       name: Adam_shoot1_660x879_37
       rect:
         serializedVersion: 2
-        x: 3960
-        y: 10
-        width: 660
-        height: 879
+        x: 3972
+        y: 0
+        width: 662
+        height: 881
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

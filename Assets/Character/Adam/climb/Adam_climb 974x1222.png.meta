@@ -109,7 +109,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 120
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -158,9 +158,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3674
-        width: 974
-        height: 1222
+        y: 3672
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -178,10 +178,10 @@ TextureImporter:
       name: Adam_climb 974x1222_1
       rect:
         serializedVersion: 2
-        x: 974
-        y: 3674
-        width: 974
-        height: 1222
+        x: 976
+        y: 3672
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,10 +199,10 @@ TextureImporter:
       name: Adam_climb 974x1222_2
       rect:
         serializedVersion: 2
-        x: 1948
-        y: 3674
-        width: 974
-        height: 1222
+        x: 1952
+        y: 3672
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -220,10 +220,10 @@ TextureImporter:
       name: Adam_climb 974x1222_3
       rect:
         serializedVersion: 2
-        x: 2922
-        y: 3674
-        width: 974
-        height: 1222
+        x: 2928
+        y: 3672
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -241,10 +241,10 @@ TextureImporter:
       name: Adam_climb 974x1222_4
       rect:
         serializedVersion: 2
-        x: 3896
-        y: 3674
-        width: 974
-        height: 1222
+        x: 3904
+        y: 3672
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -262,10 +262,10 @@ TextureImporter:
       name: Adam_climb 974x1222_5
       rect:
         serializedVersion: 2
-        x: 4870
-        y: 3674
-        width: 974
-        height: 1222
+        x: 4880
+        y: 3672
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,9 +284,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2452
-        width: 974
-        height: 1222
+        y: 2448
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -304,10 +304,10 @@ TextureImporter:
       name: Adam_climb 974x1222_7
       rect:
         serializedVersion: 2
-        x: 974
-        y: 2452
-        width: 974
-        height: 1222
+        x: 976
+        y: 2448
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -325,10 +325,10 @@ TextureImporter:
       name: Adam_climb 974x1222_8
       rect:
         serializedVersion: 2
-        x: 1948
-        y: 2452
-        width: 974
-        height: 1222
+        x: 1952
+        y: 2448
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -346,10 +346,10 @@ TextureImporter:
       name: Adam_climb 974x1222_9
       rect:
         serializedVersion: 2
-        x: 2922
-        y: 2452
-        width: 974
-        height: 1222
+        x: 2928
+        y: 2448
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -367,10 +367,10 @@ TextureImporter:
       name: Adam_climb 974x1222_10
       rect:
         serializedVersion: 2
-        x: 3896
-        y: 2452
-        width: 974
-        height: 1222
+        x: 3904
+        y: 2448
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -389,9 +389,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1230
-        width: 974
-        height: 1222
+        y: 1224
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -409,10 +409,10 @@ TextureImporter:
       name: Adam_climb 974x1222_12
       rect:
         serializedVersion: 2
-        x: 974
-        y: 1230
-        width: 974
-        height: 1222
+        x: 976
+        y: 1224
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -430,10 +430,10 @@ TextureImporter:
       name: Adam_climb 974x1222_13
       rect:
         serializedVersion: 2
-        x: 1948
-        y: 1230
-        width: 974
-        height: 1222
+        x: 1952
+        y: 1224
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -451,10 +451,10 @@ TextureImporter:
       name: Adam_climb 974x1222_14
       rect:
         serializedVersion: 2
-        x: 2922
-        y: 1230
-        width: 974
-        height: 1222
+        x: 2928
+        y: 1224
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -472,10 +472,10 @@ TextureImporter:
       name: Adam_climb 974x1222_15
       rect:
         serializedVersion: 2
-        x: 3896
-        y: 1230
-        width: 974
-        height: 1222
+        x: 3904
+        y: 1224
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -494,9 +494,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 974
-        height: 1222
+        y: 0
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -514,10 +514,10 @@ TextureImporter:
       name: Adam_climb 974x1222_17
       rect:
         serializedVersion: 2
-        x: 974
-        y: 8
-        width: 974
-        height: 1222
+        x: 976
+        y: 0
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -535,10 +535,10 @@ TextureImporter:
       name: Adam_climb 974x1222_18
       rect:
         serializedVersion: 2
-        x: 1948
-        y: 8
-        width: 974
-        height: 1222
+        x: 1952
+        y: 0
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -556,10 +556,10 @@ TextureImporter:
       name: Adam_climb 974x1222_19
       rect:
         serializedVersion: 2
-        x: 2922
-        y: 8
-        width: 974
-        height: 1222
+        x: 2928
+        y: 0
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -577,10 +577,10 @@ TextureImporter:
       name: Adam_climb 974x1222_20
       rect:
         serializedVersion: 2
-        x: 3896
-        y: 8
-        width: 974
-        height: 1222
+        x: 3904
+        y: 0
+        width: 976
+        height: 1224
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
