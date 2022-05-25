@@ -224,9 +224,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 7454
-        width: 1340
-        height: 1240
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -244,10 +244,10 @@ TextureImporter:
       name: hurt_1
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 7454
-        width: 1340
-        height: 1240
+        x: 1342
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -265,10 +265,10 @@ TextureImporter:
       name: hurt_2
       rect:
         serializedVersion: 2
-        x: 2680
-        y: 7454
-        width: 1340
-        height: 1240
+        x: 2684
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -286,10 +286,10 @@ TextureImporter:
       name: hurt_3
       rect:
         serializedVersion: 2
-        x: 4020
-        y: 7454
-        width: 1340
-        height: 1240
+        x: 4026
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -307,10 +307,10 @@ TextureImporter:
       name: hurt_4
       rect:
         serializedVersion: 2
-        x: 5360
-        y: 7454
-        width: 1340
-        height: 1240
+        x: 5368
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,10 +328,10 @@ TextureImporter:
       name: hurt_5
       rect:
         serializedVersion: 2
-        x: 6700
-        y: 7454
-        width: 1340
-        height: 1240
+        x: 6710
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,10 +349,10 @@ TextureImporter:
       name: hurt_6
       rect:
         serializedVersion: 2
-        x: 8040
-        y: 7454
-        width: 1340
-        height: 1240
+        x: 8052
+        y: 7452
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,9 +371,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 6214
-        width: 1340
-        height: 1240
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -391,10 +391,10 @@ TextureImporter:
       name: hurt_8
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 6214
-        width: 1340
-        height: 1240
+        x: 1342
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -412,10 +412,10 @@ TextureImporter:
       name: hurt_9
       rect:
         serializedVersion: 2
-        x: 2680
-        y: 6214
-        width: 1340
-        height: 1240
+        x: 2684
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -433,10 +433,10 @@ TextureImporter:
       name: hurt_10
       rect:
         serializedVersion: 2
-        x: 4020
-        y: 6214
-        width: 1340
-        height: 1240
+        x: 4026
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -454,10 +454,10 @@ TextureImporter:
       name: hurt_11
       rect:
         serializedVersion: 2
-        x: 5360
-        y: 6214
-        width: 1340
-        height: 1240
+        x: 5368
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -475,10 +475,10 @@ TextureImporter:
       name: hurt_12
       rect:
         serializedVersion: 2
-        x: 6700
-        y: 6214
-        width: 1340
-        height: 1240
+        x: 6710
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -496,10 +496,10 @@ TextureImporter:
       name: hurt_13
       rect:
         serializedVersion: 2
-        x: 8040
-        y: 6214
-        width: 1340
-        height: 1240
+        x: 8052
+        y: 6210
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -518,9 +518,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4974
-        width: 1340
-        height: 1240
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -538,10 +538,10 @@ TextureImporter:
       name: hurt_15
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 4974
-        width: 1340
-        height: 1240
+        x: 1342
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -559,10 +559,10 @@ TextureImporter:
       name: hurt_16
       rect:
         serializedVersion: 2
-        x: 2680
-        y: 4974
-        width: 1340
-        height: 1240
+        x: 2684
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -580,10 +580,10 @@ TextureImporter:
       name: hurt_17
       rect:
         serializedVersion: 2
-        x: 4020
-        y: 4974
-        width: 1340
-        height: 1240
+        x: 4026
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -601,10 +601,10 @@ TextureImporter:
       name: hurt_18
       rect:
         serializedVersion: 2
-        x: 5360
-        y: 4974
-        width: 1340
-        height: 1240
+        x: 5368
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -622,10 +622,10 @@ TextureImporter:
       name: hurt_19
       rect:
         serializedVersion: 2
-        x: 6700
-        y: 4974
-        width: 1340
-        height: 1240
+        x: 6710
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -643,10 +643,10 @@ TextureImporter:
       name: hurt_20
       rect:
         serializedVersion: 2
-        x: 8040
-        y: 4974
-        width: 1340
-        height: 1240
+        x: 8052
+        y: 4968
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -665,9 +665,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 3734
-        width: 1340
-        height: 1240
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -685,10 +685,10 @@ TextureImporter:
       name: hurt_22
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 3734
-        width: 1340
-        height: 1240
+        x: 1342
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -706,10 +706,10 @@ TextureImporter:
       name: hurt_23
       rect:
         serializedVersion: 2
-        x: 2680
-        y: 3734
-        width: 1340
-        height: 1240
+        x: 2684
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -727,10 +727,10 @@ TextureImporter:
       name: hurt_24
       rect:
         serializedVersion: 2
-        x: 4020
-        y: 3734
-        width: 1340
-        height: 1240
+        x: 4026
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -748,10 +748,10 @@ TextureImporter:
       name: hurt_25
       rect:
         serializedVersion: 2
-        x: 5360
-        y: 3734
-        width: 1340
-        height: 1240
+        x: 5368
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -769,10 +769,10 @@ TextureImporter:
       name: hurt_26
       rect:
         serializedVersion: 2
-        x: 6700
-        y: 3734
-        width: 1340
-        height: 1240
+        x: 6710
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -790,10 +790,10 @@ TextureImporter:
       name: hurt_27
       rect:
         serializedVersion: 2
-        x: 8040
-        y: 3734
-        width: 1340
-        height: 1240
+        x: 8052
+        y: 3726
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -812,9 +812,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2494
-        width: 1340
-        height: 1240
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -832,10 +832,10 @@ TextureImporter:
       name: hurt_29
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 2494
-        width: 1340
-        height: 1240
+        x: 1342
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -853,10 +853,10 @@ TextureImporter:
       name: hurt_30
       rect:
         serializedVersion: 2
-        x: 2680
-        y: 2494
-        width: 1340
-        height: 1240
+        x: 2684
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -874,10 +874,10 @@ TextureImporter:
       name: hurt_31
       rect:
         serializedVersion: 2
-        x: 4020
-        y: 2494
-        width: 1340
-        height: 1240
+        x: 4026
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -895,10 +895,10 @@ TextureImporter:
       name: hurt_32
       rect:
         serializedVersion: 2
-        x: 5360
-        y: 2494
-        width: 1340
-        height: 1240
+        x: 5368
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -916,10 +916,10 @@ TextureImporter:
       name: hurt_33
       rect:
         serializedVersion: 2
-        x: 6700
-        y: 2494
-        width: 1340
-        height: 1240
+        x: 6710
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -937,10 +937,10 @@ TextureImporter:
       name: hurt_34
       rect:
         serializedVersion: 2
-        x: 8040
-        y: 2494
-        width: 1340
-        height: 1240
+        x: 8052
+        y: 2484
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -959,9 +959,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1254
-        width: 1340
-        height: 1240
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -979,10 +979,10 @@ TextureImporter:
       name: hurt_36
       rect:
         serializedVersion: 2
-        x: 1340
-        y: 1254
-        width: 1340
-        height: 1240
+        x: 1342
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1000,10 +1000,10 @@ TextureImporter:
       name: hurt_37
       rect:
         serializedVersion: 2
-        x: 2680
-        y: 1254
-        width: 1340
-        height: 1240
+        x: 2684
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1021,10 +1021,10 @@ TextureImporter:
       name: hurt_38
       rect:
         serializedVersion: 2
-        x: 4020
-        y: 1254
-        width: 1340
-        height: 1240
+        x: 4026
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1042,10 +1042,10 @@ TextureImporter:
       name: hurt_39
       rect:
         serializedVersion: 2
-        x: 5360
-        y: 1254
-        width: 1340
-        height: 1240
+        x: 5368
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1063,10 +1063,10 @@ TextureImporter:
       name: hurt_40
       rect:
         serializedVersion: 2
-        x: 6700
-        y: 1254
-        width: 1340
-        height: 1240
+        x: 6710
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1084,10 +1084,10 @@ TextureImporter:
       name: hurt_41
       rect:
         serializedVersion: 2
-        x: 8040
-        y: 1254
-        width: 1340
-        height: 1240
+        x: 8052
+        y: 1242
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1106,9 +1106,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 14
-        width: 1340
-        height: 1240
+        y: 0
+        width: 1342
+        height: 1242
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
