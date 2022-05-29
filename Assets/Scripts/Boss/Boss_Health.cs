@@ -7,6 +7,7 @@ public class Boss_Health : MonoBehaviour
     public int health = 20;
     public bool isInvulnerable = false;
     public GameObject deathEffect;
+    public bool hurt;
 
     private void Update()
     {
@@ -39,6 +40,7 @@ public class Boss_Health : MonoBehaviour
         if (collision.CompareTag("Rock"))
         {
             health--;
+            hurt = true;
             GetComponent<Animator>().SetTrigger("Hurt");
         }
     }

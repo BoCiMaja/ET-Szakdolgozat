@@ -597,6 +597,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2078467501, guid: 365530d352c191f4095ee372248d98df, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 4973862784386431579, guid: c960bd60f1a635349bad23d854d9318d, type: 3}
     - target: {fileID: 6173011710811937434, guid: 365530d352c191f4095ee372248d98df, type: 3}
       propertyPath: m_Name
       value: Boss

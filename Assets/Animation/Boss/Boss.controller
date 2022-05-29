@@ -1076,7 +1076,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32cff51a34d0c124aa78104825dc33fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 2
   attackRange: 3
   offset: {x: 0, y: 0, z: 0}
   direction: {x: 1, y: 0, z: 0}

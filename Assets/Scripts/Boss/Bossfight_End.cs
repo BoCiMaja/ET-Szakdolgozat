@@ -11,7 +11,7 @@ public class Bossfight_End : StateMachineBehaviour
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        Destroy(GameObject.Find("BossText"), lifeTime);
+       // Destroy(GameObject.Find("BossText"), lifeTime);
         dialogue = 10;
         animator.SetInteger("Dialogue", ((int)dialogue));
     }
