@@ -1,0 +1,1476 @@
+fileFormatVersion: 2
+guid: dfa8d7ee9953e354484d3144c8a890d8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5491109469536284041
+    second: stonefloat_550x550_0
+  - first:
+      213: 240116678794091972
+    second: stonefloat_550x550_1
+  - first:
+      213: 6148740188435193188
+    second: stonefloat_550x550_2
+  - first:
+      213: -2852848604277265081
+    second: stonefloat_550x550_3
+  - first:
+      213: -4189729121441278824
+    second: stonefloat_550x550_4
+  - first:
+      213: 8678068382669963015
+    second: stonefloat_550x550_5
+  - first:
+      213: 6663735333525134529
+    second: stonefloat_550x550_6
+  - first:
+      213: 5517650527365419686
+    second: stonefloat_550x550_7
+  - first:
+      213: -2974778877052962040
+    second: stonefloat_550x550_8
+  - first:
+      213: -414078006660984506
+    second: stonefloat_550x550_9
+  - first:
+      213: -2500536391908060526
+    second: stonefloat_550x550_10
+  - first:
+      213: 8830644696315300577
+    second: stonefloat_550x550_11
+  - first:
+      213: 4441299777812233964
+    second: stonefloat_550x550_12
+  - first:
+      213: 8550453329902754058
+    second: stonefloat_550x550_13
+  - first:
+      213: -1384417994765410581
+    second: stonefloat_550x550_14
+  - first:
+      213: 1387626735903615489
+    second: stonefloat_550x550_15
+  - first:
+      213: -2617562498185633408
+    second: stonefloat_550x550_16
+  - first:
+      213: -3725765345414776635
+    second: stonefloat_550x550_17
+  - first:
+      213: -330510213955735684
+    second: stonefloat_550x550_18
+  - first:
+      213: -7481454620239617288
+    second: stonefloat_550x550_19
+  - first:
+      213: -2843426055047958047
+    second: stonefloat_550x550_20
+  - first:
+      213: 3009909343535971651
+    second: stonefloat_550x550_21
+  - first:
+      213: -2652114200436289935
+    second: stonefloat_550x550_22
+  - first:
+      213: 2769425624013093919
+    second: stonefloat_550x550_23
+  - first:
+      213: -3117055743724559767
+    second: stonefloat_550x550_24
+  - first:
+      213: 1916474413413062944
+    second: stonefloat_550x550_25
+  - first:
+      213: 1893221570791344415
+    second: stonefloat_550x550_26
+  - first:
+      213: 6696524359179183308
+    second: stonefloat_550x550_27
+  - first:
+      213: 7850458305073797028
+    second: stonefloat_550x550_28
+  - first:
+      213: -1417364977594619870
+    second: stonefloat_550x550_29
+  - first:
+      213: 8981707189416802644
+    second: stonefloat_550x550_30
+  - first:
+      213: 5823367013076981640
+    second: stonefloat_550x550_31
+  - first:
+      213: 4399938952225377860
+    second: stonefloat_550x550_32
+  - first:
+      213: 340758809688307411
+    second: stonefloat_550x550_33
+  - first:
+      213: -6947082554002948244
+    second: stonefloat_550x550_34
+  - first:
+      213: -569032889376183731
+    second: stonefloat_550x550_35
+  - first:
+      213: -2499481220661245717
+    second: stonefloat_550x550_36
+  - first:
+      213: 4940322345509265494
+    second: stonefloat_550x550_37
+  - first:
+      213: -2603931436407258828
+    second: stonefloat_550x550_38
+  - first:
+      213: 2665756241657719028
+    second: stonefloat_550x550_39
+  - first:
+      213: 4812210408549733937
+    second: stonefloat_550x550_40
+  - first:
+      213: 9151512613653753537
+    second: stonefloat_550x550_41
+  - first:
+      213: -3776827673167919900
+    second: stonefloat_550x550_42
+  - first:
+      213: -8639595827323278293
+    second: stonefloat_550x550_43
+  - first:
+      213: -5348899685386701096
+    second: stonefloat_550x550_44
+  - first:
+      213: -7330560696470898833
+    second: stonefloat_550x550_45
+  - first:
+      213: 1677265803246491728
+    second: stonefloat_550x550_46
+  - first:
+      213: 3911759036294101561
+    second: stonefloat_550x550_47
+  - first:
+      213: -5370579218599060771
+    second: stonefloat_550x550_48
+  - first:
+      213: -4122636742738690570
+    second: stonefloat_550x550_49
+  - first:
+      213: 8952079289762605568
+    second: stonefloat_550x550_50
+  - first:
+      213: 4205193506097911030
+    second: stonefloat_550x550_51
+  - first:
+      213: -9007385539823216777
+    second: stonefloat_550x550_52
+  - first:
+      213: -6638435955110496509
+    second: stonefloat_550x550_53
+  - first:
+      213: -3327605142827535280
+    second: stonefloat_550x550_54
+  - first:
+      213: 2480137949341077253
+    second: stonefloat_550x550_55
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: stonefloat_550x550_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98d6e7a28f6543c40800000000000000
+      internalID: 5491109469536284041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_1
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cd1b20e8d0155300800000000000000
+      internalID: 240116678794091972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_2
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d19dbbf96b45550800000000000000
+      internalID: 6148740188435193188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_3
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74da5183f45a868d0800000000000000
+      internalID: -2852848604277265081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_4
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 894126bef871bd5c0800000000000000
+      internalID: -4189729121441278824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_5
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f77953731be6870800000000000000
+      internalID: 8678068382669963015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_6
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc1cf7daf75a7c50800000000000000
+      internalID: 6663735333525134529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_7
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 3312
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a2dc5ebbe1a29c40800000000000000
+      internalID: 5517650527365419686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b3ce35f5677b6d0800000000000000
+      internalID: -2974778877052962040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_9
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6419baf2f36e04af0800000000000000
+      internalID: -414078006660984506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_10
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2921264666f4c4dd0800000000000000
+      internalID: -2500536391908060526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_11
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ea8f858090cc8a70800000000000000
+      internalID: 8830644696315300577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_12
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceef48ded9aa2ad30800000000000000
+      internalID: 4441299777812233964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_13
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09d865500059a670800000000000000
+      internalID: 8550453329902754058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_14
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bee59513b2f89cce0800000000000000
+      internalID: -1384417994765410581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_15
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 2760
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10aae521a27d14310800000000000000
+      internalID: 1387626735903615489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081e24eb6cc8cabd0800000000000000
+      internalID: -2617562498185633408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_17
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c87716882c6b4cc0800000000000000
+      internalID: -3725765345414776635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_18
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7fa78626bac96bf0800000000000000
+      internalID: -330510213955735684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_19
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2a96d49a88c2890800000000000000
+      internalID: -7481454620239617288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_20
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1b6cb611f1a88d0800000000000000
+      internalID: -2843426055047958047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_21
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34d379bc99855c920800000000000000
+      internalID: 3009909343535971651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_22
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ec93baf2cc13bd0800000000000000
+      internalID: -2652114200436289935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_23
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 2208
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c3a279ee9fe6620800000000000000
+      internalID: 2769425624013093919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 962e432e05efdb4d0800000000000000
+      internalID: -3117055743724559767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0295c98335fa89a10800000000000000
+      internalID: 1916474413413062944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_26
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f190028ecf2164a10800000000000000
+      internalID: 1893221570791344415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_27
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc420aacc65deec50800000000000000
+      internalID: 6696524359179183308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_28
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a750f52c3e62fc60800000000000000
+      internalID: 7850458305073797028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_29
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 228a469ff02845ce0800000000000000
+      internalID: -1417364977594619870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_30
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 459b2c50a1f65ac70800000000000000
+      internalID: 8981707189416802644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_31
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 1656
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8875e23e171c0d050800000000000000
+      internalID: 5823367013076981640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e4cc84a29bf0d30800000000000000
+      internalID: 4399938952225377860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_33
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d67e8df45e9ab400800000000000000
+      internalID: 340758809688307411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_34
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6f375f6931079f90800000000000000
+      internalID: -6947082554002948244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_35
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ae73b1a936a18f0800000000000000
+      internalID: -569032889376183731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_36
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be80ab7921f005dd0800000000000000
+      internalID: -2499481220661245717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_37
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65021009ffc8f8440800000000000000
+      internalID: 4940322345509265494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_38
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4310971a72afcdbd0800000000000000
+      internalID: -2603931436407258828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_39
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 1104
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f8e9c19d2baef420800000000000000
+      internalID: 2665756241657719028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1365b02ded768c240800000000000000
+      internalID: 4812210408549733937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_41
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cea65e3c34b00f70800000000000000
+      internalID: 9151512613653753537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_42
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e406f2ed33069bc0800000000000000
+      internalID: -3776827673167919900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_43
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2ce27d9e5df91880800000000000000
+      internalID: -8639595827323278293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_44
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d6b3596314e4c5b0800000000000000
+      internalID: -5348899685386701096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_45
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f677962b2ed944a90800000000000000
+      internalID: -7330560696470898833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_46
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058da6c8c58d64710800000000000000
+      internalID: 1677265803246491728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_47
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 552
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93afb3d3e1c594630800000000000000
+      internalID: 3911759036294101561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddade4db7aed775b0800000000000000
+      internalID: -5370579218599060771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_49
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fd3613a9b379c6c0800000000000000
+      internalID: -4122636742738690570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_50
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00a6e631fac2c3c70800000000000000
+      internalID: 8952079289762605568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_51
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4deb6b639db5a30800000000000000
+      internalID: 4205193506097911030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_52
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777d8df13965ff280800000000000000
+      internalID: -9007385539823216777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_53
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3073577bba98fd3a0800000000000000
+      internalID: -6638435955110496509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_54
+      rect:
+        serializedVersion: 2
+        x: 3312
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0547005c0c8f1d1d0800000000000000
+      internalID: -3327605142827535280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: stonefloat_550x550_55
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 0
+        width: 552
+        height: 552
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fc07813583b6220800000000000000
+      internalID: 2480137949341077253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

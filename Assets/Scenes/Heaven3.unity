@@ -601,6 +601,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 4973862784386431579, guid: c960bd60f1a635349bad23d854d9318d, type: 3}
+    - target: {fileID: 2827706692774996499, guid: 365530d352c191f4095ee372248d98df, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 5.2999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2827706692774996499, guid: 365530d352c191f4095ee372248d98df, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 1.7002506
+      objectReference: {fileID: 0}
     - target: {fileID: 6173011710811937434, guid: 365530d352c191f4095ee372248d98df, type: 3}
       propertyPath: m_Name
       value: Boss
