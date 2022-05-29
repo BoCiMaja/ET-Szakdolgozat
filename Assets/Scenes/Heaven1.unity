@@ -8825,6 +8825,14 @@ PrefabInstance:
       propertyPath: kerek
       value: 
       objectReference: {fileID: 1902374615}
+    - target: {fileID: 7646175893506591174, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.98
+      objectReference: {fileID: 0}
+    - target: {fileID: 7646175893506591174, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 7
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
 --- !u!1001 &3046431256455566034
