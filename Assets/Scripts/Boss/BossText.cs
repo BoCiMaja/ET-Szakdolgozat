@@ -12,7 +12,7 @@ public class BossText : MonoBehaviour
     public void Start()
     {
         GameObject.Find("BossText").transform.localScale = new Vector3(0, 0, 0);
-        dialogue = 10;
+        dialogue = 9.5f;
         animator.SetInteger("Dialogue", ((int)dialogue));
     }
 
