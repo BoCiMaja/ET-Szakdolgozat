@@ -600,7 +600,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 20
+    maxNumParticles: 10
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -4985,7 +4985,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.010434866, y: -1.8886646}
+  m_Offset: {x: -0.010434866, y: -1.6809138}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4996,7 +4996,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 3.0929823, y: 4.745921}
+  m_Size: {x: 3.0929823, y: 4.3304195}
   m_EdgeRadius: 0
 --- !u!61 &1778223546958741221
 BoxCollider2D:
@@ -5011,7 +5011,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.19967243, y: -4.2555103}
+  m_Offset: {x: 0.07732886, y: -3.905613}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -5022,7 +5022,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.8551655, y: 0.37897873}
+  m_Size: {x: 2.4091682, y: 0.3060856}
   m_EdgeRadius: 0
 --- !u!61 &1778223546958741217
 BoxCollider2D:
