@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d6d73e25c321014eb491aee0cad721a, type: 3}
+  m_Name: Book
+  m_EditorClassIdentifier: 
+  label: 
+  pickup: {fileID: 0}
+  pages:
+  - {fileID: 11400000, guid: 42880b4cd90870743b3ed055a9d0cd91, type: 2}
+  - {fileID: 11400000, guid: 6292086cdefbe414cb04fb703538d81d, type: 2}
+  - {fileID: 11400000, guid: 8287a911883c21c4a99501c17e5680f5, type: 2}
+  - {fileID: 11400000, guid: 4ce5f085f245bc5419f3963a464214d7, type: 2}
+  - {fileID: 11400000, guid: 3f80b73b5c7c8cc45b01f148770dc726, type: 2}
+  - {fileID: 11400000, guid: fae3e194d08118844afa562e3bae9dbc, type: 2}
+  - {fileID: 11400000, guid: 85d72e5a233db43428c15d722d5c4bdb, type: 2}
+  isDoubleSided: 0
+  turnPage: {fileID: 0}
