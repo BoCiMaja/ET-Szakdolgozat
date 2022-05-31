@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
 
     public PlayerActions controller;
-    private Rigidbody2D Rigidbody2D;
+    public Rigidbody2D Rigidbody2D;
 
     public float runSpeed;
     float horizontalMove = 0f;
@@ -59,12 +60,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        jump = false;
-        Physics2D.gravity = new Vector2(0, -9.8f);
-        floating = false;
-        BasicMove(horizontalMove * Time.fixedDeltaTime, jump);
-        Turning();
-        Floating();
+        //if ((SceneManager.GetActiveScene().name != "Heaven2") && controller.ammo != 0 && GameObject.Find("Boss") == false) 
+        
+            jump = false;
+            Physics2D.gravity = new Vector2(0, -9.8f);
+            floating = false;
+
+            BasicMove(horizontalMove * Time.fixedDeltaTime, jump);
+            Turning();
+            Floating();
+        
     }
 
     public void OnLanding()

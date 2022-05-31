@@ -53,6 +53,7 @@ public static class SceneLoader
     public static void ReloadCurrentScene()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        //SoundManager.GetInstance().Play("AdamReborn");
     }
 
     private static async void LoadWithLoadingScreenAsync(string sceneToLoad)

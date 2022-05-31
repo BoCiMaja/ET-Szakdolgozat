@@ -8,6 +8,7 @@ public class Boss_Health : MonoBehaviour
     public bool isInvulnerable = false;
     public GameObject deathEffect;
     public bool hurt;
+    public PlayerMovement adam;
 
     private void Update()
     {
@@ -41,6 +42,9 @@ public class Boss_Health : MonoBehaviour
         {
             health--;
             hurt = true;
+            adam.Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            adam.Rigidbody2D.isKinematic = true;
+            SoundManager.GetInstance().Play("LilithDamage");
             GetComponent<Animator>().SetTrigger("Hurt");
         }
     }

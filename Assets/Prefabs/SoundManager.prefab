@@ -101,7 +101,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 1
     name: Throwing
-    clip: {fileID: 8300000, guid: a395bdac2e8b1bd4686d08ab695d0bee, type: 3}
+    clip: {fileID: 8300000, guid: 369ae0628312b37439ba9d6bcb7e3059, type: 3}
     volume: 0.16
     pitch: 1
     spatialBlend: 0
@@ -119,8 +119,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 1
     name: BookFlipPage
-    clip: {fileID: 8300000, guid: aa27da91b125cc44bbeca73f40e1a410, type: 3}
-    volume: 0.16
+    clip: {fileID: 8300000, guid: 13b2797ac972c0e48b50f147dd897c14, type: 3}
+    volume: 0.098
     pitch: 1
     spatialBlend: 0
     loop: 0
@@ -128,8 +128,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 1
     name: BookView
-    clip: {fileID: 8300000, guid: 4f543de26b62aad4c899ecfc1fdb4a32, type: 3}
-    volume: 0.16
+    clip: {fileID: 8300000, guid: 9eaab871358e75948af18da0f8d38768, type: 3}
+    volume: 0.111
     pitch: 1
     spatialBlend: 0
     loop: 0
@@ -137,8 +137,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 1
     name: BookClose
-    clip: {fileID: 8300000, guid: 3f84cd799c633f148a14fa3d48ec86ec, type: 3}
-    volume: 0.16
+    clip: {fileID: 8300000, guid: 5fcd8869bd1dc90418f46cc73679f9af, type: 3}
+    volume: 0.116
     pitch: 1
     spatialBlend: 0
     loop: 0
@@ -164,7 +164,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 2
     name: BGM
-    clip: {fileID: 8300000, guid: 3f586e50df3390a42a5504aad2ec231f, type: 3}
+    clip: {fileID: 8300000, guid: 216d80589d29dfb498e10c82cdbe1550, type: 3}
     volume: 0.089
     pitch: 1
     spatialBlend: 0
@@ -173,11 +173,74 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 2
     name: MenuBGM
-    clip: {fileID: 8300000, guid: f8d46b95e7bcd2d46bec646fa1290213, type: 3}
+    clip: {fileID: 8300000, guid: e2ea74265e72ed944a9243566f82ae13, type: 3}
     volume: 0.16
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 2
+    name: Labor1BGM
+    clip: {fileID: 8300000, guid: 56c036e7cbf10064093d1c2d0de0dd57, type: 3}
+    volume: 0.098
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 2
+    name: Labor2BGM
+    clip: {fileID: 8300000, guid: e866adac78d45054ab87bc00dbdfe48c, type: 3}
+    volume: 0.063
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 2
+    name: Labor3BGM
+    clip: {fileID: 8300000, guid: bd294b34a722bbd449a596193b1151b8, type: 3}
+    volume: 0.031
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: LilithDamage
+    clip: {fileID: 8300000, guid: dde318ac777049047a33a419bd524c25, type: 3}
+    volume: 0.16
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: LilithWalk
+    clip: {fileID: 8300000, guid: c21305f9ee8210745bfc7576c299fa2a, type: 3}
+    volume: 0.16
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: AdamDie
+    clip: {fileID: 8300000, guid: d4da2f919594e274289699e6238e1d7d, type: 3}
+    volume: 0.16
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: AdamReborn
+    clip: {fileID: 8300000, guid: 5c927ec74d608f040ae247f48050ccbe, type: 3}
+    volume: 0.107
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}

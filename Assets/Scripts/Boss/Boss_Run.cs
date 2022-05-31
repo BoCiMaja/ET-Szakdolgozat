@@ -30,11 +30,13 @@ public class Boss_Run : StateMachineBehaviour
         rb.AddForce(adjustedThrow * speed, ForceMode2D.Impulse);
         boss.transform.Translate(offset);
         Destroy(GameObject.Find("Boss"), lifeTime);
+        SoundManager.GetInstance().Play("LilithWalk");
     }
 
     public void MoveInALine()
     {
         boss.transform.position += direction * this.speed * Time.deltaTime;
+       
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
@@ -44,6 +46,7 @@ public class Boss_Run : StateMachineBehaviour
         //rb.MovePosition(gameObject.transform.position + speed * Time.deltaTime * direction);
 
         MoveInALine();
+        
 
         //boss.LookAtPlayer();
 

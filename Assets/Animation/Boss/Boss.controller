@@ -741,6 +741,7 @@ MonoBehaviour:
   adjustedThrow: {x: 0, y: 0, z: 0}
   lifeTime: 10
   gameObject: {fileID: 0}
+  adam: {fileID: 0}
 --- !u!1102 &4110348024871090964
 AnimatorState:
   serializedVersion: 6
@@ -1076,13 +1077,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32cff51a34d0c124aa78104825dc33fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 1
   attackRange: 3
   offset: {x: 0, y: 0, z: 0}
   direction: {x: 1, y: 0, z: 0}
   adjustedThrow: {x: 0, y: 0, z: 0}
-  lifeTime: 5
+  lifeTime: 7
   gameObject: {fileID: 6173011710811937434, guid: 365530d352c191f4095ee372248d98df, type: 3}
+  adam: {fileID: 1778223546958741218, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
 --- !u!1102 &8390425210060960270
 AnimatorState:
   serializedVersion: 6
