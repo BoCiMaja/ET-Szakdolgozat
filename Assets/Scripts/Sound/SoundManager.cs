@@ -58,10 +58,42 @@ public class SoundManager : MonoBehaviour
 
     public void Start()
     {
-        if(SceneManager.GetActiveScene().name != "MainMenu")
+        if(SceneManager.GetActiveScene().name == "Heaven1")
         {
             Play("BGM");
+            Stop("Labor1BGM");
+            Stop("Labor2BGM");
         }
+        if (SceneManager.GetActiveScene().name == "Heaven2")
+        {
+            Play("Labor1BGM");
+            Stop("BGM");
+            Stop("Labor2BGM");
+        }
+        if (SceneManager.GetActiveScene().name == "Heaven3")
+        {
+            Play("Labor2BGM");
+            Stop("BGM");
+            Stop("Labor1BGM");
+        }
+    }
+
+    public void Update()
+    {
+
+        //if (SceneManager.GetSceneByBuildIndex(1).isLoaded)
+        //{
+            
+        //    Play("BGM");
+        //}
+        //if (SceneManager.GetSceneByBuildIndex(2).isLoaded)
+        //{
+        //    Play("Labor1BGM");
+        //}
+        //if (SceneManager.GetSceneByBuildIndex(3).isLoaded)
+        //{
+        //    Play("Labor2BGM");
+        //}
     }
 
     public void Play(string name)

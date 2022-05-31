@@ -176,9 +176,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 4085
-        width: 850
-        height: 1359
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,10 +196,10 @@ TextureImporter:
       name: Adam_glide_850x1359_1
       rect:
         serializedVersion: 2
-        x: 850
-        y: 4085
-        width: 850
-        height: 1359
+        x: 852
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,10 +217,10 @@ TextureImporter:
       name: Adam_glide_850x1359_2
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 4085
-        width: 850
-        height: 1359
+        x: 1704
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -238,10 +238,10 @@ TextureImporter:
       name: Adam_glide_850x1359_3
       rect:
         serializedVersion: 2
-        x: 2550
-        y: 4085
-        width: 850
-        height: 1359
+        x: 2556
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -259,10 +259,10 @@ TextureImporter:
       name: Adam_glide_850x1359_4
       rect:
         serializedVersion: 2
-        x: 3400
-        y: 4085
-        width: 850
-        height: 1359
+        x: 3408
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -280,10 +280,10 @@ TextureImporter:
       name: Adam_glide_850x1359_5
       rect:
         serializedVersion: 2
-        x: 4250
-        y: 4085
-        width: 850
-        height: 1359
+        x: 4260
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +301,10 @@ TextureImporter:
       name: Adam_glide_850x1359_6
       rect:
         serializedVersion: 2
-        x: 5100
-        y: 4085
-        width: 850
-        height: 1359
+        x: 5112
+        y: 4083
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,9 +323,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 2726
-        width: 850
-        height: 1359
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -343,10 +343,10 @@ TextureImporter:
       name: Adam_glide_850x1359_8
       rect:
         serializedVersion: 2
-        x: 850
-        y: 2726
-        width: 850
-        height: 1359
+        x: 852
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -364,10 +364,10 @@ TextureImporter:
       name: Adam_glide_850x1359_9
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 2726
-        width: 850
-        height: 1359
+        x: 1704
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -385,10 +385,10 @@ TextureImporter:
       name: Adam_glide_850x1359_10
       rect:
         serializedVersion: 2
-        x: 2550
-        y: 2726
-        width: 850
-        height: 1359
+        x: 2556
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -406,10 +406,10 @@ TextureImporter:
       name: Adam_glide_850x1359_11
       rect:
         serializedVersion: 2
-        x: 3400
-        y: 2726
-        width: 850
-        height: 1359
+        x: 3408
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -427,10 +427,10 @@ TextureImporter:
       name: Adam_glide_850x1359_12
       rect:
         serializedVersion: 2
-        x: 4250
-        y: 2726
-        width: 850
-        height: 1359
+        x: 4260
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,10 +448,10 @@ TextureImporter:
       name: Adam_glide_850x1359_13
       rect:
         serializedVersion: 2
-        x: 5100
-        y: 2726
-        width: 850
-        height: 1359
+        x: 5112
+        y: 2722
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -470,9 +470,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 1367
-        width: 850
-        height: 1359
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -490,10 +490,10 @@ TextureImporter:
       name: Adam_glide_850x1359_15
       rect:
         serializedVersion: 2
-        x: 850
-        y: 1367
-        width: 850
-        height: 1359
+        x: 852
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -511,10 +511,10 @@ TextureImporter:
       name: Adam_glide_850x1359_16
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 1367
-        width: 850
-        height: 1359
+        x: 1704
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -532,10 +532,10 @@ TextureImporter:
       name: Adam_glide_850x1359_17
       rect:
         serializedVersion: 2
-        x: 2550
-        y: 1367
-        width: 850
-        height: 1359
+        x: 2556
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -553,10 +553,10 @@ TextureImporter:
       name: Adam_glide_850x1359_18
       rect:
         serializedVersion: 2
-        x: 3400
-        y: 1367
-        width: 850
-        height: 1359
+        x: 3408
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -574,10 +574,10 @@ TextureImporter:
       name: Adam_glide_850x1359_19
       rect:
         serializedVersion: 2
-        x: 4250
-        y: 1367
-        width: 850
-        height: 1359
+        x: 4260
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -595,10 +595,10 @@ TextureImporter:
       name: Adam_glide_850x1359_20
       rect:
         serializedVersion: 2
-        x: 5100
-        y: 1367
-        width: 850
-        height: 1359
+        x: 5112
+        y: 1361
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -617,9 +617,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 8
-        width: 850
-        height: 1359
+        y: 0
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -637,10 +637,10 @@ TextureImporter:
       name: Adam_glide_850x1359_22
       rect:
         serializedVersion: 2
-        x: 850
-        y: 8
-        width: 850
-        height: 1359
+        x: 852
+        y: 0
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -658,10 +658,10 @@ TextureImporter:
       name: Adam_glide_850x1359_23
       rect:
         serializedVersion: 2
-        x: 1700
-        y: 8
-        width: 850
-        height: 1359
+        x: 1704
+        y: 0
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,10 +679,10 @@ TextureImporter:
       name: Adam_glide_850x1359_24
       rect:
         serializedVersion: 2
-        x: 2550
-        y: 8
-        width: 850
-        height: 1359
+        x: 2556
+        y: 0
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -700,10 +700,10 @@ TextureImporter:
       name: Adam_glide_850x1359_25
       rect:
         serializedVersion: 2
-        x: 3400
-        y: 8
-        width: 850
-        height: 1359
+        x: 3408
+        y: 0
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -721,10 +721,10 @@ TextureImporter:
       name: Adam_glide_850x1359_26
       rect:
         serializedVersion: 2
-        x: 4250
-        y: 8
-        width: 850
-        height: 1359
+        x: 4260
+        y: 0
+        width: 852
+        height: 1361
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}

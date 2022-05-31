@@ -1,118 +1,115 @@
 fileFormatVersion: 2
-guid: 9c37fafd67dd57a4d91c66ed050a8311
+guid: 167b40bdaba65e6448b2fa861b570e8a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3387026422537412046
-    second: Adam_reborn_1200x1000_0
+      213: 3415483875851427054
+    second: Fire Start_0
   - first:
-      213: 3329936259716201943
-    second: Adam_reborn_1200x1000_1
+      213: -7517023917925774288
+    second: Fire Start_1
   - first:
-      213: -7979452304405349316
-    second: Adam_reborn_1200x1000_2
+      213: -8134817848880694115
+    second: Fire Start_2
   - first:
-      213: -2166590507429883218
-    second: Adam_reborn_1200x1000_3
+      213: 389383761692267052
+    second: Fire Start_3
   - first:
-      213: 2689117075739243692
-    second: Adam_reborn_1200x1000_4
+      213: 7431047011223209229
+    second: Fire Start_4
   - first:
-      213: 7347158329181638374
-    second: Adam_reborn_1200x1000_5
+      213: -1412479646623079112
+    second: Fire Start_5
   - first:
-      213: 4633145505191816266
-    second: Adam_reborn_1200x1000_6
+      213: -6896783145860623291
+    second: Fire Start_6
   - first:
-      213: -5718777714402281444
-    second: Adam_reborn_1200x1000_7
+      213: -2147717266382368223
+    second: Fire Start_7
   - first:
-      213: 7445864183843985372
-    second: Adam_reborn_1200x1000_8
+      213: 2694610452903265186
+    second: Fire Start_8
   - first:
-      213: -5962124873354810348
-    second: Adam_reborn_1200x1000_9
+      213: -617991563024883572
+    second: Fire Start_9
   - first:
-      213: 8336832878272830809
-    second: Adam_reborn_1200x1000_10
+      213: -5121135939298651169
+    second: Fire Start_10
   - first:
-      213: -4459472541019079978
-    second: Adam_reborn_1200x1000_11
+      213: -7630864693492875557
+    second: Fire Start_11
   - first:
-      213: -8408942854106829868
-    second: Adam_reborn_1200x1000_12
+      213: 147131768336488368
+    second: Fire Start_12
   - first:
-      213: 5411143468096862739
-    second: Adam_reborn_1200x1000_13
+      213: -8702843621685924721
+    second: Fire Start_13
   - first:
-      213: 5906783946525513373
-    second: Adam_reborn_1200x1000_14
+      213: 8474241197865762328
+    second: Fire Start_14
   - first:
-      213: 4125251268300996018
-    second: Adam_reborn_1200x1000_15
+      213: 3989222984858966248
+    second: Fire Start_15
   - first:
-      213: -4579585909421477985
-    second: Adam_reborn_1200x1000_16
+      213: 5005288366349073574
+    second: Fire Start_16
   - first:
-      213: 7334845236453568734
-    second: Adam_reborn_1200x1000_17
+      213: -5322901652701937738
+    second: Fire Start_17
   - first:
-      213: 7059253176060183521
-    second: Adam_reborn_1200x1000_18
+      213: -111857621123542760
+    second: Fire Start_18
   - first:
-      213: -5332752696901516936
-    second: Adam_reborn_1200x1000_19
+      213: 4266669382428942577
+    second: Fire Start_19
   - first:
-      213: 3353622172126923803
-    second: Adam_reborn_1200x1000_20
+      213: 7919764118814930795
+    second: Fire Start_20
   - first:
-      213: -1779280937308723811
-    second: Adam_reborn_1200x1000_21
+      213: -7853533805493896150
+    second: Fire Start_21
   - first:
-      213: 7170146500401299072
-    second: Adam_reborn_1200x1000_22
+      213: -4147487665387629623
+    second: Fire Start_22
   - first:
-      213: -86309864313400633
-    second: Adam_reborn_1200x1000_23
+      213: 6753551839619696780
+    second: Fire Start_23
   - first:
-      213: -9036565816679896526
-    second: Adam_reborn_1200x1000_24
+      213: -4313258740905161142
+    second: Fire Start_24
   - first:
-      213: -9192191717233035795
-    second: Adam_reborn_1200x1000_25
+      213: 6087286152451239164
+    second: Fire Start_25
   - first:
-      213: 8701783716063778977
-    second: Adam_reborn_1200x1000_26
+      213: -5950763488004447577
+    second: Fire Start_26
   - first:
-      213: 1482254484041109559
-    second: Adam_reborn_1200x1000_27
+      213: -7384675305868094403
+    second: Fire Start_27
   - first:
-      213: -6932648042187449157
-    second: Adam_reborn_1200x1000_28
+      213: 8743205162032820433
+    second: Fire Start_28
   - first:
-      213: -7485373419646531
-    second: Adam_reborn_1200x1000_29
+      213: 4072919147812759305
+    second: Fire Start_29
   - first:
-      213: -9080072012619309582
-    second: Adam_reborn_1200x1000_30
+      213: -863883067235061898
+    second: Fire Start_30
   - first:
-      213: -6958014255285072188
-    second: Adam_reborn_1200x1000_31
+      213: -6739659617313536564
+    second: Fire Start_31
   - first:
-      213: 1017388762814311982
-    second: Adam_reborn_1200x1000_32
+      213: 8611593120842505393
+    second: Fire Start_32
   - first:
-      213: -3345449477573657984
-    second: Adam_reborn_1200x1000_33
+      213: 8738116903415518699
+    second: Fire Start_33
   - first:
-      213: -1052464644059496539
-    second: Adam_reborn_1200x1000_34
+      213: -7860745073584567448
+    second: Fire Start_34
   - first:
-      213: 2977843649272804531
-    second: Adam_reborn_1200x1000_35
-  - first:
-      213: -2879867494381824948
-    second: Adam_reborn_1200x1000_36
+      213: -5956240801880929712
+    second: Fire Start_35
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -198,143 +195,41 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_0
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 7016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 232abc7f96ddef0d0800000000000000
-      internalID: -3387026422537412046
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_1
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 6016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ddb31da26f463e20800000000000000
-      internalID: 3329936259716201943
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_2
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 6016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c3c3fb5f76a434190800000000000000
-      internalID: -7979452304405349316
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_3
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 6016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ea298ee9969bee1e0800000000000000
-      internalID: -2166590507429883218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_4
-      rect:
-        serializedVersion: 2
-        x: 4800
-        y: 6016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ca4ffda9bb9a15520800000000000000
-      internalID: 2689117075739243692
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_5
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 6016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6ee8c6fc29956f560800000000000000
-      internalID: 7347158329181638374
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_6
+      name: Fire Start_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 5016
-        width: 1200
-        height: 1000
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -342,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a4ce7ad1a4d3c4040800000000000000
-      internalID: 4633145505191816266
+      spriteID: eecd2343d7c366f20800000000000000
+      internalID: 3415483875851427054
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_7
+      name: Fire Start_1
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 618
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -363,20 +258,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c18b1a7d7f1d2a0b0800000000000000
-      internalID: -5718777714402281444
+      spriteID: 03c4be3d29a2ea790800000000000000
+      internalID: -7517023917925774288
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_8
+      name: Fire Start_2
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 1236
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -384,20 +279,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cd713db7606055760800000000000000
-      internalID: 7445864183843985372
+      spriteID: d9c75fc34425b1f80800000000000000
+      internalID: -8134817848880694115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_9
+      name: Fire Start_3
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 1854
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -405,20 +300,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 41c6a213407424da0800000000000000
-      internalID: -5962124873354810348
+      spriteID: c2219fcd77e576500800000000000000
+      internalID: 389383761692267052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_10
+      name: Fire Start_4
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 2472
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -426,20 +321,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 95ddf35155162b370800000000000000
-      internalID: 8336832878272830809
+      spriteID: d050035a2e1602760800000000000000
+      internalID: 7431047011223209229
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_11
+      name: Fire Start_5
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 5016
-        width: 1200
-        height: 1000
+        x: 3090
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -447,20 +342,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6daf2fae955cc12c0800000000000000
-      internalID: -4459472541019079978
+      spriteID: 835ef8abe3dd56ce0800000000000000
+      internalID: -1412479646623079112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_12
+      name: Fire Start_6
       rect:
         serializedVersion: 2
-        x: 0
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 3708
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,20 +363,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4db2764d60f6d4b80800000000000000
-      internalID: -8408942854106829868
+      spriteID: 54493120544b940a0800000000000000
+      internalID: -6896783145860623291
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_13
+      name: Fire Start_7
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 4016
-        width: 1200
-        height: 1000
+        x: 4326
+        y: 4036
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -489,104 +384,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 31ab694905e381b40800000000000000
-      internalID: 5411143468096862739
+      spriteID: 1225e4b7686c132e0800000000000000
+      internalID: -2147717266382368223
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_14
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 4016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9612a134bc19f150800000000000000
-      internalID: 5906783946525513373
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_15
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 4016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2bd7f480c26df3930800000000000000
-      internalID: 4125251268300996018
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_16
-      rect:
-        serializedVersion: 2
-        x: 4800
-        y: 4016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f9f6c8a01ea0270c0800000000000000
-      internalID: -4579585909421477985
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_17
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 4016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ed0f74181ea9ac560800000000000000
-      internalID: 7334845236453568734
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_18
+      name: Fire Start_8
       rect:
         serializedVersion: 2
         x: 0
-        y: 3016
-        width: 1200
-        height: 1000
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -594,20 +405,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1e38d92bc5187f160800000000000000
-      internalID: 7059253176060183521
+      spriteID: 2a38a552eed256520800000000000000
+      internalID: 2694610452903265186
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_19
+      name: Fire Start_9
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 618
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -615,20 +426,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 871cd222da14ef5b0800000000000000
-      internalID: -5332752696901516936
+      spriteID: c80a6bb92f37c67f0800000000000000
+      internalID: -617991563024883572
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_20
+      name: Fire Start_10
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 1236
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -636,20 +447,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1ccf78e8957a8e20800000000000000
-      internalID: 3353622172126923803
+      spriteID: fd31e930ff11ee8b0800000000000000
+      internalID: -5121135939298651169
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_21
+      name: Fire Start_11
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 1854
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +468,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d95e6102a69be47e0800000000000000
-      internalID: -1779280937308723811
+      spriteID: bde7947cdf8b91690800000000000000
+      internalID: -7630864693492875557
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_22
+      name: Fire Start_12
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 2472
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -678,20 +489,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08efde7c04a718360800000000000000
-      internalID: 7170146500401299072
+      spriteID: 0b71fd25097ba0200800000000000000
+      internalID: 147131768336488368
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_23
+      name: Fire Start_13
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 3016
-        width: 1200
-        height: 1000
+        x: 3090
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -699,20 +510,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7c2dcfcb2ad5dcef0800000000000000
-      internalID: -86309864313400633
+      spriteID: f8ce2a1f5d9493780800000000000000
+      internalID: -8702843621685924721
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_24
+      name: Fire Start_14
       rect:
         serializedVersion: 2
-        x: 0
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 3708
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23a6b5b744ba79280800000000000000
-      internalID: -9036565816679896526
+      spriteID: 81ef4c3987d8a9570800000000000000
+      internalID: 8474241197865762328
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_25
+      name: Fire Start_15
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 2016
-        width: 1200
-        height: 1000
+        x: 4326
+        y: 3027
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -741,104 +552,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: de57903e556ce6080800000000000000
-      internalID: -9192191717233035795
+      spriteID: 8e8975e3b219c5730800000000000000
+      internalID: 3989222984858966248
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_26
-      rect:
-        serializedVersion: 2
-        x: 2400
-        y: 2016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1a8924c8f22f2c870800000000000000
-      internalID: 8701783716063778977
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_27
-      rect:
-        serializedVersion: 2
-        x: 3600
-        y: 2016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 73010049996029410800000000000000
-      internalID: 1482254484041109559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_28
-      rect:
-        serializedVersion: 2
-        x: 4800
-        y: 2016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bbc1c9c16594acf90800000000000000
-      internalID: -6932648042187449157
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_29
-      rect:
-        serializedVersion: 2
-        x: 6000
-        y: 2016
-        width: 1200
-        height: 1000
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: db19f40b71865eff0800000000000000
-      internalID: -7485373419646531
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Adam_reborn_1200x1000_30
+      name: Fire Start_16
       rect:
         serializedVersion: 2
         x: 0
-        y: 1016
-        width: 1200
-        height: 1000
+        y: 2018
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,20 +573,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fd1cd0ec9a1df180800000000000000
-      internalID: -9080072012619309582
+      spriteID: 6acb1a2004b567540800000000000000
+      internalID: 5005288366349073574
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_31
+      name: Fire Start_17
       rect:
         serializedVersion: 2
-        x: 1200
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 618
+        y: 2018
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -867,20 +594,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ce01a366ea207f90800000000000000
-      internalID: -6958014255285072188
+      spriteID: 6bf7c5816214126b0800000000000000
+      internalID: -5322901652701937738
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_32
+      name: Fire Start_18
       rect:
         serializedVersion: 2
-        x: 2400
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 1236
+        y: 2018
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,20 +615,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e2e650e70bd7e1e00800000000000000
-      internalID: 1017388762814311982
+      spriteID: 811d283161a927ef0800000000000000
+      internalID: -111857621123542760
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_33
+      name: Fire Start_19
       rect:
         serializedVersion: 2
-        x: 3600
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 1854
+        y: 2018
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -909,20 +636,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08ab433dc639291d0800000000000000
-      internalID: -3345449477573657984
+      spriteID: 1f066b19231463b30800000000000000
+      internalID: 4266669382428942577
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_34
+      name: Fire Start_20
       rect:
         serializedVersion: 2
-        x: 4800
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 2472
+        y: 2018
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -930,20 +657,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5affc208bf4e461f0800000000000000
-      internalID: -1052464644059496539
+      spriteID: b6739de5187a8ed60800000000000000
+      internalID: 7919764118814930795
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_35
+      name: Fire Start_21
       rect:
         serializedVersion: 2
-        x: 6000
-        y: 1016
-        width: 1200
-        height: 1000
+        x: 3090
+        y: 2018
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -951,20 +678,62 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b4fe8f850d635920800000000000000
-      internalID: 2977843649272804531
+      spriteID: a2cb30c1d94a20390800000000000000
+      internalID: -7853533805493896150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Adam_reborn_1200x1000_36
+      name: Fire Start_22
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 2018
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c3914251f92176c0800000000000000
+      internalID: -4147487665387629623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_23
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 2018
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88c7b4cd9f69bd50800000000000000
+      internalID: 6753551839619696780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_24
       rect:
         serializedVersion: 2
         x: 0
-        y: 16
-        width: 1200
-        height: 1000
+        y: 1009
+        width: 618
+        height: 1009
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -972,8 +741,239 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c445d25a5c7a808d0800000000000000
-      internalID: -2879867494381824948
+      spriteID: a4ecffb170a3424c0800000000000000
+      internalID: -4313258740905161142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_25
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfca20bf0826a7450800000000000000
+      internalID: 6087286152451239164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_26
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2612bd224aa6da0800000000000000
+      internalID: -5950763488004447577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_27
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d34122c5fec548990800000000000000
+      internalID: -7384675305868094403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_28
+      rect:
+        serializedVersion: 2
+        x: 2472
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0f35975ca165970800000000000000
+      internalID: 8743205162032820433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_29
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 907244cb26ae58830800000000000000
+      internalID: 4072919147812759305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_30
+      rect:
+        serializedVersion: 2
+        x: 3708
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67faaf96deed204f0800000000000000
+      internalID: -863883067235061898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_31
+      rect:
+        serializedVersion: 2
+        x: 4326
+        y: 1009
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc54bfa494be772a0800000000000000
+      internalID: -6739659617313536564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcd3063156828770800000000000000
+      internalID: 8611593120842505393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_33
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 0
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be51be1f607044970800000000000000
+      internalID: 8738116903415518699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_34
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 0
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b071be00609e290800000000000000
+      internalID: -7860745073584567448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire Start_35
+      rect:
+        serializedVersion: 2
+        x: 1854
+        y: 0
+        width: 618
+        height: 1009
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05a03375c8e275da0800000000000000
+      internalID: -5956240801880929712
       vertices: []
       indices: 
       edges: []

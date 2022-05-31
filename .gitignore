@@ -58,3 +58,13 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+webgl_sharing
+
+connectwebgl.zip
+
+Packages/manifest.json
+
+Packages/packages-lock.json
+
+ProjectSettings/Packages/com.unity.connect.share/Settings.json

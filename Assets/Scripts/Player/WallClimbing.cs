@@ -32,12 +32,12 @@ public class WallClimbing : MonoBehaviour
         {
             rb.gravityScale = 0f;
             rb.velocity = new Vector2(rb.velocity.x, vertical * 2);
-            FindObjectOfType<SoundManager>().Play("Climbing");
+            //FindObjectOfType<SoundManager>().Play("Climbing");
         }
         else
         {
             rb.gravityScale = 1f;
-            FindObjectOfType<SoundManager>().Stop("Climbing");
+            //FindObjectOfType<SoundManager>().Stop("Climbing");
         }
     }
 

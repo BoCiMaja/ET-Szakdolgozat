@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: ed768cf701525104da92ad98ae9ffbc5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4253150627490986364
+    second: JustAdam_glide 850x858_0
+  - first:
+      213: -4571859889622369217
+    second: JustAdam_glide 850x858_1
+  - first:
+      213: 3671779150085609115
+    second: JustAdam_glide 850x858_2
+  - first:
+      213: -458698011274467612
+    second: JustAdam_glide 850x858_3
+  - first:
+      213: 4390774943546742117
+    second: JustAdam_glide 850x858_4
+  - first:
+      213: -6219283603265123020
+    second: JustAdam_glide 850x858_5
+  - first:
+      213: -2883737932353644199
+    second: JustAdam_glide 850x858_6
+  - first:
+      213: 8348703454580686517
+    second: JustAdam_glide 850x858_7
+  - first:
+      213: 8582180164068417381
+    second: JustAdam_glide 850x858_8
+  - first:
+      213: -1754289682286927714
+    second: JustAdam_glide 850x858_9
+  - first:
+      213: 6311971283968845321
+    second: JustAdam_glide 850x858_10
+  - first:
+      213: 5605163959145954781
+    second: JustAdam_glide 850x858_11
+  - first:
+      213: 3734111938529009191
+    second: JustAdam_glide 850x858_12
+  - first:
+      213: -5083235623421558786
+    second: JustAdam_glide 850x858_13
+  - first:
+      213: 8638031944149031865
+    second: JustAdam_glide 850x858_14
+  - first:
+      213: 2204888731914190600
+    second: JustAdam_glide 850x858_15
+  - first:
+      213: -4198118270996775487
+    second: JustAdam_glide 850x858_16
+  - first:
+      213: 9115978453007593671
+    second: JustAdam_glide 850x858_17
+  - first:
+      213: 3980909593211240563
+    second: JustAdam_glide 850x858_18
+  - first:
+      213: -2654723943706189765
+    second: JustAdam_glide 850x858_19
+  - first:
+      213: -6177665033475311940
+    second: JustAdam_glide 850x858_20
+  - first:
+      213: 5023640229220746122
+    second: JustAdam_glide 850x858_21
+  - first:
+      213: 2760589543663300781
+    second: JustAdam_glide 850x858_22
+  - first:
+      213: -6684389422155409856
+    second: JustAdam_glide 850x858_23
+  - first:
+      213: 1712465681386984189
+    second: JustAdam_glide 850x858_24
+  - first:
+      213: 2400230895130871047
+    second: JustAdam_glide 850x858_25
+  - first:
+      213: -8447336232839612217
+    second: JustAdam_glide 850x858_26
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3440
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7974d726f9360b30800000000000000
+      internalID: 4253150627490986364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_1
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 3440
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3cb33437ad7d80c0800000000000000
+      internalID: -4571859889622369217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_2
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 3440
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b96d98edea7c4f230800000000000000
+      internalID: 3671779150085609115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_3
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 3440
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e6aecac69062a9f0800000000000000
+      internalID: -458698011274467612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_4
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 3440
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5651ace3c8a2fec30800000000000000
+      internalID: 4390774943546742117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_5
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 3440
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d88f5938aa0b9a0800000000000000
+      internalID: -6219283603265123020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2580
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959ddb411a7eaf7d0800000000000000
+      internalID: -2883737932353644199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_7
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 2580
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bebb510f8d8cd370800000000000000
+      internalID: 8348703454580686517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_8
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 2580
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f93bd83670a1770800000000000000
+      internalID: 8582180164068417381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_9
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 2580
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90a72e14d287a7e0800000000000000
+      internalID: -1754289682286927714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_10
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 2580
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 906ed65c070a89750800000000000000
+      internalID: 6311971283968845321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_11
+      rect:
+        serializedVersion: 2
+        x: 4260
+        y: 2580
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddd77b46cea89cd40800000000000000
+      internalID: 5605163959145954781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1720
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e119f160b32d330800000000000000
+      internalID: 3734111938529009191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_13
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 1720
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: effb854f128b479b0800000000000000
+      internalID: -5083235623421558786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_14
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1720
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbda75794470e770800000000000000
+      internalID: 8638031944149031865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_15
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 1720
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80fb103ae96599e10800000000000000
+      internalID: 2204888731914190600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_16
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 1720
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf824dca94db5c0800000000000000
+      internalID: -4198118270996775487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 860
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0f1afba16728e70800000000000000
+      internalID: 9115978453007593671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_18
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 860
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3700d4aee280f3730800000000000000
+      internalID: 3980909593211240563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_19
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 860
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b302ba673a6882bd0800000000000000
+      internalID: -2654723943706189765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_20
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 860
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb63a5af166844aa0800000000000000
+      internalID: -6177665033475311940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_21
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 860
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83801e0c2e87b540800000000000000
+      internalID: 5023640229220746122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da075b050959f4620800000000000000
+      internalID: 2760589543663300781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_23
+      rect:
+        serializedVersion: 2
+        x: 852
+        y: 0
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0465c086c374c33a0800000000000000
+      internalID: -6684389422155409856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_24
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 0
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df25e15d676e3c710800000000000000
+      internalID: 1712465681386984189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_25
+      rect:
+        serializedVersion: 2
+        x: 2556
+        y: 0
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 705813b38455f4120800000000000000
+      internalID: 2400230895130871047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JustAdam_glide 850x858_26
+      rect:
+        serializedVersion: 2
+        x: 3408
+        y: 0
+        width: 852
+        height: 860
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c8fe4fb37805ca80800000000000000
+      internalID: -8447336232839612217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

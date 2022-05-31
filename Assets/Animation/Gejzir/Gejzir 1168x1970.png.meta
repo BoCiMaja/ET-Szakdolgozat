@@ -1,0 +1,1020 @@
+fileFormatVersion: 2
+guid: d4a0160babcc7d64f8e759758b3714db
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1119654582274822710
+    second: Gejzir 1168x1970_0
+  - first:
+      213: -3324341514363581468
+    second: Gejzir 1168x1970_1
+  - first:
+      213: 4680381508118333638
+    second: Gejzir 1168x1970_2
+  - first:
+      213: 4657889773385911110
+    second: Gejzir 1168x1970_3
+  - first:
+      213: -6866057171365274815
+    second: Gejzir 1168x1970_4
+  - first:
+      213: 1871099713305139053
+    second: Gejzir 1168x1970_5
+  - first:
+      213: 1058347970211686156
+    second: Gejzir 1168x1970_6
+  - first:
+      213: 8064021281007671931
+    second: Gejzir 1168x1970_7
+  - first:
+      213: 4136222597661588200
+    second: Gejzir 1168x1970_8
+  - first:
+      213: 9006858391086743299
+    second: Gejzir 1168x1970_9
+  - first:
+      213: -1784013552677772897
+    second: Gejzir 1168x1970_10
+  - first:
+      213: -4040760376485812506
+    second: Gejzir 1168x1970_11
+  - first:
+      213: -3325266733316501811
+    second: Gejzir 1168x1970_12
+  - first:
+      213: 4878135621980823442
+    second: Gejzir 1168x1970_13
+  - first:
+      213: -4931843880856506207
+    second: Gejzir 1168x1970_14
+  - first:
+      213: -199307148173703943
+    second: Gejzir 1168x1970_15
+  - first:
+      213: -6883084384922538749
+    second: Gejzir 1168x1970_16
+  - first:
+      213: -6376674031176505840
+    second: Gejzir 1168x1970_17
+  - first:
+      213: -6222562615065352674
+    second: Gejzir 1168x1970_18
+  - first:
+      213: 6331043242692996742
+    second: Gejzir 1168x1970_19
+  - first:
+      213: 9047154104686500837
+    second: Gejzir 1168x1970_20
+  - first:
+      213: -5195317313652832184
+    second: Gejzir 1168x1970_21
+  - first:
+      213: -2238670628028773210
+    second: Gejzir 1168x1970_22
+  - first:
+      213: 477718993096584359
+    second: Gejzir 1168x1970_23
+  - first:
+      213: -5125674866588619867
+    second: Gejzir 1168x1970_24
+  - first:
+      213: -6626016706372625488
+    second: Gejzir 1168x1970_25
+  - first:
+      213: -2228785222457094432
+    second: Gejzir 1168x1970_26
+  - first:
+      213: 3363759342273711863
+    second: Gejzir 1168x1970_27
+  - first:
+      213: 5203808485389206694
+    second: Gejzir 1168x1970_28
+  - first:
+      213: -1333296711163004173
+    second: Gejzir 1168x1970_29
+  - first:
+      213: -6257169981101561428
+    second: Gejzir 1168x1970_30
+  - first:
+      213: 5185804151772375886
+    second: Gejzir 1168x1970_31
+  - first:
+      213: 4654666176901901809
+    second: Gejzir 1168x1970_32
+  - first:
+      213: 2930866394651771150
+    second: Gejzir 1168x1970_33
+  - first:
+      213: -5032577091305695969
+    second: Gejzir 1168x1970_34
+  - first:
+      213: 3627416491737546177
+    second: Gejzir 1168x1970_35
+  - first:
+      213: -5813666663687427460
+    second: Gejzir 1168x1970_36
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63211af09efc98f00800000000000000
+      internalID: 1119654582274822710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_1
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eb464c71019dd1d0800000000000000
+      internalID: -3324341514363581468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_2
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c843b41f2e04f040800000000000000
+      internalID: 4680381508118333638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_3
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b8791021624a040800000000000000
+      internalID: 4657889773385911110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_4
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bdf3d616dd6b0a0800000000000000
+      internalID: -6866057171365274815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_5
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6753e6964b77f910800000000000000
+      internalID: 1871099713305139053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_6
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c07293d1fd100be00800000000000000
+      internalID: 1058347970211686156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_7
+      rect:
+        serializedVersion: 2
+        x: 8190
+        y: 7888
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a17ab41a829ef60800000000000000
+      internalID: 8064021281007671931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eaff85b980d66930800000000000000
+      internalID: 4136222597661588200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_9
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30fb8fe7cf9cefc70800000000000000
+      internalID: 9006858391086743299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_10
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91a82e3029ed37e0800000000000000
+      internalID: -1784013552677772897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_11
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6e611b8d55ce7c0800000000000000
+      internalID: -4040760376485812506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_12
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dce0f3926874ad1d0800000000000000
+      internalID: -3325266733316501811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_13
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29f9852b08e92b340800000000000000
+      internalID: 4878135621980823442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_14
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a03dd1de129e8bb0800000000000000
+      internalID: -4931843880856506207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_15
+      rect:
+        serializedVersion: 2
+        x: 8190
+        y: 5916
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f409e7643beb3df0800000000000000
+      internalID: -199307148173703943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d67a5583f5a70a0800000000000000
+      internalID: -6883084384922538749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_17
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0162443f0c08187a0800000000000000
+      internalID: -6376674031176505840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_18
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e166768254405a9a0800000000000000
+      internalID: -6222562615065352674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_19
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e6a5239426cd750800000000000000
+      internalID: 6331043242692996742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_20
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5eb5e0e69b2fd8d70800000000000000
+      internalID: 9047154104686500837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_21
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8484940ed6686e7b0800000000000000
+      internalID: -5195317313652832184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_22
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac8e3fbce4aee0e0800000000000000
+      internalID: -2238670628028773210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_23
+      rect:
+        serializedVersion: 2
+        x: 8190
+        y: 3944
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7acaaf5a4e231a600800000000000000
+      internalID: 477718993096584359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab66d6add1fdd8b0800000000000000
+      internalID: -5125674866588619867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_25
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bb1bd469e8ab04a0800000000000000
+      internalID: -6626016706372625488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_26
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ee0ec616a3c111e0800000000000000
+      internalID: -2228785222457094432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_27
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe4022cc497eae20800000000000000
+      internalID: 3363759342273711863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_28
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a489ca1f34a73840800000000000000
+      internalID: 5203808485389206694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_29
+      rect:
+        serializedVersion: 2
+        x: 5850
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fabeee84bd2f7de0800000000000000
+      internalID: -1333296711163004173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_30
+      rect:
+        serializedVersion: 2
+        x: 7020
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca92439dd011a29a0800000000000000
+      internalID: -6257169981101561428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_31
+      rect:
+        serializedVersion: 2
+        x: 8190
+        y: 1972
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b6325866da7f740800000000000000
+      internalID: 5185804151772375886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd6346f932b89040800000000000000
+      internalID: 4654666176901901809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_33
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 0
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e01495125778ca820800000000000000
+      internalID: 2930866394651771150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_34
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 0
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1594f79cc1b82ab0800000000000000
+      internalID: -5032577091305695969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_35
+      rect:
+        serializedVersion: 2
+        x: 3510
+        y: 0
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cdf862941c275230800000000000000
+      internalID: 3627416491737546177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gejzir 1168x1970_36
+      rect:
+        serializedVersion: 2
+        x: 4680
+        y: 0
+        width: 1170
+        height: 1972
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a6164b8f4b15fa0800000000000000
+      internalID: -5813666663687427460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
