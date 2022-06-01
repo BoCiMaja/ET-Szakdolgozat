@@ -5,6 +5,8 @@ using UnityEngine;
 
 public abstract class Interactable : MonoBehaviour
 {
+    [SerializeField] private GameObject imageToShow;
+
     private float radius = 1.25f;
     public float Radius
     {
@@ -34,5 +36,19 @@ public abstract class Interactable : MonoBehaviour
     {
         if (gameObject.GetComponent<CircleCollider2D>())
             gameObject.GetComponent<CircleCollider2D>().radius = radius;
+    }
+
+
+
+
+    //Rework!
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        imageToShow.SetActive(true);
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        imageToShow.SetActive(false);
     }
 }
