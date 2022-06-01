@@ -9145,6 +9145,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 103877617609540856, guid: 99278b04e0b8be941877eaf764425839, type: 3}
+      propertyPath: m_RenderPostProcessing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 103877617609540859, guid: 99278b04e0b8be941877eaf764425839, type: 3}
       propertyPath: m_Icon
       value: 
