@@ -4948,12 +4948,12 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -968065393
-  m_SortingLayer: 1
-  m_SortingOrder: 2
+  m_SortingLayerID: -376115969
+  m_SortingLayer: 2
+  m_SortingOrder: 5
   m_Sprite: {fileID: -8875339762824419904, guid: c10a888f99b01f34a8fa7aeb4ef33de4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 5.000956, y: 8.4}
@@ -5209,7 +5209,7 @@ MonoBehaviour:
   m_Color: {r: 0.754717, g: 0.754717, b: 0.754717, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 2f0316a48f674f2f000000008f7e4cc67b65460d
+  m_ApplyToSortingLayers: 2f0316a48f674f2f000000008f7e4cc67b65460dffec94e9
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
@@ -5248,7 +5248,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8772355555490799488
 Transform:
   m_ObjectHideFlags: 0
