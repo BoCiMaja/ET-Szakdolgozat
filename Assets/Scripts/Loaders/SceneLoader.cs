@@ -21,7 +21,8 @@ public static class SceneLoader
 
     public static void LoadNewGame(string sceneToLoad)
     {
-        LoadWithLoadingScreenAsync(sceneToLoad);
+        //LoadWithLoadingScreenAsync(sceneToLoad);
+        LoadNextScene(sceneToLoad);
         GameSessionManager.NewGame(sceneToLoad);
     }
     
