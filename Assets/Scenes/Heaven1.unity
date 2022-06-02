@@ -2605,7 +2605,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 2f0316a48f674f2f000000008f7e4cc67b65460d
+  m_ApplyToSortingLayers: 2f0316a48f674f2f000000008f7e4cc67b65460dffec94e9
   m_LightCookieSprite: {fileID: 0}
   m_UseNormalMap: 0
   m_LightOrder: 0
