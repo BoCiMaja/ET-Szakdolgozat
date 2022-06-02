@@ -34,8 +34,8 @@ public class BossText : MonoBehaviour
         }
         if(dialogue <= 0)
         {
-            animator.SetTrigger("NextDialogue");
-            
+            GameObject.Find("BossText").transform.localScale = new Vector3(0, 0, 0);
+
         }
 
         //GameObject.Find("BossText").transform.localScale = new Vector3(0, 0, 0);

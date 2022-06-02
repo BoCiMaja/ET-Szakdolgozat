@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Bossfight_End : StateMachineBehaviour
 {
-    public int lifeTime = 10;
     public GameObject gameObject;
     public Animator animator;
     public float dialogue;
@@ -12,7 +11,7 @@ public class Bossfight_End : StateMachineBehaviour
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
        // Destroy(GameObject.Find("BossText"), lifeTime);
-        dialogue = 10;
+        dialogue = 7;
         animator.SetInteger("Dialogue", ((int)dialogue));
     }
 

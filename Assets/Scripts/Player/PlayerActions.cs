@@ -154,9 +154,21 @@ public class PlayerActions : MonoBehaviour
         if (collision.CompareTag("RockCollection"))
 		{
 			Reload();
+			
 		}
 	}
 
+	private void OnTriggerExit2D(Collider2D collision)
+    {
+		//if (collision.CompareTag("RockCollection"))
+		//{
+		//	if (ammo > 0)
+		//	{
+		//		m_Rigidbody2D.constraints = RigidbodyConstraints2D.None;
+		//		m_Rigidbody2D.isKinematic = false;
+		//	}
+		//}
+	}
 
 	void CreateDust()
     {

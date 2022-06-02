@@ -12,7 +12,7 @@ public class Boss_Health : MonoBehaviour
 
     private void Update()
     {
-        TakeDamage();
+        //TakeDamage();
     }
     public void TakeDamage()
     {
@@ -32,8 +32,8 @@ public class Boss_Health : MonoBehaviour
 
     void Die()
     {
-        Instantiate(deathEffect, transform.position, Quaternion.identity);
-        Destroy(gameObject);
+        //Instantiate(deathEffect, transform.position, Quaternion.identity);
+       // Destroy(gameObject);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -42,8 +42,9 @@ public class Boss_Health : MonoBehaviour
         {
             health--;
             hurt = true;
-            adam.Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
-            adam.Rigidbody2D.isKinematic = true;
+
+            //adam.Rigidbody2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            //adam.Rigidbody2D.isKinematic = true;
             SoundManager.GetInstance().Play("LilithDamage");
             GetComponent<Animator>().SetTrigger("Hurt");
         }

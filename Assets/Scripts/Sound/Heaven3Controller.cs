@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Heaven3Controller : MonoBehaviour
 {
-    public PlayerMovement adam;
+   // public PlayerMovement adam;
 
     private void Start()
     {
@@ -19,8 +19,8 @@ public class Heaven3Controller : MonoBehaviour
         if (GameObject.Find("Boss") == false)
         {
             SoundManager.GetInstance().Stop("LilithWalk");
-            adam.Rigidbody2D.isKinematic = false;
-            adam.Rigidbody2D.constraints = RigidbodyConstraints2D.None;
+            GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
+            GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         }
     }
 }
