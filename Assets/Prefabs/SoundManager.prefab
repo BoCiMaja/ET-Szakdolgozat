@@ -243,6 +243,60 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
+  - audioType: 1
+    name: OpenDoor
+    clip: {fileID: 8300000, guid: b65cfe79efd153f49b3427900d96ff36, type: 3}
+    volume: 0.084
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: FireStart
+    clip: {fileID: 8300000, guid: 7de61e52825553b40a6dbc75f6349538, type: 3}
+    volume: 0.09
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: FireLoop
+    clip: {fileID: 8300000, guid: 539d3e2b6d7edbe499104229ba625145, type: 3}
+    volume: 0.101
+    pitch: 1
+    spatialBlend: 1
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: DoubleJump
+    clip: {fileID: 8300000, guid: bcd690dc3e7390b48a9cf7441e259078, type: 3}
+    volume: 0.067
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: OpenKapu
+    clip: {fileID: 8300000, guid: c56c071d31ac96543ae6e90b9c2f141c, type: 3}
+    volume: 0.094
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: ClimbLadder
+    clip: {fileID: 8300000, guid: 9a4ae9e09cc21b544988d43d6b302290, type: 3}
+    volume: 0.143
+    pitch: 1
+    spatialBlend: 0
+    loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
   musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
   effectsMixerGroup: {fileID: -3176401795520974864, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
   masterMixerGroup: {fileID: 24300002, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}

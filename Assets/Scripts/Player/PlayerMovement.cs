@@ -178,6 +178,7 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isJumping", false);
         animator.SetBool("isDoubleJumping", true);
         extraJump--;
+        SoundManager.GetInstance().Play("DoubleJump");
         //cameraShake.start = true;
     }
     void PrepareJump()
