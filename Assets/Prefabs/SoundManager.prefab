@@ -65,8 +65,8 @@ MonoBehaviour:
     source: {fileID: 0}
   - audioType: 1
     name: Jump
-    clip: {fileID: 8300000, guid: e3a5733f240d6974f9e0e7d16ccd1e83, type: 3}
-    volume: 1
+    clip: {fileID: 8300000, guid: f43ee301afd44c44e957894fe99d6c4d, type: 3}
+    volume: 0.248
     pitch: 1
     spatialBlend: 0
     loop: 0
@@ -295,6 +295,24 @@ MonoBehaviour:
     pitch: 1
     spatialBlend: 0
     loop: 1
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: LightOn
+    clip: {fileID: 8300000, guid: 1539d3fe70aff904b969515ced596c47, type: 3}
+    volume: 0.178
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: LightOff
+    clip: {fileID: 8300000, guid: 8cefaf0f53d0df84a8b8201ab7a9cf68, type: 3}
+    volume: 0.183
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
     playOnAwake: 0
     source: {fileID: 0}
   musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}

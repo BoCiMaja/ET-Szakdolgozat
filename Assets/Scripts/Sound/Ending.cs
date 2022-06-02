@@ -8,7 +8,7 @@ public class Ending : MonoBehaviour
     private void Start()
     {
         
-        SoundManager.GetInstance().Stop("Labor3BGM");
+        //SoundManager.GetInstance().Stop("Labor3BGM");
 
     }
 

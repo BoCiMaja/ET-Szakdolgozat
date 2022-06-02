@@ -98,7 +98,7 @@ public class PlayerActions : MonoBehaviour
 
 	private void Reload()
 	{
-		ammo = 5;
+		ammo = 50;
 		animator.SetTrigger("isReloading");
 	}
 
