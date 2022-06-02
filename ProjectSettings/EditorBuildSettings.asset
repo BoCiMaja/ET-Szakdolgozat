@@ -18,6 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Heaven3.unity
     guid: 46560c25312eef5438b9afe111728a8b
   - enabled: 1
+    path: Assets/Scenes/Heaven4.unity
+    guid: e8f2f169d9d52ed418f2501a96ef86e5
+  - enabled: 1
     path: Assets/Scenes/Ending.unity
     guid: f201834fe726b0747a5fd9982fa5e227
   - enabled: 1

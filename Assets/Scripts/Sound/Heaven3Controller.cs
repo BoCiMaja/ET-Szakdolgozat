@@ -14,13 +14,5 @@ public class Heaven3Controller : MonoBehaviour
 
     }
 
-    private void Update()
-    {
-        if (GameObject.Find("Boss") == false)
-        {
-            SoundManager.GetInstance().Stop("LilithWalk");
-            GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
-            GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-        }
-    }
+    
 }

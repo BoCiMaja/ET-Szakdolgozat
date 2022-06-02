@@ -927,6 +927,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Boss
       objectReference: {fileID: 0}
+    - target: {fileID: 6173011710811937434, guid: 365530d352c191f4095ee372248d98df, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6173011710811937438, guid: 365530d352c191f4095ee372248d98df, type: 3}
       propertyPath: m_RootOrder
       value: 2
@@ -1854,7 +1858,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   imageToShow: {fileID: 159105561}
-  SceneToLoad: Ending
+  SceneToLoad: Heaven4
 --- !u!1 &1592809522
 GameObject:
   m_ObjectHideFlags: 0
