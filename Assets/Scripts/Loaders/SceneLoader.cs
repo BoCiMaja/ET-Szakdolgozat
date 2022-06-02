@@ -22,7 +22,7 @@ public static class SceneLoader
     public static void LoadNewGame(string sceneToLoad)
     {
         //LoadWithLoadingScreenAsync(sceneToLoad);
-        LoadNextScene(sceneToLoad);
+        SceneManager.LoadScene(sceneToLoad);
         GameSessionManager.NewGame(sceneToLoad);
     }
     
