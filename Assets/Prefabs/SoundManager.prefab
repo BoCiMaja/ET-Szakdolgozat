@@ -315,6 +315,24 @@ MonoBehaviour:
     loop: 0
     playOnAwake: 0
     source: {fileID: 0}
+  - audioType: 1
+    name: ScarySound
+    clip: {fileID: 8300000, guid: efcb1a2a43496b44a83af03b1fa7cded, type: 3}
+    volume: 0.099
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioType: 1
+    name: LilithTyping
+    clip: {fileID: 8300000, guid: 73e45c72fd38fe14ba359974edc47388, type: 3}
+    volume: 0.164
+    pitch: 1
+    spatialBlend: 0
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
   musicMixerGroup: {fileID: 7950832390088888057, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
   effectsMixerGroup: {fileID: -3176401795520974864, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}
   masterMixerGroup: {fileID: 24300002, guid: 2fc7c67f38171cd48a38a6626546d28b, type: 2}

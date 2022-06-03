@@ -8,6 +8,7 @@ public class BossTextFreeze : StateMachineBehaviour
     {
         GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = true;
+        SoundManager.GetInstance().Play("LilithTyping");
     }
 
     // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
