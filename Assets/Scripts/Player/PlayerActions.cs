@@ -156,6 +156,10 @@ public class PlayerActions : MonoBehaviour
 			Reload();
 			
 		}
+		if(collision.CompareTag("RockCollection") && ammo > 0)
+        {
+			GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+		}
 	}
 
 	private void OnTriggerExit2D(Collider2D collision)

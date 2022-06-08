@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class BossTextUnfreeze : StateMachineBehaviour
 {
+    public GameObject gameObject;
+
     // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
@@ -19,8 +21,10 @@ public class BossTextUnfreeze : StateMachineBehaviour
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
         GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-        GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
-        
+       // GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
+        gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+       // gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+
         //player.Rigidbody2D.constraints = RigidbodyConstraints2D.None;
         //player.Rigidbody2D.isKinematic = false;
     }

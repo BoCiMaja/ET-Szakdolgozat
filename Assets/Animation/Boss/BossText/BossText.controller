@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d3626893665cc514e921871006f93f8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameObject: {fileID: 1778223546958741018, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
 --- !u!1102 &-6551390691382387468
 AnimatorState:
   serializedVersion: 6
@@ -77,6 +78,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 642fb154682da984a8d1ffb1ac5f19b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameObject: {fileID: 1778223546958741018, guid: 90051c780ecaf0b4da2f448f2644b319, type: 3}
 --- !u!1102 &-4554612778049032696
 AnimatorState:
   serializedVersion: 6

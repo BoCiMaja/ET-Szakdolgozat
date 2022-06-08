@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class BossTextFreeze : StateMachineBehaviour
 {
+    public GameObject gameObject;
     override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
-        GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = true;
+       GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
+      // GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = true;
+       // gameObject.GetComponent<Rigidbody2D>().isKinematic = true;
+        gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeAll;
         SoundManager.GetInstance().Play("LilithTyping");
     }
 
