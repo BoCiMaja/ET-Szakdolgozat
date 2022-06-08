@@ -8,6 +8,7 @@ public class WallClimbing : MonoBehaviour
     private float speed;
     public bool isWall;
     public bool isClimbing;
+    public bool isStandingClimbing;
     public Animator animator;
 
     [SerializeField] private Rigidbody2D rb;
@@ -15,14 +16,26 @@ public class WallClimbing : MonoBehaviour
     private void Update()
     {
         vertical = Input.GetAxis("Wallclimb");
-        if (isWall && Mathf.Abs(vertical) > 0f)
+        if (isWall && Mathf.Abs(vertical) > 0f && Input.anyKey)
         {
   
             isClimbing = true;
             animator.SetBool("isClimbing",true);
+            animator.SetBool("isStaticClimbing", false);
             animator.SetBool("isJumping", false);
             animator.SetBool("isFloating", false);
             animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", false);
+        }
+        else if(isWall && Mathf.Abs(vertical) > 0f && !Input.anyKey)
+        {
+            isClimbing = true;
+            animator.SetBool("isStaticClimbing", true);
+            animator.SetBool("isClimbing", false);
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isFloating", false);
+            animator.SetBool("isWalking", false);
+            animator.SetBool("isRunning", false);
         }
     }
 
