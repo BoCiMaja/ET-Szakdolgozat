@@ -69,7 +69,7 @@ public class PlayerMovement : MonoBehaviour
             BasicMove(horizontalMove * Time.fixedDeltaTime, jump);
             Turning();
             Floating();
-        
+        //animator.SetBool("isTurning", false);
     }
 
     public void OnLanding()
@@ -216,14 +216,15 @@ public class PlayerMovement : MonoBehaviour
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
-            animator.SetTrigger("isTurning");
+            //animator.SetBool("isTurning", true);
         }
         else if (horizontalMove < 0 && m_FacingRight && controller.m_Grounded)
         {
             CreateDust(); // PARTICLE WHEN TURNING
             Flip();
-            animator.SetTrigger("isTurning");
+            //animator.SetBool("isTurning", true);
         }
+        //animator.SetBool("isTurning", false);
     }
     private void Flip()
     {
