@@ -98,8 +98,11 @@ public class PlayerActions : MonoBehaviour
 
 	private void Reload()
 	{
-		ammo = 50;
-		animator.SetTrigger("isReloading");
+		if (ammo <= 0)
+		{
+			ammo = 50;
+			animator.SetTrigger("isReloading");
+		}
 	}
 
 	private void ThrowSmol() //brrrrr
