@@ -11,9 +11,11 @@ public class DialogueTrigger : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            GameObject.Find("BossText").transform.localScale = new Vector3(1, 1, 1);
-            textanimator.SetTrigger("Collider");
-            
+            if (GameObject.Find("BossText").transform.localScale != new Vector3(1, 1, 1))
+            {
+                GameObject.Find("BossText").transform.localScale = new Vector3(1, 1, 1);
+                textanimator.SetTrigger("Collider");
+            }
 
         }
     }

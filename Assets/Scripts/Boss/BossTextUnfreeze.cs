@@ -20,10 +20,12 @@ public class BossTextUnfreeze : StateMachineBehaviour
 
     override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
     {
-        GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-       // GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
-        gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-       // gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
+        
+        //GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        //GameObject.Find("Adam_Basic(Clone)").SetActive(true);
+        //GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
+        //gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        // gameObject.GetComponent<Rigidbody2D>().isKinematic = false;
 
         //player.Rigidbody2D.constraints = RigidbodyConstraints2D.None;
         //player.Rigidbody2D.isKinematic = false;

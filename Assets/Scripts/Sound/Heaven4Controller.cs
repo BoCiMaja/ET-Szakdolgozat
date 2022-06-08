@@ -14,11 +14,12 @@ public class Heaven4Controller : MonoBehaviour
 
     private void Update()
     {
-        if (GameObject.Find("Boss") == false)
+        if (GameObject.Find("Boss") == false && GameObject.Find("invisiblewall") == true)
         {
             SoundManager.GetInstance().Stop("LilithWalk");
-            GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
-            GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+            //GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().isKinematic = false;
+            //GameObject.Find("Adam_Basic(Clone)").GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+            GameObject.Find("invisiblewall").SetActive(false);
         }
     }
 }

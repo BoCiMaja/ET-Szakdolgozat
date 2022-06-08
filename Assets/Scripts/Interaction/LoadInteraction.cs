@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class LoadInteraction : Interactable
 {
@@ -10,6 +11,7 @@ public class LoadInteraction : Interactable
     {
         SoundManager.GetInstance().Play("OpenDoor");
         //GameSession.SaveAtPosition(this.transform.position);
-        SceneLoader.LoadNextScene(SceneToLoad);
+        SceneManager.LoadScene(SceneToLoad);
+        //SceneLoader.LoadNextScene(SceneToLoad);
     }
 }
