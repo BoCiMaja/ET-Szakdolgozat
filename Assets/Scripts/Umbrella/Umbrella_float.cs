@@ -20,12 +20,20 @@ public class Umbrella_float : MonoBehaviour
 
     public void CheckFloat()
     {
-        if (controller.floating == true) {
+        if (controller.doubleJumping && controller.floating)
+        {
+            animator.SetBool("isDoubleJumping", true);
             animator.SetBool("isFloating", true);
             GameObject.Find("Umbrella").transform.localScale = new Vector3(1, 1, 1);
         }
+        else if (controller.floating == true) {
+            animator.SetBool("isFloating", true);
+            GameObject.Find("Umbrella").transform.localScale = new Vector3(1, 1, 1);
+        }
+        
         else
         {
+            animator.SetBool("isDoubleJumping", false);
             animator.SetBool("isFloating", false);
             GameObject.Find("Umbrella").transform.localScale = new Vector3(0, 0, 0);
         }

@@ -25,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private bool airControl = false;
     public float jumpDelay = 0.5f;
     public bool doubleJumpReady = false;
+    public bool doubleJumping;
 
     public bool floating;
 
@@ -82,6 +83,7 @@ public class PlayerMovement : MonoBehaviour
         FindObjectOfType<SoundManager>().Stop("Floating");
         animator.SetBool("isJumping", false);
         animator.SetBool("isDoubleJumping", false);
+        doubleJumping = false;
         animator.SetBool("isFloating", false);
         if (runSpeed > 0f && Input.GetButton("Walk") && !Input.GetButton("Run"))
         {
@@ -192,6 +194,7 @@ public class PlayerMovement : MonoBehaviour
         doubleJumpReady = false;
         Rigidbody2D.AddForce(new Vector2(0f, jumpForce / 4));
         animator.SetBool("isJumping", false);
+        doubleJumping = true;
         animator.SetBool("isDoubleJumping", true);
         extraJump--;
         SoundManager.GetInstance().Play("DoubleJump");
