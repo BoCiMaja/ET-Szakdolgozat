@@ -16,7 +16,7 @@ public class WallClimbing : MonoBehaviour
     private void Update()
     {
         vertical = Input.GetAxis("Wallclimb");
-        if (isWall && Mathf.Abs(vertical) > 0f && Input.anyKey)
+        if (isWall && (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)))
         {
   
             isClimbing = true;
@@ -27,7 +27,7 @@ public class WallClimbing : MonoBehaviour
             animator.SetBool("isWalking", false);
             animator.SetBool("isRunning", false);
         }
-        else if(isWall && Mathf.Abs(vertical) > 0f && !Input.anyKey)
+        else if (isWall && Mathf.Abs(vertical) > 0f && !Input.anyKey)
         {
             isClimbing = true;
             animator.SetBool("isStaticClimbing", true);
@@ -37,6 +37,7 @@ public class WallClimbing : MonoBehaviour
             animator.SetBool("isWalking", false);
             animator.SetBool("isRunning", false);
         }
+
     }
 
     private void FixedUpdate()
@@ -59,15 +60,35 @@ public class WallClimbing : MonoBehaviour
         if (collision.CompareTag("Wall")){
             isWall = true;
         }
-    }
-
-
-
-    private void OnTriggerExit2D(Collider2D collision)
-    {
+        if (collision.CompareTag("Ground"))
+        {
             isWall = false;
             isClimbing = false;
+            isStandingClimbing = false;
             animator.SetBool("isClimbing", false);
+            animator.SetBool("isStaticClimbing", false);
+        }
     }
+
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (!(Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.DownArrow)))
+        {
+            isWall = false;
+            isClimbing = false;
+            isStandingClimbing = false;
+            animator.SetBool("isClimbing", false);
+            animator.SetBool("isStaticClimbing", false);
+        }
+    }
+    //private void OnTriggerExit2D(Collider2D collision)
+    //{
+    //    isWall = false;
+    //    isClimbing = false;
+    //    isStandingClimbing = false;
+    //    animator.SetBool("isClimbing", false);
+    //    animator.SetBool("isStaticClimbing", false);
+    //}
 
 }

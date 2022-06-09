@@ -3642,7 +3642,7 @@ SpriteRenderer:
   m_SortingLayerID: -968065393
   m_SortingLayer: 1
   m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: b31d46b075567264d84ffa42af65f6d1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 048195636ec2baf4b97148a8b677e7e5, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3661,8 +3661,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 777594695}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 183.34, y: -2.93, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 183.34, y: 1.75, z: 0}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 1639047362}
   m_RootOrder: 5
@@ -3684,14 +3684,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 59.578182}
+    oldSize: {x: 2.74, y: 170.04607}
     newSize: {x: 0.96, y: 59.578182}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96, y: 59.578182}
+  m_Size: {x: 2.74, y: 170.04607}
   m_EdgeRadius: 0
 --- !u!61 &777594699
 BoxCollider2D:
@@ -3710,14 +3710,14 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.96, y: 59.578182}
+    oldSize: {x: 2.74, y: 170.04607}
     newSize: {x: 0.96, y: 59.578182}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.96, y: 59.578182}
+  m_Size: {x: 2.74, y: 170.04607}
   m_EdgeRadius: 0
 --- !u!1 &788293660
 GameObject:
@@ -6705,8 +6705,14 @@ EdgeCollider2D:
   - {x: -26.362572, y: -20.46257}
   - {x: -28.992752, y: -14.189313}
   - {x: -28.805862, y: 16.732944}
-  - {x: -28.688187, y: 18.732988}
-  - {x: -27.372986, y: 19.264328}
+  - {x: -28.705399, y: 18.515282}
+  - {x: -29.157974, y: 18.892803}
+  - {x: -28.930038, y: 19.114887}
+  - {x: -28.857498, y: 19.192783}
+  - {x: -28.81514, y: 19.23758}
+  - {x: -28.755432, y: 19.319616}
+  - {x: -27.423615, y: 19.30006}
+  - {x: -27.358093, y: 19.31197}
   - {x: -26.652252, y: 19.426987}
   - {x: -24.5085, y: 19.516148}
   - {x: -23.095947, y: 19.28556}
@@ -6796,8 +6802,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: -968065393
-  m_SortingLayer: 1
+  m_SortingLayerID: 222717307
+  m_SortingLayer: 3
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 66ccbeeb2e652cd48a0192544ec4d156, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -6817,7 +6823,7 @@ EdgeCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1494305598}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 1
@@ -6829,8 +6835,10 @@ EdgeCollider2D:
   - {x: -26.362572, y: -20.46257}
   - {x: -28.992752, y: -14.189313}
   - {x: -28.805862, y: 16.732944}
-  - {x: -28.688171, y: 18.75498}
-  - {x: -27.346008, y: 19.263649}
+  - {x: -28.70227, y: 18.512848}
+  - {x: -29.951889, y: 19.40253}
+  - {x: -29.10144, y: 19.339003}
+  - {x: -27.417938, y: 19.29961}
   - {x: -26.663239, y: 19.439587}
   - {x: -24.516647, y: 19.573467}
   - {x: -23.11203, y: 19.301254}
@@ -8154,15 +8162,15 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -5.7684207, y: 0.9726715}
-  - {x: -4.5579605, y: 1.300076}
+  - {x: -4.5758057, y: 1.2465425}
   - {x: -3.3350945, y: 1.277256}
   - {x: -2.7449799, y: 1.4859672}
   - {x: -2.0479965, y: 1.8187404}
   - {x: -1.261509, y: 2.6976023}
-  - {x: -1.0557289, y: 3.002237}
+  - {x: -0.9304886, y: 2.8859446}
   - {x: -0.44873047, y: 3.2505894}
-  - {x: 0.10829544, y: 3.8637779}
-  - {x: 0.7453308, y: 4.0189075}
+  - {x: 0.19019699, y: 3.7051404}
+  - {x: 0.7184906, y: 3.8403313}
   - {x: 1.3468285, y: 4.0659966}
   - {x: 2.5957298, y: 4.6674232}
   - {x: 3.394806, y: 4.9153423}
@@ -8759,7 +8767,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2014399974
 Transform:
   m_ObjectHideFlags: 0

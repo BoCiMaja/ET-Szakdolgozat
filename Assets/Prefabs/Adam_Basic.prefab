@@ -5151,6 +5151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controller: {fileID: 1778223546958741219}
   Rigidbody2D: {fileID: 1778223546958741222}
+  wallClimbing: {fileID: 1778223546958741230}
   runSpeed: 30
   movementSmoothing: 0.05
   jump: 0
@@ -5177,6 +5178,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isWall: 0
   isClimbing: 0
+  isStandingClimbing: 0
   animator: {fileID: 1778223546958741220}
   rb: {fileID: 1778223546958741222}
 --- !u!114 &-560224101769591274

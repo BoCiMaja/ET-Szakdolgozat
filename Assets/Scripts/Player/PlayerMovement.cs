@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
 
     public PlayerActions controller;
     public Rigidbody2D Rigidbody2D;
+    public WallClimbing wallClimbing;
 
     public float runSpeed;
     float horizontalMove = 0f;
@@ -74,6 +75,8 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnLanding()
     {
+        Rigidbody2D.mass = 1.25f;
+        Rigidbody2D.gravityScale = 1;
         CreateDust();
         FindObjectOfType<SoundManager>().Play("Landing");
         FindObjectOfType<SoundManager>().Stop("Floating");
@@ -94,6 +97,15 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Wall"))
+        {
+            floating = false;
+            animator.SetBool("isFloating", false);
+        }
+    }
+
     public void BasicMove(float move, bool jump)
     {
         if (controller.m_Grounded || airControl)
@@ -106,6 +118,10 @@ public class PlayerMovement : MonoBehaviour
         {
             controller.m_Grounded = false; 
         }
+        //if (controller.m_Grounded && wallClimbing.isWall && Input.anyKey)
+        //{
+        //    controller.m_Grounded = false;
+        //}
     }
 
     private void MoveWithAnimations()
@@ -150,7 +166,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetButtonDown("Jump") && extraJump > 0)
+        if (Input.GetButtonDown("Jump") && extraJump > 0 && wallClimbing.isWall==false)
         {
             runSpeed = 30f;
             CreateDust();
@@ -179,6 +195,8 @@ public class PlayerMovement : MonoBehaviour
         animator.SetBool("isDoubleJumping", true);
         extraJump--;
         SoundManager.GetInstance().Play("DoubleJump");
+        Rigidbody2D.mass = 1.5f;
+        Rigidbody2D.gravityScale = 1.5f;
         //cameraShake.start = true;
     }
     void PrepareJump()
@@ -197,7 +215,7 @@ public class PlayerMovement : MonoBehaviour
     public void Floating()
     {
         if (!controller.m_Grounded && Input.GetButton("Jump") && Rigidbody2D.velocity.y < 0f &&
-            controller.wallClimbing.isWall == false && controller.wallClimbing.isClimbing == false) // floating, glide
+            wallClimbing.isWall == false && wallClimbing.isClimbing == false) // floating, glide
         {
             Physics2D.gravity = new Vector2(0, -0.8f);
             jump = false;
