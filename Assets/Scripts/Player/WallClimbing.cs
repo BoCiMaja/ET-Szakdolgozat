@@ -81,7 +81,7 @@ public class WallClimbing : MonoBehaviour
             animator.SetBool("isClimbing", false);
             animator.SetBool("isStaticClimbing", false);
         }
-        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.RightArrow))
         {
             isWall = false;
             isClimbing = false;
