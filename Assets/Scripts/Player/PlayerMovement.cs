@@ -166,7 +166,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Jump()
     {
-        if (Input.GetButtonDown("Jump") && extraJump > 0 && wallClimbing.isWall==false)
+        if (Input.GetButtonDown("Jump") || Input.GetKeyDown(KeyCode.UpArrow) && extraJump > 0 && wallClimbing.isWall==false)
         {
             runSpeed = 30f;
             CreateDust();
@@ -214,7 +214,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Floating()
     {
-        if (!controller.m_Grounded && Input.GetButton("Jump") && Rigidbody2D.velocity.y < 0f &&
+        if (!controller.m_Grounded && (Input.GetButton("Jump") || Input.GetKey(KeyCode.UpArrow)) && Rigidbody2D.velocity.y < 0f &&
             wallClimbing.isWall == false && wallClimbing.isClimbing == false) // floating, glide
         {
             Physics2D.gravity = new Vector2(0, -0.8f);
