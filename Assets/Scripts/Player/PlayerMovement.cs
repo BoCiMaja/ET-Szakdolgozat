@@ -133,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
             FindObjectOfType<SoundManager>().Stop("Running");
             FindObjectOfType<SoundManager>().Play("Walking");
         }
-        else if (Input.GetButtonUp("Walk") || runSpeed == 0f)
+        else if (Input.GetButtonUp("Walk"))
         {
             animator.SetBool("isWalking", false);
             FindObjectOfType<SoundManager>().Stop("Walking");
