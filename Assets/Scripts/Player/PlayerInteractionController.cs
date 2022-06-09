@@ -20,7 +20,8 @@ public class PlayerInteractionController : MonoBehaviour
 
     private void CheckInteraction()
     {
-        RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, new Vector2(0.1f, 1f), 0, Vector2.zero);
+        //RaycastHit2D[] hits = Physics2D.BoxCastAll(transform.position, new Vector2(0.1f, 1f), 0, Vector2.zero);
+        RaycastHit2D[] hits = Physics2D.RaycastAll(transform.position, new Vector2(transform.lossyScale.x >= 0 ? 1 : -1, 0), 2f);
 
         foreach (RaycastHit2D hit2D in hits)
         {
