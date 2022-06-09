@@ -81,6 +81,14 @@ public class WallClimbing : MonoBehaviour
             animator.SetBool("isClimbing", false);
             animator.SetBool("isStaticClimbing", false);
         }
+        if(Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.D))
+        {
+            isWall = false;
+            isClimbing = false;
+            isStandingClimbing = false;
+            animator.SetBool("isClimbing", false);
+            animator.SetBool("isStaticClimbing", false);
+        }
     }
     //private void OnTriggerExit2D(Collider2D collision)
     //{
